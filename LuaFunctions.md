@@ -1,4 +1,6 @@
-Telltale Lua Scripting Documentation
+# Telltale Lua Scripting Documentation
+
+### *ReturnDataType* FunctionName(ParameterDataType)
 
 # A
 
@@ -1637,6 +1639,118 @@ Telltale Lua Scripting Documentation
 ### *void* DeleteAllEventsAfterEvent(*EventStorage*, *Symbol*, *number*, *boolean*)
 
 # E
+
+### *void* EnableControllerTimeCheats(*boolean*)
+
+### *void* EditorMode()
+
+### *void* EngineQuit()
+
+### *number* Execute(*string*, *string*, *string*, *string*, *string*)
+
+### *void* EnableWalkAnimator1(*boolean*)
+
+<!-- ### AnimationAddLuaEntry() -->
+
+### *number* EffectGetPendingCount()
+
+### *boolean* EffectHasDeveloperOptions()
+
+### *void* EffectEnableDevFeatures(*boolean*)
+
+### *void* EffectDevSetFeature(*string*, *string*, *boolean*)
+
+### *void* EffectDevToggleFeature(*string*, *string*)
+
+### *void* EffectDevResetEffect(*string*)
+
+### *void* EffectGetDevFeatures()
+
+### *void* EngineAddOnAgentSetupCallback(*LUAFunction*)
+
+### *boolean* EngineRemoveOnAgentSetupCallback(*LUAFunction*)
+
+### *number* EngineGetFrameNumber()
+
+### *void* EngineFlushCache()
+
+### *string* EngineGetVersion()
+
+### *string* EventLogGetActiveSessionLogName()
+
+### *boolean* EventLogActive(*string*)
+
+### *void* EventLogRemove(*string*)
+
+<!-- ### EventLogAddTags() -->
+
+<!-- ### EventLogCreate() -->
+
+### *void* EventLogBeginEvent()
+
+### *void* EventLogEndEvent()
+
+<!-- ### EventLogAddData() -->
+
+### *boolean* EventLogIsPaused(*string*)
+
+### *void* EventLogSetPaused(*string*, *boolean*)
+
+# F
+
+### *void* FullScreen(*boolean*)
+
+### *void* ForceEventLogFlushPage(*string*)
+
+### *void* FlushPerformanceMonitor()
+
+### *string* FileFindFirst(*string*, *string*)
+
+### *string* FileFindNext(*string*)
+
+### *boolean* FileExists(*string*)
+
+### *boolean* FileExistsGlobal(*string*)
+
+### *void* FileDelete(*string*)
+
+### *boolean* FileIsLastErrorCorruptSaveFile()
+
+### *void* FileClearLastErrorCorruptSaveFile()
+
+### *string* FileGetFileName(*string*)
+
+### *string* FileSetExtention(*string*, *string*)
+
+### *string* FileSetExtension(*string*, *string*)
+
+### *string* FileGetExtension(*string*)
+
+### *string* FileStripExtention(*string*)
+
+### *string* FileStripExtension(*string*)
+
+### *void* FileCopy(*string*, *string*)
+
+### *void* FileMakeWriteable(*ResourceHandle*)
+
+### *void* FileMakeReadOnly(*ResourceHandle*)
+
+### *void* FileSetCWD()
+
+### *string* FileGetHomeDirectory()
+
+### *boolean* FacebookEnabled()
+
+### *void* FacebookSetAppId(*string*)
+
+### *void* FacebookSetPermissions(*string*)
+
+<!-- ### FacebookRequestAccessToken() -->
+
+<!-- ### FacebookGetAccessToken() -->
+
+# G
 
 
 
