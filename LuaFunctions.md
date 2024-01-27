@@ -7,19 +7,19 @@ Telltale Lua Scripting Documentation
 
 ### *void* AppleGameControllerSetConnectedCallback(*string*)
 - *string*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *void* AppleGameControllerSetDisconnectedCallback(*string*)
 - *string*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ActivateSystemHUD()
-- Returns nothing
+- No returned value
 
 ### *void* AgentSetWalkAnimatorPrevPos(*AgentObject*, *Vector3*)
 - *AgentObject*: 1st Parameter
 - *Vector3*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *boolean* AgentBGMTransitioning(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -42,12 +42,12 @@ Telltale Lua Scripting Documentation
 ### *void* AgentSetBGMTransitionTarget(*AgentObject*, *Vector3*)
 - *AgentObject*: 1st Parameter
 - *Vector3*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* AgentSetRunning(*AgentObject*, *boolean*)
 - *AgentObject*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *PlaybackController[]* AgentGetWalkAnimatorIdleController(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -72,7 +72,7 @@ Telltale Lua Scripting Documentation
 - Returns a Vector3
 
 ### *void* Analytics_RecordEvent()
-- Returns nothing
+- No returned value
 
 ### *string* ActorToAgent(*string*)
 - *string*: 1st Parameter
@@ -107,14 +107,14 @@ Telltale Lua Scripting Documentation
 
 ### *void* AgentDestroy(*AgentObject*)
 - *AgentObject*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *AgentObject* AgentAtCursorPos()
 - Returns an AgentObject
 
 ### *void* AgentPreLoad(*AgentObject*)
 - *AgentObject*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *boolean* AgentIsUnderCursor(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -143,19 +143,19 @@ Telltale Lua Scripting Documentation
 - *AgentObject*: 1st Parameter
 - *AgentObject*: 2nd Parameter
 - *boolean*: 3rd Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 ### *void* AgentAttachToNode(*AgentObject*, *AgentObject*, *string*, *boolean*)
 - *AgentObject*: 1st Parameter
 - *AgentObject*: 2nd Parameter
 - *string*: 3rd Parameter
 - *boolean*: 4th Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 ### *void* AgentDetach(*AgentObject*, *boolean*)
 - *AgentObject*: 1st Parameter
 - *boolean*: 2nd Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 ### *boolean* AgentCollide(*AgentObject*, *AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -192,7 +192,7 @@ Telltale Lua Scripting Documentation
 - *AgentObject*: 1st Parameter
 - *Vector3*: 2nd Parameter
 - *boolean*: 3rd Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 ### *Vector3* AgentGetRot(*AgentObject*, *string*)
 - *AgentObject*: 1st Parameter
@@ -208,24 +208,24 @@ Telltale Lua Scripting Documentation
 - *AgentObject*: 1st Parameter
 - *Vector3*: 2nd Parameter
 - *boolean*: 3rd Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 ### *void* AgentSetRotFromQuat(*AgentObject*, *Quaternion*, *boolean*)
 - *AgentObject*: 1st Parameter
 - *Quaternion*: 2nd Parameter
 - *boolean*: 3rd Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 ### *void* AgentIncYRot(*AgentObject*, *number*)
 - *AgentObject*: 1st Parameter
 - *number*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* AgentIncRot(*AgentObject*, *Vector3*, *number*)
 - *AgentObject*: 1st Parameter
 - *Vector3*: 2nd Parameter
 - *number*: 3rd Parameter
-- Returns nothing
+- No returned value
 
 ### *Vector3* AgentGetForwardVec(*AgentObject*, *boolean*)
 - *AgentObject*: 1st Parameter
@@ -244,7 +244,7 @@ Telltale Lua Scripting Documentation
 ### *void* AgentSetName(*AgentObject*, *string*)
 - *AgentObject*: 1st Parameter
 - *string*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *boolean* AgentIsAncestor(*AgentObject*, *AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -288,7 +288,7 @@ Telltale Lua Scripting Documentation
 - *Vector2*: 2nd Parameter
 - *number*: 3rd Parameter ***(optional)***
 - *AgentObject*: 4th Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 ### *Vector3* AgentGetSelectionScreenPos(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -305,12 +305,12 @@ Telltale Lua Scripting Documentation
 ### *void* AgentSetWorldRot(*AgentObject*, *Vector3*)
 - *AgentObject*: 1st Parameter
 - *Vector3*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* AgentSetWorldRotFromQuat(*AgentObject*, *Quaternion*)
 - *AgentObject*: 1st Parameter
 - *Quaternion*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *Vector3* AgentGetWorldPos(*AgentObject*, *string*)
 - *AgentObject*: 1st Parameter
@@ -325,13 +325,13 @@ Telltale Lua Scripting Documentation
 ### *void* AgentSetWorldPos(*AgentObject*, *Vector3*)
 - *AgentObject*: 1st Parameter
 - *Vector3*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* AgentSetWorldPosFromScreenPos(*AgentObject*, *Vector2*, *number*)
 - *AgentObject*: 1st Parameter
 - *Vector2*: 2nd Parameter
 - *number*: 3rd Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 ### *Vector3* AgentGetWorldPosFromScreenPos(*AgentObject*, *Vector2*, *number*)
 - *AgentObject*: 1st Parameter
@@ -341,7 +341,7 @@ Telltale Lua Scripting Documentation
 
 ### *void* AgentSetWorldPosFromCursorPos(*AgentObject*)
 - *AgentObject*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *Vector3* AgentGetWorldPosFromCursorPos(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -351,12 +351,12 @@ Telltale Lua Scripting Documentation
 - *AgentObject*: 1st Parameter
 - *boolean*: 2nd Parameter
 - *boolean*: 3rd Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 ### *void* AgentInsert(*AgentObject*, *AgentObject*)
 - *AgentObject*: 1st Parameter
 - *AgentObject*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *boolean* AgentIsHidden(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -366,7 +366,7 @@ Telltale Lua Scripting Documentation
 - *AgentObject*: 1st Parameter
 - *Vector3*: 2nd Parameter
 - *boolean*: 3rd Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 ### *PropertySet* AgentGetProperties(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -403,31 +403,31 @@ Telltale Lua Scripting Documentation
 - *AgentObject*: 1st Parameter
 - *string*: 2nd Parameter
 - *DataType*: 3rd Parameter (Note this can be any data type depending on the property)
-- Returns nothing
+- No returned value
 
 ### *void* AgentSetSceneProperty(*AgentObject*, *string*, *DataType*)
 - *AgentObject*: 1st Parameter
 - *string*: 2nd Parameter
 - *DataType*: 3rd Parameter (Note this can be any data type depending on the property)
-- Returns nothing
+- No returned value
 
 ### *void* AgentRemovePropertyKeyValues(*AgentObject*, *PropertySet*, *PropertySet*)
 - *AgentObject*: 1st Parameter
 - *PropertySet*: 2nd Parameter
 - *PropertySet*: 3rd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* AgentImportPropertyKeyValues(*AgentObject*, *PropertySet*, *PropertySet*)
 - *AgentObject*: 1st Parameter
 - *PropertySet*: 2nd Parameter
 - *PropertySet*: 3rd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* AgentImportAgentPropertyKeyValues(*AgentObject*, *AgentObject*, *PropertySet*)
 - *AgentObject*: 1st Parameter
 - *AgentObject*: 2nd Parameter
 - *PropertySet*: 3rd Parameter
-- Returns nothing
+- No returned value
 
 ### *boolean* AgentIsParentProperty(*AgentObject*, *PropertySet*)
 - *AgentObject*: 1st Parameter
@@ -442,7 +442,7 @@ Telltale Lua Scripting Documentation
 ### *void* AgentSetSelectable(*AgentObject*, *PropertySet*)
 - *AgentObject*: 1st Parameter
 - *PropertySet*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *AgentObject* AgentGetCamera(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -451,7 +451,7 @@ Telltale Lua Scripting Documentation
 ### *void* AgentEnableMover(*AgentObject*, *boolean*)
 - *AgentObject*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *SceneObject* AgentGetScene(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -525,7 +525,7 @@ Telltale Lua Scripting Documentation
 
 ### *void* AgentAddOnDestroyCallback(*AgentObject*, *LUAFunction*)
 - *AgentObject*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *boolean* AgentRemoveOnDestroyCallback(*AgentObject*, *LUAFunction*)
 - *AgentObject*: 1st Parameter
@@ -538,12 +538,12 @@ Telltale Lua Scripting Documentation
 
 ### *void* AgentResetSkeletonHomogenousInfo(*AgentObject*, *Skeleton*)
 - *AgentObject*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *void* AgentSetLightingForAllTextures(*AgentObject*, *string*)
 - *AgentObject*: 1st Parameter
 - *string*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *boolean* AgentHasAlphaBlendedTexture(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -561,7 +561,7 @@ Telltale Lua Scripting Documentation
 - *AgentObject*: 1st Parameter
 - *Vector3*: 2nd Parameter
 - *string*: 3rd Parameter
-- Returns nothing
+- No returned value
 
 ### *boolean* AgentContainingPos(*AgentObject*, *Vector3*)
 - *AgentObject*: 1st Parameter
@@ -580,10 +580,10 @@ Telltale Lua Scripting Documentation
 ### *boolean* AnimationClear(*Animation*)
 - Returns a boolean
 
-<!-- ### *LuaAnimatedValueBase* AnimationAddLuaEntry(*Animation*) -->
+<!-- ### AnimationAddLuaEntry() -->
 
 ### *void* AdvanceActiveSubtitles()
-- Returns nothing
+- No returned value
 
 ### *PlaybackController* AudioPlay(*SoundData*, *number*, *number*)
 - *SoundData*: 1st Parameter
@@ -595,246 +595,327 @@ Telltale Lua Scripting Documentation
 - *SoundData*: 1st Parameter
 - *number*: 2nd Parameter ***(optional)***
 - *number*: 3rd Parameter ***(optional)***
-- Returns nothing
+- No returned value
 
 # B
 
 ### *boolean* BeginOffersEnumeration()
 - Returns a boolean
+- This function does nothing
 
 ### *boolean* BeginPurchaseEpisode()
 - Returns a boolean
+- This function does nothing
 
 ### *boolean* BeginUpdateEpisodes()
 - Returns a boolean
+- This function does nothing
 
 ### *Symbol* Base64ToSymbol(*string*)
 - *string*: 1st Parameter
-- Returns a Symbol
+- Returns a Symbol, if string length is not equal to 8 it will return nil
 
 ### *ResourceBundle* BundleCreateResource(*ResourceBundle*, *string*)
+- *ResourceBundle*: 1st Parameter
 - *string*: 2nd Parameter
 - Returns a ResourceBundle
 
 ### *boolean* BundleRemoveResource(*ResourceBundle*, *Symbol*)
+- *ResourceBundle*: 1st Parameter
+- *Symbol*: 2nd Parameter (Note: Symbol is a string)
 - Returns a boolean
 
 ### *ResourceBundle* BundleGetResource(*ResourceBundle*, *Symbol*)
+- *ResourceBundle*: 1st Parameter
+ *Symbol*: 2nd Parameter (Note: Symbol is a string)
 - Returns a ResourceBundle
 
 ### *ResourceBundle[]* BundleGetResources(*ResourceBundle*, *Symbol*)
+- *ResourceBundle*: 1st Parameter
+ *Symbol*: 2nd Parameter (Note: Symbol is a string) ***(optional)***
 - Returns a ResourceBundle Array
 
 ### *void* BreakIntoDebugger()
-- Returns nothing
+- No returned value
+- This function does nothing
 
 # C
 
 ### *boolean* CheckEDATKey(*string*)
-- *string*: 2nd Parameter
+- *string*: 1st Parameter
 - Returns a boolean
 
 ### *void* CSISendTracking(*string*, *string*, *boolean*)
 - *string*: 1st Parameter
 - *string*: 2nd Parameter
 - *boolean*: 3rd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ConsoleSetVerbosity(*number*)
-- *number*: 1st Parameter
-- Returns nothing
+- *number*: 1st Parameter, this expects a signed integer number
+- No returned value
 
 ### *void* ConsoleSetChannel(*number*, *boolean*)
-- *number*: 1st Parameter
+- *number*: 1st Parameter, this expects a signed integer number
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *Color* Color(*number*, *number*, *number*, *number*)
-- *number*: 1st Parameter
-- *number*: 2nd Parameter
-- *number*: 3rd Parameter
-- *number*: 4th Parameter
+- *number*: 1st Parameter, Float Value, Red Channel
+- *number*: 2nd Parameter, Float Value, Green Channel
+- *number*: 3rd Parameter, Float Value, Blue Channel
+- *number*: 4th Parameter, Float Value, Alpha Channel ***(optional)***
+- Returns a Color object.
 
 ### *void* CanActivateSystemHUD()
-- Returns nothing
+- No returned value
+- This function does nothing
 
 ### *Symbol* CRCToSymbol(*string*)
 - *string*: 1st Parameter
+- Returns a *Symbol* object (which is a lua string)
 
 ### *void* CriticalError(*string*)
 - *string*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ControllerPlay(*PlaybackController*)
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerPause(*PlaybackController*)
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerStop(*PlaybackController*)
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerWait(*PlaybackController*)
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- No returned value
 
 ### *void* ControllerFadeIn(*PlaybackController*, *number*, *boolean*)
-- *number*: 2nd Parameter
-- *boolean*: 3rd Parameter
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, Float Value
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerFadeOut(*PlaybackController*, *number*, *boolean*)
-- *number*: 2nd Parameter
-- *boolean*: 3rd Parameter
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, Float Value
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerFadeTo(*PlaybackController*, *number*, *number*, *boolean*)
-- *number*: 2nd Parameter
-- *number*: 3rd Parameter
-- *boolean*: 4th Parameter
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, Float Value
+- *number*: 3rd Parameter, Float Value
+- *boolean*: 4th Parameter ***(optional)***
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetTimeScale(*PlaybackController*, *number*)
-- *number*: 2nd Parameter
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, Float Value
+- No returned value
 
 ### *number* ControllerGetTimeScale(*PlaybackController*)
-- Returns a number
+- *PlaybackController*: 1st Parameter
+- Returns a number, Float Value
 
 ### *void* ControllerKill(*PlaybackController*)
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *number* ControllerGetLength(*PlaybackController*)
-- Returns a number
+- *PlaybackController*: 1st Parameter
+- Returns a number, if PlaybackController is nil then this function returns nil.
 
 ### *void* ControllerSetLength(*PlaybackController*, *number*)
-- *number*: 2nd Parameter
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, Float Value
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *boolean* ControllerIsPlaying(*PlaybackController*)
+- *PlaybackController*: 1st Parameter
 - Returns a boolean
 
 ### *boolean* ControllerIsPaused(*PlaybackController*)
+- *PlaybackController*: 1st Parameter
 - Returns a boolean
 
 ### *void* ControllerSetVolume(*PlaybackController*, *number*)
+- *PlaybackController*: 1st Parameter
 - *number*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetSoundVolume(*PlaybackController*, *number*)
+- *PlaybackController*: 1st Parameter
 - *number*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetLooping(*PlaybackController*, *boolean*)
+- *PlaybackController*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetMirrored(*PlaybackController*, *boolean*)
+- *PlaybackController*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetEndPause(*PlaybackController*, *boolean*)
+- *PlaybackController*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetBeginPause(*PlaybackController*, *boolean*)
+- *PlaybackController*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *number* ControllerGetTime(*PlaybackController*)
-- Returns a number
+- *PlaybackController*: 1st Parameter
+- Returns a number, will return 0.0 if PlaybackController is nil.
 
 ### *void* ControllerSetTime(*PlaybackController*, *number*)
+- *PlaybackController*: 1st Parameter
 - *number*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetTimePercent(*PlaybackController*, *number*)
+- *PlaybackController*: 1st Parameter
 - *number*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *number* ControllerGetContribution(*PlaybackController*)
-- Returns a number
+- *PlaybackController*: 1st Parameter
+- Returns a number, will return 0.0 if PlaybackController is nil.
 
 ### *void* ControllerSetContribution(*PlaybackController*, *number*)
+- *PlaybackController*: 1st Parameter
 - *number*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerDisableTimeSync(*PlaybackController*, *boolean*)
+- *PlaybackController*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetVoice(*PlaybackController*, *boolean*)
+- *PlaybackController*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetMusic(*PlaybackController*, *boolean*)
+- *PlaybackController*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetAmbient(*PlaybackController*, *boolean*)
+- *PlaybackController*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetLanguage(*PlaybackController*, *boolean*)
+- *PlaybackController*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetName(*PlaybackController*, *string*)
+- *PlaybackController*: 1st Parameter
 - *string*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *PlaybackController* ControllerFind(*string*)
 - *string*: 1st Parameter
-- Returns a PlaybackController
+- Returns a PlaybackController, if one can't be found then it will return nil.
 
 ### *void* ControllerDrift(*PlaybackController*, *boolean*)
+- *PlaybackController*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *void* ControllerSetPriority(*PlaybackController*, *number*)
-- *number*: 2nd Parameter
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, this expects a signed integer number
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *number* ControllerGetPriority(*PlaybackController*)
-- Returns a number
+- *PlaybackController*: 1st Parameter
+- Returns a number, if PlaybackController is nil it will return nil.
 
 ### *void* ControllerSetScene(*PlaybackController*, *SceneObject*)
-- Returns nothing
+- *PlaybackController*: 1st Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
 
 ### *Chore* ControllerGetChore(*PlaybackController*)
-- Returns a Chore
+- *PlaybackController*: 1st Parameter
+- Returns a Chore, if there is no Chore or PlaybackController it will return nil.
 
 ### *PlaybackController* ControllerGetParent(*PlaybackController*, *boolean*)
-- *boolean*: 2nd Parameter
-- Returns a PlaybackController
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter ***(optional)***
+- Returns a PlaybackController, if there is no PlaybackController it will return nil, if there is no parent PlayerController found it will return nil.
 
 ### *boolean* Create(*string*)
 - *string*: 1st Parameter
 - Returns a boolean
 
 ### *void* CacheSaveGameImage()
-- Returns nothing
+- No returned value
+- This function does nothing
 
 ### *void* CameraActivate(*AgentObject*)
 - *AgentObject*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *Vector3* CameraGetScreenPosFromWorldPos(*AgentObject*, *Vector3*)
 - *AgentObject*: 1st Parameter
 - *Vector3*: 2nd Parameter
-- Returns a Vector3
+- Returns a Vector3, will return nil if there is no AgentObject
 
 ### *void* CameraPush(*AgentObject*)
 - *AgentObject*: 1st Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if there is no Camera on AgentObject.
 
 ### *void* CameraPop(*AgentObject*)
 - *AgentObject*: 1st Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if there is no Camera on AgentObject.
 
 ### *void* CameraSettle(*AgentObject*, *boolean*)
 - *AgentObject*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
+- This function does nothing if AgentObject is nil, or if there is no NavCam on AgentObject.
 
 ### *number* CameraGetFOV(*AgentObject*)
 - Returns a number
@@ -843,41 +924,41 @@ Telltale Lua Scripting Documentation
 ### *void* CameraSetFOV(*AgentObject*, *number*)
 - *AgentObject*: 1st Parameter
 - *number*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* CameraSetNavTarget(*AgentObject*, *AgentObject*)
 - *AgentObject*: 1st Parameter
 - *AgentObject*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* CameraSetNavTargetOffset(*AgentObject*, *number*, *number*, *number*)
 - *AgentObject*: 1st Parameter
 - *number*: 2nd Parameter
 - *number*: 3rd Parameter
 - *number*: 4th Parameter
-- Returns nothing
+- No returned value
 
 ### *void* CameraSetNavHome(*AgentObject*, *number*, *number*, *number*)
 - *AgentObject*: 1st Parameter
 - *number*: 2nd Parameter
 - *number*: 3rd Parameter
 - *number*: 4th Parameter
-- Returns nothing
+- No returned value
 
 ### *void* CameraSetNavMode(*AgentObject*, *string*)
 - *AgentObject*: 1st Parameter
 - *string*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* CameraSetNavResetOnActivate(*AgentObject*, *boolean*)
 - *AgentObject*: 1st Parameter
 - *boolean*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* CameraSetNavChore(*AgentObject*, *Chore*)
 - *AgentObject*: 1st Parameter
 - *Chore*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *boolean* CameraGetSettled(*AgentObject*)
 - *AgentObject*: 1st Parameter
@@ -896,21 +977,21 @@ Telltale Lua Scripting Documentation
 
 ### *void* CameraSetUserInputEnabled(*boolean*)
 - *boolean*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *void* CameraBlendPush(*AgentObject*, *number*, *number*, *number*)
 - *AgentObject*: 1st Parameter
 - *number*: 2nd Parameter
 - *number*: 3rd Parameter
 - *number*: 4th Parameter
-- Returns nothing
+- No returned value
 
 ### *void* CameraBlendPop(*AgentObject*, *number*, *number*, *number*)
 - *AgentObject*: 1st Parameter
 - *number*: 2nd Parameter
 - *number*: 3rd Parameter
 - *number*: 4th Parameter
-- Returns nothing
+- No returned value
 
 ### *PlaybackController* ChorePlay(*Chore*, *number*)
 - *Chore*: 1st Parameter
@@ -920,14 +1001,14 @@ Telltale Lua Scripting Documentation
 ### *void* ChoreSetAgentRemap(*string*, *string*)
 - *string*: 1st Parameter
 - *string*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ChorePlayAndWait(*Chore*, *number*, *number*, *number*)
 - *Chore*: 1st Parameter
 - *number*: 2nd Parameter
 - *number*: 3rd Parameter
 - *number*: 4th Parameter
-- Returns nothing
+- No returned value
 
 ### *AgentObject[]* ChoreGetAgents(*Chore*)
 - *Chore*: 1st Parameter
@@ -972,7 +1053,7 @@ Telltale Lua Scripting Documentation
 - *string*: 2nd Parameter
 - *string*: 3rd Parameter
 - *string*: 4th Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ChoreSetAttachmentPosition(*Chore*, *string*, *number*, *number*, *number*)
 - *Chore*: 1st Parameter
@@ -980,7 +1061,7 @@ Telltale Lua Scripting Documentation
 - *number*: 3rd Parameter
 - *number*: 4th Parameter
 - *number*: 5th Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ChoreSetAttachmentRotation(*Chore*, *string*, *number*, *number*, *number*)
 - *Chore*: 1st Parameter
@@ -988,7 +1069,7 @@ Telltale Lua Scripting Documentation
 - *number*: 3rd Parameter
 - *number*: 4th Parameter
 - *number*: 5th Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ChoreSetAttachmentQuaternion(*Chore*, *string*, *number*, *number*, *number*, *number*)
 - *Chore*: 1st Parameter
@@ -996,48 +1077,48 @@ Telltale Lua Scripting Documentation
 - *number*: 3rd Parameter
 - *number*: 4th Parameter
 - *number*: 5th Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ChoreSetAttachmentPreserveWorldPos(*Chore*, *string*, *boolean*)
 - *Chore*: 1st Parameter
 - *string*: 2nd Parameter
 - *boolean*: 3rd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ChoreSetAttachmentLeaveAttached(*Chore*, *string*, *boolean*)
 - *Chore*: 1st Parameter
 - *string*: 2nd Parameter
 - *boolean*: 3rd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ChoreAddAttachmentKey(*Chore*, *string*, *number*, *string*, *string*, *Symbol*, *boolean*, *Vector3*, *Quaternion*)
 - *Chore*: 1st Parameter
 - *string*: 2nd Parameter
 - *number*: 3rd Parameter
 - *string*: 4th Parameter
-- *string*: 5th Parameter
-- *boolean*: 7th Parameter
-- *Vector3*: 8th Parameter
-- *Quaternion*: 9th Parameter
-- Returns nothing
+- *string*: 5th Parameter 
+- *boolean*: 7th Parameter ***(optional)***
+- *Vector3*: 8th Parameter ***(optional)***
+- *Quaternion*: 9th Parameter ***(optional)***
+- No returned value
 
 ### *void* ChoreResourceRemoveAnimatedValue(*Chore*, *number*, *string*)
 - *Chore*: 1st Parameter
 - *number*: 2nd Parameter
 - *string*: 3rd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ChoreAgentEnableRandomSFX(*Chore*, *AgentObject*)
 - *Chore*: 1st Parameter
 - *AgentObject*: 2nd Parameter
-- Returns nothing
+- No returned value
 
 ### *void* ChoreForceLookAtConstraint(*AgentObject*, *string*, *string*, *number*)
 - *AgentObject*: 1st Parameter
 - *string*: 2nd Parameter
 - *string*: 3rd Parameter
 - *number*: 4th Parameter
-- Returns nothing
+- No returned value
 
 ### *boolean* ChoreGetResetNavCamsOnExit(*Chore*)
 - *Chore*: 1st Parameter
@@ -1055,26 +1136,17 @@ Telltale Lua Scripting Documentation
 - *Chore*: 1st Parameter
 - Returns a boolean
 
-<!-- ### *SceneObject* ChoreGetBaseChore(*Chore*) -->
-<!-- - *Chore*: 1st Parameter --> 
-<!-- - Returns a SceneObject -->
+<!-- ### ChoreGetBaseChore() -->
 
-<!-- ### *SceneObject* ChoreGetMasterCut(*Chore*) -->
-<!-- - *Chore*: 1st Parameter -->
-<!-- - Returns a SceneObject -->
+<!-- ### ChoreGetMasterCut() -->
 
-<!-- ### *nil* ChoreGetCut(*Chore*, *Symbol*) -->
-<!-- - *Chore*: 1st Parameter -->
-<!-- - Returns a nil -->
+<!-- ### ChoreGetCut() -->
 
-<!-- ### *nil* ChoreGoToPauseAndKill(*Chore*, *number*) -->
-<!-- - *Chore*: 1st Parameter -->
-<!-- - *number*: 2nd Parameter -->
-<!-- - Returns a nil -->
+<!-- ### ChoreGoToPauseAndKill() -->
 
 ### *void* ChoreRegenerateStyleIdleTransition(*string*)
 - *string*: 1st Parameter
-- Returns nothing
+- No returned value
 
 ### *string[]* ChoreGetAttachmentData(*Chore*, *string*)
 - *Chore*: 1st Parameter
@@ -1093,126 +1165,479 @@ Telltale Lua Scripting Documentation
 - Returns a string
 
 ### *void* ContainerClear(*ContainerInterface*)
-- Returns nothing
+- No returned value
 
-<!-- ### *void* ContainerInsertElement(*ContainerInterface*) -->
+<!-- ### ContainerInsertElement() -->
 
-<!-- ### *void* ContainerRemoveElement(*ContainerInterface*, *string*, *PropertySet*) -->
-<!-- - *string*: 2nd Parameter -->
-<!-- - *PropertySet*: 3rd Parameter -->
+<!-- ### ContainerRemoveElement() -->
 
-<!-- ### *void* ContainerSetElement(*ContainerInterface*, *string*, *PropertySet*) -->
-<!-- - *string*: 2nd Parameter -->
-<!-- - *PropertySet*: 3rd Parameter -->
+<!-- ### ContainerSetElement() -->
 
 ### *void* CursorEnableMultiple(*boolean*, *number*)
 - *boolean*: 1st Parameter
-- *number*: 2nd Parameter
-- Returns nothing
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
 
 ### *void* CursorSet(*PropertySet*, *number*)
 - *PropertySet*: 1st Parameter
-- *number*: 2nd Parameter
-- Returns nothing
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
 
 ### *void* CursorReset(*number*)
-- *number*: 1st Parameter
-- Returns nothing
+- *number*: 1st Parameter ***(optional)***
+- No returned value
 
-<!-- ### *void* CursorConfine(*Vector2*, *Vector2*) -->
-<!-- - *Vector2*: 1st Parameter -->
-<!-- - *Vector2*: 2nd Parameter -->
-<!-- - Returns nothing -->
+<!-- ### CursorConfine() -->
 
 ### *Vector3* CursorGetPos(*number*)
-- *number*: 1st Parameter
+- *number*: 1st Parameter ***(optional)***
 - Returns a Vector3
 
 ### *Vector3* CursorGetDevicePos(*number*)
-- *number*: 1st Parameter
+- *number*: 1st Parameter ***(optional)***
 - Returns a Vector3
 
 ### *void* CursorSetAtScreenCenter(*number*)
-- *number*: 1st Parameter
-- Returns nothing
+- *number*: 1st Parameter ***(optional)***
+- No returned value
 
 ### *void* CursorSetPos(*Vector2*, *number*)
 - *Vector2*: 1st Parameter
-- *number*: 2nd Parameter
-- Returns nothing
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
 
 ### *void* CursorHide(*boolean*, *number*)
 - *boolean*: 1st Parameter
-- *number*: 2nd Parameter
-- Returns nothing
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
 
 ### *boolean* CursorHidden(*number*)
-- *number*: 1st Parameter
+- *number*: 1st Parameter ***(optional)***
 - Returns a boolean
 
 ### *void* CursorEnable(*boolean*, *number*)
 - *boolean*: 1st Parameter
-- *number*: 2nd Parameter
-- Returns nothing
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
 
 ### *boolean* CursorIsEnabled(*number*)
-- *number*: 1st Parameter
+- *number*: 1st Parameter ***(optional)***
 - Returns a boolean
 
 ### *void* CursorSetTexture(*T3Texture*, *number*)
-- *number*: 2nd Parameter
-- Returns nothing
+- *T3Texture*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
 
 ### *void* CursorSetOffset(*number*, *number*, *number*)
 - *number*: 1st Parameter
 - *number*: 2nd Parameter
-- *number*: 3rd Parameter
-- Returns nothing
+- *number*: 3rd Parameter ***(optional)***
+- No returned value
 
 ### *T3Texture* CursorGetTexture(*number*)
-- *number*: 1st Parameter
+- *number*: 1st Parameter ***(optional)***
 - Returns a T3Texture
 
 ### *void* CursorSetSize(*number*, *number*)
 - *number*: 1st Parameter
-- *number*: 2nd Parameter
-- Returns nothing
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
 
 ### *void* CursorSetColor(*number*, *number*, *number*, *number*, *number*)
 - *number*: 1st Parameter
 - *number*: 2nd Parameter
 - *number*: 3rd Parameter
 - *number*: 4th Parameter
-- *number*: 5th Parameter
-- Returns nothing
+- *number*: 5th Parameter ***(optional)***
+- No returned value
 
 ### *Vector3* CursorGet3DOrigin(*SceneObject*)
-- Returns a Vector3
+- Returns a Vector3 ***(optional)***
 
 ### *Vector3* CursorGet3DDirection(*SceneObject*)
-- Returns a Vector3
+- Returns a Vector3 ***(optional)***
 
 ### *AgentObject* CursorGetAgent(*number*)
-- *number*: 1st Parameter
+- *number*: 1st Parameter ***(optional)***
 - Returns an AgentObject
 
 ### *Vector3* CursorGetPointOnAgent(*AgentObject*)
-- *AgentObject*: 1st Parameter
+- *AgentObject*: 1st Parameter 
 - Returns a Vector3
 
 ### *void* CursorEnableRelativeMode(*boolean*)
 - *boolean*: 1st Parameter
-- Returns nothing
+- No returned value
+- This function does nothing
 
 ### *void* CreateEventLogEvent(*string*, *number*, *boolean*)
+- *string*: 1st Parameter
 - *number*: 2nd Parameter
-- *boolean*: 3rd Parameter
-- Returns nothing
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
 
-<!-- ### *void* CreateSessionEventLog(*string*, *number*, *boolean*) -->
-<!-- - *string*: 1st Parameter -->
-<!-- - *number*: 2nd Parameter -->
-<!-- - *boolean*: 3rd Parameter -->
-<!-- - Returns nothing -->
+<!-- ### CreateSessionEventLog() -->
+
+# C
+
+### *string* DownloadDocumentRetrieve(*string*)
+- *string*: 1st Parameter
+- Returns a string
+
+<!-- ### DownloadDocumentsFromServer() -->
+
+### *void* DisableEpisode()
+- No returned value
+- This function does nothing
+
+### *void* DbgToggleInputTester()
+- No returned value
+
+### *void* DbgSetAssertLevel()
+- No returned value
+- This function does nothing
+
+### *void* DbgSetFakeSlowIOFactors()
+- No returned value
+- This function does nothing
+
+### *void* DbgSetFixedTimeStep(*number*)
+- No returned value
+- This function does nothing
+
+### *void* DbgSetMinFrameTime(*number*)
+- No returned value
+- This function does nothing
+
+### *void* DeveloperKeyPressed()
+- Returns a boolean
+
+### *string* DoString(*string*)
+- Returns a boolean
+
+### *Vector3* DeviceToViewport(*Vector2*)
+
+### *void* DoLoad(*string*)
+
+### *void* DbgStat(*string*, *boolean*)
+
+### *void* DbgTracePropChanges()
+
+### *void* DbgListCloudData()
+
+### *void* DbgPlatformForceGPUQuality()
+
+### *void* DbgListSaveData()
+
+### *void* DbgSceneDumpLightInfo()
+
+### *void* DbgListShaders(*string*)
+
+### *void* DebugPrintLuaMemoryStats()
+
+### *void* DisableStats()
+
+### *number* DialogRun(*DialogResource*, *string*)
+
+### *void* DialogRunAndWait(*DialogResource*, *string*, *string*)
+
+### *boolean* DialogContinue(*number*, *string*, *string*)
+
+### *void* DialogContinueAndWait(*number*, *string*, *string*)
+
+### *void* DialogWait(*number*)
+
+### *boolean* DialogStop(*number*)
+
+### *void* DialogStopAll()
+
+### *boolean* DialogExists(*DialogResource*, *string*, *boolean*)
+
+### *void* DialogSetBranch(*number*, *string*, *string*)
+
+### *boolean* DialogJumpToBranch(*DialogResource*, *string*)
+
+### *void* DialogGetSoloItemNotes()
+
+### *void* DialogUISetNewChoiceCallback(*string*)
+
+### *void* DialogUISetDlgBeginCallback(*string*)
+
+### *void* DialogUISetDlgEndCallback(*string*)
+
+### *void* DialogUISetBranchBeginCallback(*string*)
+
+### *void* DialogUISetBranchEndCallback(*string*)
+
+### *void* DialogUISetItemBeginCallback(*string*)
+
+### *void* DialogUISetItemEndCallback(*string*)
+
+### *void* DialogUISetExchangeBeginCallback(*string*)
+
+### *void* DialogUISetExchangeEndCallback(*string*)
+
+### *void* DialogUISetDlgTestCallback(*string*)
+
+### *boolean* DialogSelectChoice(*number*, *number*)
+
+### *number* DialogGetNumChoices(*number*)
+
+### *string* DialogGetChoiceDispText(*number*, *number*)
+
+### *string* DialogGetChoiceFirstLine(*number*, *number*)
+
+### *string* DialogGetChoiceName(*number*, *number*)
+
+### *ScriptObject* DialogGetChoiceUserdata(*number*, *number*)
+
+### *ScriptObject* DialogGetSoloItemUserdata(*DialogResource*, *string*)
+
+### *ScriptObject[]* DialogGetChoiceTexture(*number*, *number*)
+
+### *boolean* DialogIsRunning(*number*)
+
+### *number* DialogGetCurrentID(*number*)
+
+### *boolean* DialogLineIsRunning()
+
+### *PlaybackController* DialogGetCurPlaybackController(*number*)
+
+### *PlaybackController* DialogGetPlaybackController(*number*)
+
+### *string* DialogGetInstanceActiveDlgName(*number*)
+
+### *boolean* DialogIsSoloItemRunning(*number*)
+
+### *boolean* DialogIsSoloItemCutscene(*number*)
+
+### *SceneObject* DialogGetSoloItemChore(*number*)
+
+### *string* DialogGetText(*DialogResource*, *string*)
+
+### *void* DialogClearRuntimeState()
+
+### *void* DialogAdvanceCurrentLine(*number*)
+
+### *void* DialogSanityCheck()
+
+<!-- ### DialogSetChoreAgentRemap() -->
+
+### *void* DialogSetBCItemExecuteBehavior()
+
+### *void* DialogSetBCEnterItemBehavior()
+
+### *void* DialogSetBGChoreBehaviorVersion2()
+
+### *void* DialogSetAllowDispTextForEmptyExchangesBehavior()
+
+### *void* DialogSetExchangeRepeatedCallback(*string*)
+
+### *number* DialogGetSoloItemNumExchanges(*DialogResource*, *string*)
+
+### *string[]* DialogGetAllNames(*DialogResource*, *string*)
+
+### *number* DialogExchangeGetNumLines(*DialogResource*, *number*)
+
+### *SceneObject* DialogExchangeGetChore(*DialogResource*, *number*)
+
+<!-- ### DialogGetMissingChores() -->
+
+### *void* DialogSetBranchBackgroundChore(*DialogResource*, *string*, *string*)
+
+### *void* DialogSetDialogBackgroundChore(*DialogResource*, *string*, *Chore*)
+
+### *boolean* DialogItemExitsDialog(*number*)
+
+### *boolean* DialogExchangeExitsDialog(*number*)
+
+### *void* DlgSetBehaviorAllowEndlessLangAliasChain()
+
+### *void* DlgEnable20System()
+
+### *boolean* DlgIs20SystemEnabled()
+
+### *void* DlgAddCallbackChoicesAvailable(*string*)
+
+### *void* DlgAddCallbackChoicesChanged(*string*)
+
+### *void* DlgAddCallbackDialogBegin(*string*)
+
+### *void* DlgAddCallbackDialogEnd(*string*)
+
+### *void* DlgSetCallbackNodeBegin(*string*, *string*)
+
+### *void* DlgSetCallbackNodeEnd(*string*, *string*)
+
+### *void* DlgClearNodeCallbacks()
+
+### *number* DlgRun(*Dlg*, *DlgObjID*)
+
+### *void* DlgRunAndWait(*Dlg*, *DlgObjID*)
+
+### *void* DlgWait(*number*)
+
+### *PlaybackController* DlgGetCurPlaybackController(*number*)
+
+### *boolean* DlgIsRunning(*number*)
+
+### *void* DlgStop(*number*, *boolean*)
+
+### *void* DlgStopAfterNodeCompletes(*number*, *boolean*)
+
+### *void* DlgPause(*number*)
+
+### *void* DlgResume(*number*)
+
+### *void* DlgClearRuntimeState()
+
+### *void* DlgSetTrace()
+
+### *void* DlgGetUserTable(*number*)
+
+<!-- ### DlgGetChoices() -->
+
+### *void* DlgSelectChoice(*number*, *number*)
+
+### *void* DlgPreSelectChoice(*number*, *number*)
+
+### *SceneObject* DlgGetCurrentDialog(*number*)
+
+### *DlgObjID* DlgGetCurrentNode(*number*)
+
+### *boolean* DlgChoiceLeadsToUnplayedNode(*string*, *number*, *number*, *number*)
+
+### *DlgNode* DlgFindNode(*Dlg*, *DlgObjID*)
+
+### *DlgNode* DlgNodeGetNextNode(*Dlg*, *DlgObjID*)
+
+### *DlgNode* DlgNodeGetPrevNode(*Dlg*, *DlgObjID*)
+
+### *DlgNode* DlgNodeGetParentNode(*Dlg*, *DlgObjID*)
+
+### *DlgNode[]* DlgNodeGetChildNodes(*Dlg*, *DlgObjID*, *boolean*)
+
+### *DlgNode* DlgNodeGetJumpTarget(*Dlg*, *DlgObjID*)
+
+### *boolean* DlgObjectLeadsToUnplayedNode(*string*, *Dlg*, *DlgObjID*, *number*)
+
+<!-- ### DlgEvaluateToNode() -->
+
+<!-- ### DlgEvaluateToNodeMultiType() -->
+
+<!-- ### DlgEvaluateGetNextChore() -->
+
+<!-- ### DlgCollectNodesOfType() -->
+
+### *nil* DlgCollectAllNodesInChain()
+
+### *Symbol[]* DlgGetChainHeadNodes(*Dlg*, *Symbol*)
+
+### *Symbol[]* DlgGetFolderNames(*Dlg*)
+
+### *string* DlgGetNodeName(*Dlg*, *DlgObjID*)
+
+### *boolean* DlgIsObjVisible(*Dlg*, *DlgObjID*)
+
+<!-- ### DlgGetObjUserPropsValue() -->
+
+### *boolean* DlgSetObjUserPropsValue()
+
+### *boolean* DlgUserPropIsLocal(*Dlg*, *DlgObjID*, *Symbol*)
+
+<!-- ### DlgObjectPropsGetUserProps() -->
+
+### *nil* DlgObjectPropsGetToolProps(*number*, *number*, *boolean*)
+
+### *nil* DlgObjectPropsGetProductionProps(*number*, *number*, *boolean*)
+
+### *string* DlgGetTextNodeText(*Dlg*, *DlgObjID*)
+
+### *Rule* DlgNodeLogicGetRule(*Dlg*, *DlgObjID*)
+
+### *string* DlgExchangeGetChore(*Dlg*, *DlgObjID*)
+
+<!-- ### DlgGetExchangeNodeText() -->
+
+<!-- ### DlgGetExchangeNodeTextIDs() -->
+
+<!-- ### DlgGetExchangeNodeSpeakers() -->
+
+<!-- ### DlgGetExchangeNodeSpeakerNames() -->
+
+<!-- ### DlgSetExchangeChoreAgentRemap() -->
+
+### *void* DlgClearExchangeChoreAgentRemap()
+
+<!-- ### DlgChoicesGetDisplayProps() -->
+
+### *string* DlgGetJumpBehavior(*Dlg*, *DlgObjID*)
+
+### *number* DlgStartGetOutputIndex(*Dlg*, *DlgObjID*)
+
+### *void* DlgSetScriptNodeBlockingDefault(*boolean*)
+
+### *nil* DlgAddNode()
+
+### *boolean* DlgSetJumpData(*Dlg*, *DlgObjID*, *boolean*, *boolean*)
+
+### *boolean* DlgSetChore(*Dlg*, *DlgObjID*, *string*)
+
+<!-- ### DlgGetVisibilityConditions() -->
+
+### *boolean* DlgSetBoolRuleCondition(*Dlg*, *DlgObjID*, *string*, *string*, *boolean*)
+
+### *boolean* DlgNodeSetScriptRuleVisibility(*Dlg*, *DlgObjID*, *string*)
+
+### *boolean* DlgNodeSetIntRuleVisibility(*Dlg*, *DlgObjID*, *string*, *string*, *number*)
+
+### *boolean* DlgNodeSetFloatRuleVisibility(*Dlg*, *DlgObjID*, *string*, *string*, *number*)
+
+### *boolean* DlgSetNodeName(*Dlg*, *DlgObjID*, *string*)
+
+### *boolean* DlgSetScriptText(*Dlg*, *DlgObjID*, *string*)
+
+### *boolean* DlgAddExchangeText(*Dlg*, *DlgObjID*, *string*, *string*)
+
+### *nil* DlgGetTimeCondition(*Dlg*, *DlgObjID*)
+
+### *boolean* DlgSetTimeCondition(*Dlg*, *DlgObjID*, *number*)
+
+<!-- ### DlgGetSequenceNodeData() -->
+
+### *boolean* DlgSetSequenceNodeData(*Dlg*, *DlgObjID*, *string*, *string*)
+
+### *boolean* DlgSetSequenceNodeConditionalData(*Dlg*, *DlgObjID*, *string*, *string*)
+
+### *boolean* DlgResetSequenceNodeElements(*number*)
+
+### *boolean* DlgSetConditionNodeConditionalData(*Dlg*, *DlgObjID*, *string*, *string*)
+
+### *boolean* DlgForceSequenceNodeConditional(*Dlg*, *DlgObjID*, *boolean*)
+
+### *boolean* DlgResetConditionNodeElements(*number*)
+
+### *boolean* DlgSetNodeIdle()
+
+### *nil* DlgInsertNode(*Dlg*, *DlgObjID*, *string*)
+
+### *nil* DlgTextNodeSetText(*Dlg*, *DlgObjID*, *string*)
+
+<!-- ### DlgFindAliases() -->
+
+### *nil* DlgGetActorAgentNames()
+
+### *void* DlgPreloadAll(*Dlg*, *boolean*)
+
+### *void* DlgPreload(*Dlg*, *DlgObjID*, *number*, *number*, *number*, *boolean*, *boolean*)
+
+### *void* DeleteEventsInRange(*EventStorage*, *number*, *number*)
+
+### *void* DeleteAllEventsAfterEvent(*EventStorage*, *Symbol*, *number*, *boolean*)
+
+# E
+
+
 
 More to be added...
