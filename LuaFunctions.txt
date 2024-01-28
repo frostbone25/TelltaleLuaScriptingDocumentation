@@ -1,0 +1,3755 @@
+[AppleControllerIsConnected]
+- Returns a boolean
+
+[AppleGameControllerSetConnectedCallback]
+- *string*: 1st Parameter
+- No returned value
+
+[AppleGameControllerSetDisconnectedCallback]
+- *string*: 1st Parameter
+- No returned value
+
+[ActivateSystemHUD]
+- No returned value
+
+[AgentSetWalkAnimatorPrevPos]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- No returned value
+
+[AgentBGMTransitioning]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentBGMActive]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentTransitionBGM]
+- *AgentObject*: 1st Parameter
+- *Chore*: 2nd Parameter
+- *Chore*: 3rd Parameter
+- *number*: 4th Parameter
+- *BlendGraphManager*: 5th Parameter
+- *boolean*: 6th Parameter
+- *Vector3*: 7th Parameter
+- Returns a PlaybackController
+
+[AgentSetBGMTransitionTarget]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- No returned value
+
+[AgentSetRunning]
+- *AgentObject*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+
+[AgentGetWalkAnimatorIdleController]
+- *AgentObject*: 1st Parameter
+- Returns a PlaybackController Array
+
+[AgentGetWalkAnimatorForwardController]
+- *AgentObject*: 1st Parameter
+- Returns a PlaybackController Array
+
+[AgentGetForwardAnimVelocity]
+- *AgentObject*: 1st Parameter
+- Returns a number
+
+[AgentGetLookAtPosition]
+- *AgentObject*: 1st Parameter
+- Returns a Vector3
+
+[AgentGetWorldPosBetweenNodes]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter
+- *string*: 3rd Parameter
+- Returns a Vector3
+
+[Analytics_RecordEvent]
+- No returned value
+
+[ActorToAgent]
+- *string*: 1st Parameter
+- Returns a string
+
+[AgentToActor]
+- *string*: 1st Parameter
+- Returns a string
+
+[AgentToModels]
+- *string*: 1st Parameter
+- Returns a string array
+
+[AgentCreate]
+- *string*: 1st Parameter
+- *PropertySet*: 2nd Parameter
+- *Vector3*: 3rd Parameter
+- *Vector3*: 4th Parameter
+- *boolean*: 6th Parameter
+- *boolean*: 7th Parameter
+- Returns an AgentObject
+
+[AgentDuplicate]
+- *string*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- *boolean*: 3rd Parameter ***(optional)***
+- *boolean*: 4th Parameter ***(optional)***
+- *boolean*: 5th Parameter ***(optional)***
+- *boolean*: 6th Parameter ***(optional)***
+- *boolean*: 7th Parameter ***(optional)***
+- Returns an AgentObject
+
+[AgentDestroy]
+- *AgentObject*: 1st Parameter
+- No returned value
+
+[AgentAtCursorPos]
+- Returns an AgentObject
+
+[AgentPreLoad]
+- *AgentObject*: 1st Parameter
+- No returned value
+
+[AgentIsUnderCursor]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentAtScreenPos]
+- *Vector2*: 1st Parameter
+- *boolean*: 2nd Parameter ***(optional)***
+- Returns an AgentObject
+
+[AgentAtLogicalScreenPos]
+- *Vector2*: 1st Parameter
+- *boolean*: 2nd Parameter ***(optional)***
+- Returns an AgentObject
+
+[AgentsAtLogicalScreenPos]
+- *Vector2*: 1st Parameter
+- *boolean*: 2nd Parameter ***(optional)***
+- Returns an AgentObject array
+
+[AgentSelectionIsOccluded]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentAttach]
+- *AgentObject*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+
+[AgentAttachToNode]
+- *AgentObject*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- *string*: 3rd Parameter
+- *boolean*: 4th Parameter ***(optional)***
+- No returned value
+
+[AgentDetach]
+- *AgentObject*: 1st Parameter
+- *boolean*: 2nd Parameter ***(optional)***
+- No returned value
+
+[AgentCollide]
+- *AgentObject*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- Returns a boolean
+
+[AgentContaining]
+- *AgentObject*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- Returns a boolean
+
+[AgentFind]
+- *string*: 1st Parameter
+- Returns an AgentObject
+
+[AgentFindInScene]
+- *string*: 1st Parameter
+- Returns an AgentObject
+
+[AgentExists]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentExistsInScene]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentGetPos]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter ***(optional)***
+- Returns a Vector3
+
+[AgentSetPos]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+
+[AgentGetRot]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter ***(optional)***
+- Returns a Vector3
+
+[AgentGetQuat]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter ***(optional)***
+- Returns a Quaternion
+
+[AgentSetRot]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+
+[AgentSetRotFromQuat]
+- *AgentObject*: 1st Parameter
+- *Quaternion*: 2nd Parameter
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+
+[AgentIncYRot]
+- *AgentObject*: 1st Parameter
+- *number*: 2nd Parameter
+- No returned value
+
+[AgentIncRot]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- *number*: 3rd Parameter
+- No returned value
+
+[AgentGetForwardVec]
+- *AgentObject*: 1st Parameter
+- *boolean*: 2nd Parameter
+- Returns a Vector3
+
+[AgentGetRightVec]
+- *AgentObject*: 1st Parameter
+- *boolean*: 2nd Parameter
+- Returns a Vector3
+
+[AgentGetName]
+- *AgentObject*: 1st Parameter
+- Returns a string
+
+[AgentSetName]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter
+- No returned value
+
+[AgentIsAncestor]
+- *AgentObject*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- Returns a boolean
+
+[AgentGetParent]
+- *AgentObject*: 1st Parameter
+- Returns an AgentObject
+
+[AgentGetParentNode]
+- *AgentObject*: 1st Parameter
+- Returns a string
+
+[AgentHasChild]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentGetChild]
+- *AgentObject*: 1st Parameter
+- Returns an AgentObject
+
+[AgentGetChildren]
+- *AgentObject*: 1st Parameter
+- Returns an AgentObject array
+
+[AgentGetAttachments]
+- *AgentObject*: 1st Parameter
+- Returns an AgentObject array
+
+[AgentGetScreenPos]
+- *AgentObject*: 1st Parameter
+- Returns a Vector3
+
+[AgentGetLogicalScreenPos]
+- *AgentObject*: 1st Parameter
+- Returns a Vector3
+
+[AgentSetWorldPosFromLogicalScreenPos]
+- *AgentObject*: 1st Parameter
+- *Vector2*: 2nd Parameter
+- *number*: 3rd Parameter ***(optional)***
+- *AgentObject*: 4th Parameter ***(optional)***
+- No returned value
+
+[AgentGetSelectionScreenPos]
+- *AgentObject*: 1st Parameter
+- Returns a Vector3
+
+[AgentGetWorldRot]
+- *AgentObject*: 1st Parameter
+- Returns a Vector3
+
+[AgentGetWorldRotQuat]
+- *AgentObject*: 1st Parameter
+- Returns a Quaternion
+
+[AgentSetWorldRot]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- No returned value
+
+[AgentSetWorldRotFromQuat]
+- *AgentObject*: 1st Parameter
+- *Quaternion*: 2nd Parameter
+- No returned value
+
+[AgentGetWorldPos]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter ***(optional)***
+- Returns a Vector3
+
+[AgentHasNode]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter
+- Returns a boolean
+
+[AgentSetWorldPos]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- No returned value
+
+[AgentSetWorldPosFromScreenPos]
+- *AgentObject*: 1st Parameter
+- *Vector2*: 2nd Parameter
+- *number*: 3rd Parameter ***(optional)***
+- No returned value
+
+[AgentGetWorldPosFromScreenPos]
+- *AgentObject*: 1st Parameter
+- *Vector2*: 2nd Parameter
+- *number*: 3rd Parameter ***(optional)***
+- Returns a Vector3
+
+[AgentSetWorldPosFromCursorPos]
+- *AgentObject*: 1st Parameter
+- No returned value
+
+[AgentGetWorldPosFromCursorPos]
+- *AgentObject*: 1st Parameter
+- Returns a Vector3
+
+[AgentHide]
+- *AgentObject*: 1st Parameter
+- *boolean*: 2nd Parameter
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+
+[AgentInsert]
+- *AgentObject*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- No returned value
+
+[AgentIsHidden]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentFacePos]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+
+[AgentGetProperties]
+- *AgentObject*: 1st Parameter
+- Returns a PropertySet
+
+[AgentGetTransientProperties]
+- *AgentObject*: 1st Parameter
+- Returns a PropertySet
+
+[AgentGetRuntimeProperties]
+- *AgentObject*: 1st Parameter
+- Returns a PropertySet
+
+[AgentGetSceneProperties]
+- *AgentObject*: 1st Parameter
+- Returns a PropertySet
+
+[AgentGetClassProperties]
+- *AgentObject*: 1st Parameter
+- Returns a PropertySet
+
+[AgentGetProperty]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter
+- *boolean*: 3rd Parameter
+- Returns a DataType (Note this can be any data type depending on the property)
+
+[AgentHasProperty]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter
+- Returns a boolean
+
+[AgentSetProperty]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter
+- *DataType*: 3rd Parameter (Note this can be any data type depending on the property)
+- No returned value
+
+[AgentSetSceneProperty]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter
+- *DataType*: 3rd Parameter (Note this can be any data type depending on the property)
+- No returned value
+
+[AgentRemovePropertyKeyValues]
+- *AgentObject*: 1st Parameter
+- *PropertySet*: 2nd Parameter
+- *PropertySet*: 3rd Parameter
+- No returned value
+
+[AgentImportPropertyKeyValues]
+- *AgentObject*: 1st Parameter
+- *PropertySet*: 2nd Parameter
+- *PropertySet*: 3rd Parameter
+- No returned value
+
+[AgentImportAgentPropertyKeyValues]
+- *AgentObject*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- *PropertySet*: 3rd Parameter
+- No returned value
+
+[AgentIsParentProperty]
+- *AgentObject*: 1st Parameter
+- *PropertySet*: 2nd Parameter
+- Returns a boolean
+
+[AgentRestore]
+- *AgentObject*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- Returns a boolean
+
+[AgentSetSelectable]
+- *AgentObject*: 1st Parameter
+- *PropertySet*: 2nd Parameter
+- No returned value
+
+[AgentGetCamera]
+- *AgentObject*: 1st Parameter
+- Returns an AgentObject
+
+[AgentEnableMover]
+- *AgentObject*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+
+[AgentGetScene]
+- *AgentObject*: 1st Parameter
+
+[AgentGetPixelScale]
+- *AgentObject*: 1st Parameter
+- Returns a number
+
+[AgentDistanceToAgent]
+- *AgentObject*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- Returns a number
+
+[AgentDistanceToScreenPos]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- Returns a number
+
+[AgentScreenArea]
+- *AgentObject*: 1st Parameter
+- Returns a number
+
+[AgentGetSelectionCenter]
+- *AgentObject*: 1st Parameter
+- *boolean*: 2nd Parameter ***(optional)***
+- Returns a Vector3
+
+[AgentLocalToWorld]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- Returns a Vector3
+
+[AgentWorldToLocal]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- Returns a Vector3
+
+[AgentRotateToWorld]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- Returns a Vector3
+
+[AgentRotateToLocal]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- Returns a Vector3
+
+[AgentGetAnglesTo]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- *Vector3*: 3rd Parameter ***(optional)***
+- Returns a number
+
+[AgentIsOnScreen]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentIsReferenced]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentIsValid]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentTurnTowards]
+- *AgentObject*: 1st Parameter
+- *number*: 2nd Parameter
+- *Vector3*: 3rd Parameter
+- Returns a boolean
+
+[AgentAddOnDestroyCallback]
+- *AgentObject*: 1st Parameter
+- No returned value
+
+[AgentRemoveOnDestroyCallback]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentGetCorner]
+- *AgentObject*: 1st Parameter
+- *number*: 2nd Parameter
+- Returns a Vector3
+
+[AgentResetSkeletonHomogenousInfo]
+- *AgentObject*: 1st Parameter
+- No returned value
+
+[AgentSetLightingForAllTextures]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter
+- No returned value
+
+[AgentHasAlphaBlendedTexture]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[AgentGetControllers]
+- *AgentObject*: 1st Parameter
+- Returns a PlaybackController Array
+
+[AgentGetPriorityOfHighestPriorityContoller]
+- *AgentObject*: 1st Parameter
+- Returns a number
+
+[AgentSetRotIfNoActiveTransformKeys]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- *string*: 3rd Parameter
+- No returned value
+
+[AgentContainingPos]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- Returns a boolean
+
+[AnimationCreate]
+- Returns a boolean
+
+[AnimationGetName]
+- Returns a string
+
+[AnimationGetLength]
+- Returns a number
+
+[AnimationClear]
+- Returns a boolean
+
+[AnimationAddLuaEntry]
+
+[AdvanceActiveSubtitles]
+- No returned value
+
+[AudioPlay]
+- *SoundData*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- *number*: 3rd Parameter ***(optional)***
+- Returns a PlaybackController
+
+[AudioPlayAndWait]
+- *SoundData*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- *number*: 3rd Parameter ***(optional)***
+- No returned value
+
+[BeginOffersEnumeration]
+- Returns a boolean
+- This function does nothing
+
+[BeginPurchaseEpisode]
+- Returns a boolean
+- This function does nothing
+
+[BeginUpdateEpisodes]
+- Returns a boolean
+- This function does nothing
+
+[Base64ToSymbol]
+- *string*: 1st Parameter
+- Returns a Symbol, if string length is not equal to 8 it will return nil
+
+[BundleCreateResource]
+- *ResourceBundle*: 1st Parameter
+- *string*: 2nd Parameter
+- Returns a ResourceBundle
+
+[BundleRemoveResource]
+- *ResourceBundle*: 1st Parameter
+- *Symbol*: 2nd Parameter (Note: Symbol is a string)
+- Returns a boolean
+
+[BundleGetResource]
+- *ResourceBundle*: 1st Parameter
+ *Symbol*: 2nd Parameter (Note: Symbol is a string)
+- Returns a ResourceBundle
+
+[BundleGetResources]
+- *ResourceBundle*: 1st Parameter
+ *Symbol*: 2nd Parameter (Note: Symbol is a string) ***(optional)***
+- Returns a ResourceBundle Array
+
+[BreakIntoDebugger]
+- No returned value
+- This function does nothing
+
+[CheckEDATKey]
+- *string*: 1st Parameter
+- Returns a boolean
+
+[CSISendTracking]
+- *string*: 1st Parameter
+- *string*: 2nd Parameter
+- *boolean*: 3rd Parameter
+- No returned value
+
+[ConsoleSetVerbosity]
+- *number*: 1st Parameter, this expects a signed integer number
+- No returned value
+
+[ConsoleSetChannel]
+- *number*: 1st Parameter, this expects a signed integer number
+- *boolean*: 2nd Parameter
+- No returned value
+
+[Color]
+- *number*: 1st Parameter, Float Value, Red Channel
+- *number*: 2nd Parameter, Float Value, Green Channel
+- *number*: 3rd Parameter, Float Value, Blue Channel
+- *number*: 4th Parameter, Float Value, Alpha Channel ***(optional)***
+- Returns a Color object.
+
+[CanActivateSystemHUD]
+- No returned value
+- This function does nothing
+
+[CRCToSymbol]
+- *string*: 1st Parameter
+- Returns a object (which is a lua string)
+
+[CriticalError]
+- *string*: 1st Parameter
+- No returned value
+
+[ControllerPlay]
+- *PlaybackController*: 1st Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerPause]
+- *PlaybackController*: 1st Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerStop]
+- *PlaybackController*: 1st Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerWait]
+- *PlaybackController*: 1st Parameter
+- No returned value
+
+[ControllerFadeIn]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, Float Value
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerFadeOut]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, Float Value
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerFadeTo]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, Float Value
+- *number*: 3rd Parameter, Float Value
+- *boolean*: 4th Parameter ***(optional)***
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetTimeScale]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, Float Value
+- No returned value
+
+[ControllerGetTimeScale]
+- *PlaybackController*: 1st Parameter
+- Returns a number, Float Value
+
+[ControllerKill]
+- *PlaybackController*: 1st Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerGetLength]
+- *PlaybackController*: 1st Parameter
+- Returns a number, if PlaybackController is nil then this function returns nil.
+
+[ControllerSetLength]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, Float Value
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerIsPlaying]
+- *PlaybackController*: 1st Parameter
+- Returns a boolean
+
+[ControllerIsPaused]
+- *PlaybackController*: 1st Parameter
+- Returns a boolean
+
+[ControllerSetVolume]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetSoundVolume]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetLooping]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetMirrored]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetEndPause]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetBeginPause]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerGetTime]
+- *PlaybackController*: 1st Parameter
+- Returns a number, will return 0.0 if PlaybackController is nil.
+
+[ControllerSetTime]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetTimePercent]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerGetContribution]
+- *PlaybackController*: 1st Parameter
+- Returns a number, will return 0.0 if PlaybackController is nil.
+
+[ControllerSetContribution]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerDisableTimeSync]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetVoice]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetMusic]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetAmbient]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetLanguage]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetName]
+- *PlaybackController*: 1st Parameter
+- *string*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerFind]
+- *string*: 1st Parameter
+- Returns a PlaybackController, if one can't be found then it will return nil.
+
+[ControllerDrift]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerSetPriority]
+- *PlaybackController*: 1st Parameter
+- *number*: 2nd Parameter, this expects a signed integer number
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerGetPriority]
+- *PlaybackController*: 1st Parameter
+- Returns a number, if PlaybackController is nil it will return nil.
+
+[ControllerSetScene]
+- *PlaybackController*: 1st Parameter
+- No returned value
+- This function does nothing if the PlaybackController is nil.
+
+[ControllerGetChore]
+- *PlaybackController*: 1st Parameter
+- Returns a Chore, if there is no Chore or PlaybackController it will return nil.
+
+[ControllerGetParent]
+- *PlaybackController*: 1st Parameter
+- *boolean*: 2nd Parameter ***(optional)***
+- Returns a PlaybackController, if there is no PlaybackController it will return nil, if there is no parent PlayerController found it will return nil.
+
+[Create]
+- *string*: 1st Parameter
+- Returns a boolean
+
+[CacheSaveGameImage]
+- No returned value
+- This function does nothing
+
+[CameraActivate]
+- *AgentObject*: 1st Parameter
+- No returned value
+
+[CameraGetScreenPosFromWorldPos]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- Returns a Vector3, will return nil if there is no AgentObject
+
+[CameraPush]
+- *AgentObject*: 1st Parameter
+- No returned value
+- This function does nothing if there is no Camera on AgentObject.
+
+[CameraPop]
+- *AgentObject*: 1st Parameter
+- No returned value
+- This function does nothing if there is no Camera on AgentObject.
+
+[CameraSettle]
+- *AgentObject*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+- This function does nothing if AgentObject is nil, or if there is no NavCam on AgentObject.
+
+[CameraGetFOV]
+- Returns a number
+- *AgentObject*: 1st Parameter
+
+[CameraSetFOV]
+- *AgentObject*: 1st Parameter
+- *number*: 2nd Parameter
+- No returned value
+
+[CameraSetNavTarget]
+- *AgentObject*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- No returned value
+
+[CameraSetNavTargetOffset]
+- *AgentObject*: 1st Parameter
+- *number*: 2nd Parameter
+- *number*: 3rd Parameter
+- *number*: 4th Parameter
+- No returned value
+
+[CameraSetNavHome]
+- *AgentObject*: 1st Parameter
+- *number*: 2nd Parameter
+- *number*: 3rd Parameter
+- *number*: 4th Parameter
+- No returned value
+
+[CameraSetNavMode]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter
+- No returned value
+
+[CameraSetNavResetOnActivate]
+- *AgentObject*: 1st Parameter
+- *boolean*: 2nd Parameter
+- No returned value
+
+[CameraSetNavChore]
+- *AgentObject*: 1st Parameter
+- *Chore*: 2nd Parameter
+- No returned value
+
+[CameraGetSettled]
+- *AgentObject*: 1st Parameter
+- Returns a boolean
+
+[CameraGetLogicalScreenPos]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- Returns a Vector3
+
+[CameraGetWorldPosFromLogicalScreenPos]
+- *AgentObject*: 1st Parameter
+- *Vector3*: 2nd Parameter
+- *number*: 3rd Parameter
+- Returns a Vector3
+
+[CameraSetUserInputEnabled]
+- *boolean*: 1st Parameter
+- No returned value
+
+[CameraBlendPush]
+- *AgentObject*: 1st Parameter
+- *number*: 2nd Parameter
+- *number*: 3rd Parameter
+- *number*: 4th Parameter
+- No returned value
+
+[CameraBlendPop]
+- *AgentObject*: 1st Parameter
+- *number*: 2nd Parameter
+- *number*: 3rd Parameter
+- *number*: 4th Parameter
+- No returned value
+
+[ChorePlay]
+- *Chore*: 1st Parameter
+- *number*: 2nd Parameter
+- Returns a PlaybackController
+
+[ChoreSetAgentRemap]
+- *string*: 1st Parameter
+- *string*: 2nd Parameter
+- No returned value
+
+[ChorePlayAndWait]
+- *Chore*: 1st Parameter
+- *number*: 2nd Parameter
+- *number*: 3rd Parameter
+- *number*: 4th Parameter
+- No returned value
+
+[ChoreGetAgents]
+- *Chore*: 1st Parameter
+- Returns an AgentObject array
+
+[ChoreGetAgentNames]
+- *Chore*: 1st Parameter
+- Returns a string array
+
+[ChoreGetLength]
+- Returns a number
+- *Chore*: 1st Parameter
+
+[ChoreGetLength]
+- *Chore*: 1st Parameter
+- *number*: 2nd Parameter
+- Returns a boolean
+
+[ChoreGetAgentAttachment]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- Returns an AgentObject
+
+[ChoreGetPropertyKeysAsStrings]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- *string*: 3rd Parameter
+- Returns a Symbol array
+
+[ChoreGetBlockingKeysTable]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- Returns a Symbol array
+
+[ChoreRemoveAgent]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- Returns a boolean
+
+[ChoreSetAttachmentAgent]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- *string*: 3rd Parameter
+- *string*: 4th Parameter
+- No returned value
+
+[ChoreSetAttachmentPosition]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- *number*: 3rd Parameter
+- *number*: 4th Parameter
+- *number*: 5th Parameter
+- No returned value
+
+[ChoreSetAttachmentRotation]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- *number*: 3rd Parameter
+- *number*: 4th Parameter
+- *number*: 5th Parameter
+- No returned value
+
+[ChoreSetAttachmentQuaternion]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- *number*: 3rd Parameter
+- *number*: 4th Parameter
+- *number*: 5th Parameter
+- No returned value
+
+[ChoreSetAttachmentPreserveWorldPos]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- *boolean*: 3rd Parameter
+- No returned value
+
+[ChoreSetAttachmentLeaveAttached]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- *boolean*: 3rd Parameter
+- No returned value
+
+[ChoreAddAttachmentKey]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- *number*: 3rd Parameter
+- *string*: 4th Parameter
+- *string*: 5th Parameter 
+- *boolean*: 7th Parameter ***(optional)***
+- *Vector3*: 8th Parameter ***(optional)***
+- *Quaternion*: 9th Parameter ***(optional)***
+- No returned value
+
+[ChoreResourceRemoveAnimatedValue]
+- *Chore*: 1st Parameter
+- *number*: 2nd Parameter
+- *string*: 3rd Parameter
+- No returned value
+
+[ChoreAgentEnableRandomSFX]
+- *Chore*: 1st Parameter
+- *AgentObject*: 2nd Parameter
+- No returned value
+
+[ChoreForceLookAtConstraint]
+- *AgentObject*: 1st Parameter
+- *string*: 2nd Parameter
+- *string*: 3rd Parameter
+- *number*: 4th Parameter
+- No returned value
+
+[ChoreGetResetNavCamsOnExit]
+- *Chore*: 1st Parameter
+- Returns a boolean
+
+[ChoreGetBackgroundFade]
+- *Chore*: 1st Parameter
+- Returns a boolean
+
+[ChoreGetBackgroundLoop]
+- *Chore*: 1st Parameter
+- Returns a boolean
+
+[ChoreGetEndPause]
+- *Chore*: 1st Parameter
+- Returns a boolean
+
+[ChoreGetBaseChore]
+
+[ChoreGetMasterCut]
+
+[ChoreGetCut]
+
+[ChoreGoToPauseAndKill]
+
+[ChoreRegenerateStyleIdleTransition]
+- *string*: 1st Parameter
+- No returned value
+
+[ChoreGetAttachmentData]
+- *Chore*: 1st Parameter
+- *string*: 2nd Parameter
+- Returns a string array
+
+[ContainerGetNumElements]
+- Returns a number
+
+[ContainerGetElement]
+- *string*: 2nd Parameter
+- Returns a ContainerInterface
+
+[ContainerGetElementName]
+- *number*: 2nd Parameter
+- Returns a string
+
+[ContainerClear]
+- No returned value
+
+[ContainerInsertElement]
+
+[ContainerRemoveElement]
+
+[ContainerSetElement]
+
+[CursorEnableMultiple]
+- *boolean*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
+
+[CursorSet]
+- *PropertySet*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
+
+[CursorReset]
+- *number*: 1st Parameter ***(optional)***
+- No returned value
+
+[CursorConfine]
+
+[CursorGetPos]
+- *number*: 1st Parameter ***(optional)***
+- Returns a Vector3
+
+[CursorGetDevicePos]
+- *number*: 1st Parameter ***(optional)***
+- Returns a Vector3
+
+[CursorSetAtScreenCenter]
+- *number*: 1st Parameter ***(optional)***
+- No returned value
+
+[CursorSetPos]
+- *Vector2*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
+
+[CursorHide]
+- *boolean*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
+
+[CursorHidden]
+- *number*: 1st Parameter ***(optional)***
+- Returns a boolean
+
+[CursorEnable]
+- *boolean*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
+
+[CursorIsEnabled]
+- *number*: 1st Parameter ***(optional)***
+- Returns a boolean
+
+[CursorSetTexture]
+- *T3Texture*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
+
+[CursorSetOffset]
+- *number*: 1st Parameter
+- *number*: 2nd Parameter
+- *number*: 3rd Parameter ***(optional)***
+- No returned value
+
+[CursorGetTexture]
+- *number*: 1st Parameter ***(optional)***
+- Returns a T3Texture
+
+[CursorSetSize]
+- *number*: 1st Parameter
+- *number*: 2nd Parameter ***(optional)***
+- No returned value
+
+[CursorSetColor]
+- *number*: 1st Parameter
+- *number*: 2nd Parameter
+- *number*: 3rd Parameter
+- *number*: 4th Parameter
+- *number*: 5th Parameter ***(optional)***
+- No returned value
+
+[CursorGet3DOrigin]
+- Returns a Vector3 ***(optional)***
+
+[CursorGet3DDirection]
+- Returns a Vector3 ***(optional)***
+
+[CursorGetAgent]
+- *number*: 1st Parameter ***(optional)***
+- Returns an AgentObject
+
+[CursorGetPointOnAgent]
+- *AgentObject*: 1st Parameter 
+- Returns a Vector3
+
+[CursorEnableRelativeMode]
+- *boolean*: 1st Parameter
+- No returned value
+- This function does nothing
+
+[CreateEventLogEvent]
+- *string*: 1st Parameter
+- *number*: 2nd Parameter
+- *boolean*: 3rd Parameter ***(optional)***
+- No returned value
+
+[CreateSessionEventLog]
+
+[DownloadDocumentRetrieve]
+- *string*: 1st Parameter
+- Returns a string
+
+[DownloadDocumentsFromServer]
+
+[DisableEpisode]
+- No returned value
+- This function does nothing
+
+[DbgToggleInputTester]
+- No returned value
+
+[DbgSetAssertLevel]
+- No returned value
+- This function does nothing
+
+[DbgSetFakeSlowIOFactors]
+- No returned value
+- This function does nothing
+
+[DbgSetFixedTimeStep]
+- No returned value
+- This function does nothing
+
+[DbgSetMinFrameTime]
+- No returned value
+- This function does nothing
+
+[DeveloperKeyPressed]
+- Returns a boolean
+
+[DoString]
+- Returns a boolean
+
+[DeviceToViewport]
+
+[DoLoad]
+
+[DbgStat]
+
+[DbgTracePropChanges]
+
+[DbgListCloudData]
+
+[DbgPlatformForceGPUQuality]
+
+[DbgListSaveData]
+
+[DbgSceneDumpLightInfo]
+
+[DbgListShaders]
+
+[DebugPrintLuaMemoryStats]
+
+[DisableStats]
+
+[DialogRun]
+
+[DialogRunAndWait]
+
+[DialogContinue]
+
+[DialogContinueAndWait]
+
+[DialogWait]
+
+[DialogStop]
+
+[DialogStopAll]
+
+[DialogExists]
+
+[DialogSetBranch]
+
+[DialogJumpToBranch]
+
+[DialogGetSoloItemNotes]
+
+[DialogUISetNewChoiceCallback]
+
+[DialogUISetDlgBeginCallback]
+
+[DialogUISetDlgEndCallback]
+
+[DialogUISetBranchBeginCallback]
+
+[DialogUISetBranchEndCallback]
+
+[DialogUISetItemBeginCallback]
+
+[DialogUISetItemEndCallback]
+
+[DialogUISetExchangeBeginCallback]
+
+[DialogUISetExchangeEndCallback]
+
+[DialogUISetDlgTestCallback]
+
+[DialogSelectChoice]
+
+[DialogGetNumChoices]
+
+[DialogGetChoiceDispText]
+
+[DialogGetChoiceFirstLine]
+
+[DialogGetChoiceName]
+
+[DialogGetChoiceUserdata]
+
+[DialogGetSoloItemUserdata]
+
+[DialogGetChoiceTexture]
+
+[DialogIsRunning]
+
+[DialogGetCurrentID]
+
+[DialogLineIsRunning]
+
+[DialogGetCurPlaybackController]
+
+[DialogGetPlaybackController]
+
+[DialogGetInstanceActiveDlgName]
+
+[DialogIsSoloItemRunning]
+
+[DialogIsSoloItemCutscene]
+
+[DialogGetSoloItemChore]
+
+[DialogGetText]
+
+[DialogClearRuntimeState]
+
+[DialogAdvanceCurrentLine]
+
+[DialogSanityCheck]
+
+[DialogSetChoreAgentRemap]
+
+[DialogSetBCItemExecuteBehavior]
+
+[DialogSetBCEnterItemBehavior]
+
+[DialogSetBGChoreBehaviorVersion2]
+
+[DialogSetAllowDispTextForEmptyExchangesBehavior]
+
+[DialogSetExchangeRepeatedCallback]
+
+[DialogGetSoloItemNumExchanges]
+
+[DialogGetAllNames]
+
+[DialogExchangeGetNumLines]
+
+[DialogExchangeGetChore]
+
+[DialogGetMissingChores]
+
+[DialogSetBranchBackgroundChore]
+
+[DialogSetDialogBackgroundChore]
+
+[DialogItemExitsDialog]
+
+[DialogExchangeExitsDialog]
+
+[DlgSetBehaviorAllowEndlessLangAliasChain]
+
+[DlgEnable20System]
+
+[DlgIs20SystemEnabled]
+
+[DlgAddCallbackChoicesAvailable]
+
+[DlgAddCallbackChoicesChanged]
+
+[DlgAddCallbackDialogBegin]
+
+[DlgAddCallbackDialogEnd]
+
+[DlgSetCallbackNodeBegin]
+
+[DlgSetCallbackNodeEnd]
+
+[DlgClearNodeCallbacks]
+
+[DlgRun]
+
+[DlgRunAndWait]
+
+[DlgWait]
+
+[DlgGetCurPlaybackController]
+
+[DlgIsRunning]
+
+[DlgStop]
+
+[DlgStopAfterNodeCompletes]
+
+[DlgPause]
+
+[DlgResume]
+
+[DlgClearRuntimeState]
+
+[DlgSetTrace]
+
+[DlgGetUserTable]
+
+[DlgGetChoices]
+
+[DlgSelectChoice]
+
+[DlgPreSelectChoice]
+
+[DlgGetCurrentDialog]
+
+[DlgGetCurrentNode]
+
+[DlgChoiceLeadsToUnplayedNode]
+
+[DlgFindNode]
+
+[DlgNodeGetNextNode]
+
+[DlgNodeGetPrevNode]
+
+[DlgNodeGetParentNode]
+
+[DlgNodeGetChildNodes]
+
+[DlgNodeGetJumpTarget]
+
+[DlgObjectLeadsToUnplayedNode]
+
+[DlgEvaluateToNode]
+
+[DlgEvaluateToNodeMultiType]
+
+[DlgEvaluateGetNextChore]
+
+[DlgCollectNodesOfType]
+
+[DlgCollectAllNodesInChain]
+
+[DlgGetChainHeadNodes]
+
+[DlgGetFolderNames]
+
+[DlgGetNodeName]
+
+[DlgIsObjVisible]
+
+[DlgGetObjUserPropsValue] 
+
+[DlgSetObjUserPropsValue]
+
+[DlgUserPropIsLocal]
+
+[DlgObjectPropsGetUserProps] 
+
+[DlgObjectPropsGetToolProps]
+
+[DlgObjectPropsGetProductionProps]
+
+[DlgGetTextNodeText]
+
+[DlgNodeLogicGetRule]
+
+[DlgExchangeGetChore]
+
+[DlgGetExchangeNodeText] 
+
+[DlgGetExchangeNodeTextIDs] 
+
+[DlgGetExchangeNodeSpeakers] 
+
+[DlgGetExchangeNodeSpeakerNames] 
+
+[DlgSetExchangeChoreAgentRemap] 
+
+[DlgClearExchangeChoreAgentRemap]
+
+[DlgChoicesGetDisplayProps] 
+
+[DlgGetJumpBehavior]
+
+[DlgStartGetOutputIndex]
+
+[DlgSetScriptNodeBlockingDefault]
+
+[DlgAddNode]
+
+[DlgSetJumpData]
+
+[DlgSetChore]
+
+[DlgGetVisibilityConditions] 
+
+[DlgSetBoolRuleCondition]
+
+[DlgNodeSetScriptRuleVisibility]
+
+[DlgNodeSetIntRuleVisibility]
+
+[DlgNodeSetFloatRuleVisibility]
+
+[DlgSetNodeName]
+
+[DlgSetScriptText]
+
+[DlgAddExchangeText]
+
+[DlgGetTimeCondition]
+
+[DlgSetTimeCondition]
+
+[DlgGetSequenceNodeData] 
+
+[DlgSetSequenceNodeData]
+
+[DlgSetSequenceNodeConditionalData]
+
+[DlgResetSequenceNodeElements]
+
+[DlgSetConditionNodeConditionalData]
+
+[DlgForceSequenceNodeConditional]
+
+[DlgResetConditionNodeElements]
+
+[DlgSetNodeIdle]
+
+[DlgInsertNode]
+
+[DlgTextNodeSetText]
+
+[DlgFindAliases] 
+
+[DlgGetActorAgentNames]
+
+[DlgPreloadAll]
+
+[DlgPreload]
+
+[DeleteEventsInRange]
+
+[DeleteAllEventsAfterEvent]
+
+[EnableControllerTimeCheats]
+
+[EditorMode]
+
+[EngineQuit]
+
+[Execute]
+
+[EnableWalkAnimator1]
+
+[AnimationAddLuaEntry] 
+
+[EffectGetPendingCount]
+
+[EffectHasDeveloperOptions]
+
+[EffectEnableDevFeatures]
+
+[EffectDevSetFeature]
+
+[EffectDevToggleFeature]
+
+[EffectDevResetEffect]
+
+[EffectGetDevFeatures]
+
+[EngineAddOnAgentSetupCallback]
+
+[EngineRemoveOnAgentSetupCallback]
+
+[EngineGetFrameNumber]
+
+[EngineFlushCache]
+
+[EngineGetVersion]
+
+[EventLogGetActiveSessionLogName]
+
+[EventLogActive]
+
+[EventLogRemove]
+
+[EventLogAddTags] 
+
+[EventLogCreate] 
+
+[EventLogBeginEvent]
+
+[EventLogEndEvent]
+
+[EventLogAddData] 
+
+[EventLogIsPaused]
+
+[EventLogSetPaused]
+
+[FullScreen]
+
+[ForceEventLogFlushPage]
+
+[FlushPerformanceMonitor]
+
+[FileFindFirst]
+
+[FileFindNext]
+
+[FileExists]
+
+[FileExistsGlobal]
+
+[FileDelete]
+
+[FileIsLastErrorCorruptSaveFile]
+
+[FileClearLastErrorCorruptSaveFile]
+
+[FileGetFileName]
+
+[FileSetExtention]
+
+[FileSetExtension]
+
+[FileGetExtension]
+
+[FileStripExtention]
+
+[FileStripExtension]
+
+[FileCopy]
+
+[FileMakeWriteable]
+
+[FileMakeReadOnly]
+
+[FileSetCWD]
+
+[FileGetHomeDirectory]
+
+[FacebookEnabled]
+
+[FacebookSetAppId]
+
+[FacebookSetPermissions]
+
+[FacebookRequestAccessToken] 
+
+[FacebookGetAccessToken] 
+
+[GameLogicSet]
+
+[GameLogicSetAgent]
+
+[GameLogicGet]
+
+[GameLogicClear]
+
+[GameLogicSetChangedCallback]
+
+[GetTelltaleApplicationID]
+
+[GetEpisodePrice]
+
+[GetEpisodePriceString]
+
+[GetProjectName]
+
+[GetPreferences]
+
+[GetHeapSizeMB]
+
+[GetHeapAllocated]
+
+[GetVramAllocated]
+
+[GetVramSize]
+
+[GetTimeScale]
+
+[GarbageCollect] 
+
+[GetInstallPath]
+
+[GameGetName]
+
+[GameSetName]
+
+[GameSetPermitsManualSaves]
+
+[GetTextFileContents]
+
+[GetFrameNumber]
+
+[GetFrameTime]
+
+[GetAverageFrameTime]
+
+[GetThresholdFrameTimeFailCount]
+
+[GetTotalTime]
+
+[GameMode]
+
+[GetUserSystemLanguage]
+
+[GetNeedResetEngine]
+
+[GetResetCode]
+
+[GetResetUserBit]
+
+[GetSubProjectExists]
+
+[GetDateTimeWii]
+
+[GetViewportDimensions]
+
+[GetDeviceDimensions]
+
+[GetDevicePhysicalSize]
+
+[GetExecutable]
+
+[GearboxHashString]
+
+[GetSynchFSLocation]
+
+[GameComm_Send]
+
+[GameEngine_AddBuildVersionInfo]
+
+[GameEngine_GetBuildVersionInfo]
+
+[GameAnalytics_SendEventImmediately] 
+
+[GetPasswordBoxResults] 
+
+[GetGenericTextBoxResults]
+
+[GetSaveGameImage]
+
+[GetFreewalkEnabled]
+
+[GetAgents]
+
+[GetLastEventLogEvent] 
+
+[GetSessionEventLogName]
+
+[GetNumExecutingThreads]
+
+[GetCurrentThread]
+
+[GetConnectionStatus]
+
+[GetCurrentUserXUID]
+
+[GetPrefsLoaded]
+
+[GameRelaunched]
+
+[GetStats]
+
+[GetStatsMeta]
+
+[GetAchievements] 
+
+[GetProfile]
+
+[GetFriends]
+
+[GetDemoMode]
+
+[GetDemoTimeout]
+
+[GetVoiceLength]
+
+[GetFMODVersion]
+
+[HttpGetLastError]
+
+[HttpGetAsync] 
+
+[HttpPostAsync] 
+
+[HttpDeleteAsync] 
+
+[HttpGetAndWait] 
+
+[HttpPostAndWait] 
+
+[HttpDeleteAndWait] 
+
+[HttpParseJson] 
+
+[HttpToJson] 
+
+[HttpSignedGetAsync] 
+
+[HttpSignedPostAsync] 
+
+[HttpSignedGetAndWait] 
+
+[HttpSignedPostAndWait] 
+
+[Hex64ToDec]
+
+[IdleGetSlotDefaults] 
+
+[IdleSetSlotDefaultsBasePriority] 
+
+[IdleSetSlotDefaultsFriendlyName] 
+
+[IdleSetSlotDefaultsTransitionStyle] 
+
+[IdleSetSlotDefaultsTransitionTime] 
+
+[IsStoreEmpty]
+
+[IsEpisodeAvailable]
+
+[IsEpisodePurchased]
+
+[IsEpisodeDownloaded]
+
+[IsEpisodeUnlicensed]
+
+[IsEpisodeStub]
+
+[InstallEpisode]
+
+[IsEpisodesUpdateAvailable]
+
+[InputGetInputCodeName]
+
+[IsJoystickXbox]
+
+[InputMapperIsActive]
+
+[InputMapperGetActiveMapperNames]
+
+[InputMapperActivate]
+
+[InputMapperKeyPressed]
+
+[InputMapperKeyValue] 
+
+[InputMapperDeactivate]
+
+[InputMapperDeactivateAll]
+
+[InputMapperAddHandler] 
+
+[InputMapperRemoveHandler] 
+
+[InputMapperClear]
+
+[InputMapperAddEvent] 
+
+[InputMapperDeleteEvent] 
+
+[InputMapperSetInput] 
+
+[InputMapperSetInput]
+
+[InputMapperSetEvent]
+
+[InputMapperSetEventType]
+
+[InputPlatformSupportsEvent]
+
+[InputMapperSetCallback]
+
+[InputMapperSetControllerOverride]
+
+[InputMapperGetNumEvents]
+
+[InputMapperGetEventMapping]
+
+[InputMapperGetAllEvents]
+
+[InputMapperGetCallback]
+
+[InputMapperGetControllerOverride]
+
+[InputMapperGetEventType]
+
+[InputMapperGetInput]
+
+[InputMapperQueueEvent]
+
+[InputPCIsVKeyPressed]
+
+[InputPCMouseButtonsAreSwapped]
+
+[InputEnableNunchuk]
+
+[InputSetVibration]
+
+[InputGetVibrationNumAxes]
+
+[InputSetVibrationEx]
+
+[InputHasJoystick]
+
+[InputSupportsJoystick]
+
+[InputHasKeyboard]
+
+[InputSupportsKeyboard]
+
+[InputHasTouch]
+
+[InputSetTouchEnabled]
+
+[InputSupportsTouch]
+
+[InputHasMouse]
+
+[InputSupportsMouse]
+
+[InputSwapsConfirmCancelButtons]
+
+[InputGetKeyboardLayout]
+
+[InstallGetPath]
+
+[InstallGetLanguage]
+
+[InstallGetManual]
+
+[InstallGetReadme]
+
+[InstallGetRegistration]
+
+[InstallGetUninstaller]
+
+[IsSafeMode]
+
+[IsToolBuild]
+
+[IsToolBuildRaw]
+
+[IsRunningFromCommandLine]
+
+[IsEnginePC]
+
+[IsEngineWin10]
+
+[IsEngineWii]
+
+[IsEngineXbox360]
+
+[IsEngineXBOne]
+
+[IsEnginePS3]
+
+[IsEngineMac]
+
+[IsEngineLinux]
+
+[IsEngineIPhone]
+
+[IsEngineAndroid]
+
+[IsEngineAndroidTV]
+
+[IsEngineVita]
+
+[IsEnginePS4]
+
+[IsEngineWiiU]
+
+[IsEngineNX]
+
+[IsShipping]
+
+[IsRunningFromMaya]
+
+[IsRunningSteam]
+
+[IsRunningGog]
+
+[IsRunningRail]
+
+[IsFullScreen]
+
+[IsRegistered]
+
+[IsEditorMode]
+
+[IsScriptObject]
+
+[IsChromeOS]
+
+[IsPasswordBoxSupported]
+
+[IsPasswordBoxFinished]
+
+[IsGenericTextBoxFinished]
+
+[IsRunningFromPack]
+
+[IOSGetCountryCode]
+
+[IOSGetLocalizedPrice]
+
+[IOSStoreRequestProductData]
+
+[IOSStoreGetPendingUserIAPRequest]
+
+[IOSStoreCanMakePayments]
+
+[IOSStoreSetPaymentQueueCallback]
+
+[IOSStorePurchase]
+
+[IOSStoreVerifyReceipt]
+
+[IOSStoreRestoreTransactions]
+
+[IOSStoreGetPurchasedProductQuantity]
+
+[IOSConsumePurchasedProduct]
+
+[IsSaving]
+
+[IsAgentAtLogicalScreenPos]
+
+[IsStorageSelected]
+
+[IsUserSignedIn]
+
+[IsUserOnline]
+
+[IsSaveGameCorrupt]
+
+[IsSystemUIShowing]
+
+[InputEnableJoystick]
+
+[InputIsJoystickEnabled]
+
+[InputSetJoystickDeadzone]
+
+[InputSetCursorLimits]
+
+[KevFunc]
+
+[KevFunc2]
+
+[KevFunc3]
+
+[LocalContentEnumerationReady]
+
+[LanguageSetDatabase]
+
+[LanguageGetDatabase]
+
+[LanguageGetCurLanguage]
+
+[LanguageDatabaseAdd]
+
+[LanguageGetResource]
+
+[LanguageGetRecordLipSyncIgnoreText]
+
+[LanguageGetTextFromID]
+
+[LanguageGetTextFromFile]
+
+[LanguageGetPrefixFromFile]
+
+[LanguageGetIDFromFile]
+
+[LanguageSetAnimationFile]
+
+[LangAdvanceCurrentLine]
+
+[LangGetCurLanguage]
+
+[LangSetCurLanguage]
+
+[LangGetPrefixFromID]
+
+[LangGetTextFromID]
+
+[LocalizationGetAllInstalledLanguages]
+
+[LocalizationGetDisplayText]
+
+[LocalizationGetLanguageStringName]
+
+[LocalizationGetSyncFSLocation]
+
+[LocalizationGetAudioSyncFSLocation]
+
+[LocalizationGetAudioSyncFSLocations]
+
+[LocalizationGetAudioResourceSetName]
+
+[LocalizationIsBidirectional]
+
+[LocalizationSetInstalled]
+
+[LocalizationGetFlags]
+
+[LocalizationGetTextVersionNumber]
+
+[LocalizationGetAudioVersionNumber]
+
+[LocalizationGetScriptedProperties]
+
+[LocalizationGetSubgroupResourceSetName]
+
+[LocalizationUpdateLanguages]
+
+[LocalizationGetDownloadableLanguages]
+
+[LocalizationGetAll]
+
+[LocalizationGetEnabled]
+
+[LocalizationSetEnabled]
+
+[LocalizationClearAll]
+
+[LuaSetTrace]
+
+[LuaNotTrace]
+
+[LoadScript]
+
+[LuaSTFU]
+
+[Load]
+
+[LoadAsync]
+
+[LoadAsyncAndWait]
+
+[LoadWithEncryptionKey]
+
+[LoadFromJSONAndSaveAsResource]
+
+[LoadGame]
+
+[LightAddGroup]
+
+[LightRemoveGroup]
+
+[MountEpisode]
+
+[MountAllEpisodes]
+
+[MailInit]
+
+[MailBeginSession]
+
+[MailEndSession]
+
+[MailGetAllContactIDs]
+
+[MailGetContactName]
+
+[MailGetContactProps]
+
+[MailGetContactAddressType]
+
+[MailCreateEmail]
+
+[MailSetEmailSubject]
+
+[MailSetEmailText]
+
+[MailAddEmailRecipient]
+
+[MailAddEmailFileAttachment]
+
+[MailCanBeSent]
+
+[MailSendAllEmails]
+
+[MailCheckMailboxEmail]
+
+[MailGetNumMailboxEmails]
+
+[MailGetMailboxEmailIDs]
+
+[MailGetMailboxEmailSubject]
+
+[MailGetMailboxEmailText]
+
+[MailGetMailboxEmailNumAttachments]
+
+[MailSaveMailboxEmailAttachmentAs]
+
+[MailDeleteMailboxEmail]
+
+[MaterialGetCrcs]
+
+[MathRayAgentIntersect]
+
+[MathRaySceneIntersect]
+
+[MathPointLineDistance]
+
+[MathRayPlaneIntersect]
+
+[MathDoRayAndPlaneIntersect]
+
+[MathRotateAroundAxis]
+
+[MathGetEulars]
+
+[MeshGetVertCount]
+
+[MeshGetAlphaMode]
+
+[MeshSetAlphaMode]
+
+[MeshSetDiffuseTexture]
+
+[MeshGetDiffuseTexture]
+
+[MeshSetGlobalLODScale]
+
+[MeshGetGlobalLODScale]
+
+[MeshGetMaterials]
+
+[MetaDescribedObjectGetMember]
+
+[MetaDescribedObjectSetMember]
+
+[MouseClick]
+
+[MemoryReclaimHeap]
+
+[MemoryReclaimVram]
+
+[MemorySetIncrementalParams]
+
+[MemorySetReclaimParams]
+
+[ModelToAgents]
+
+[MovieGetStatus]
+
+[MovieGetTime]
+
+[MovieSetTime]
+
+[MovieGetDuration]
+
+[NoteAddCategory]
+
+[NetworkAPILoadCredentials]
+
+[NetworkAPIAddCredential]
+
+[NetworkAPIUpdateCredential]
+
+[NetworkAPIUploadCredentials]
+
+[NetworkAPIWriteCredentials]
+
+[NetworkAPIGetCredentialList]
+
+[NetworkAPIGetCredential]
+
+[NetworkAPIClearCredential]
+
+[NetworkAPISetCustomerCohort]
+
+[NetworkAPIGetTTGAccountURLToken]
+
+[NetworkAPIPerformServicesGetRequest]
+
+[NetworkAPICloudSyncUserData]
+
+[NetworkAPICloudSyncProcessLocation]
+
+[NetworkAPICloudSyncResolveLocationConflict]
+
+[NetworkAPICloudGetPatchPath]
+
+[NetworkAPICloudCancelAll]
+
+[NetworkAPICloudCheckLocalSize]
+
+[NetworkCloudErase]
+
+[NetworkAPICloudSyncContent]
+
+[NetworkAPICloudMountContent]
+
+[NetworkAPICloudMountAllContent]
+
+[NetworkResourceUploadJSON]
+
+[NewGame]
+
+[OffersEnumerationReady]
+
+[OverlayBump]
+
+[OverlayBumpOnHitch]
+
+[OverlayShow]
+
+[OverlayShowLoadingScreen]
+
+[OverlayIsLoadingScreenShowing]
+
+[OverlayIsShowing]
+
+[OverlaySetText]
+
+[OutlinerAddAgentScriptCommand]
+
+[OutlinerAddSceneScriptCommand]
+
+[PlatformGetPurchaseProvider]
+
+[PhonemeTableAddAnimation]
+
+[Print]
+
+[PerfReset]
+
+[PerfElapsed]
+
+[PerfElapsedAndReset]
+
+[PointerEnable]
+
+[ProjectSetID]
+
+[PathAgentTo]
+
+[PathAgentToAndWait]
+
+[PathAgentWait]
+
+[PathAgentFacePos]
+
+[PathAgentFaceAgent]
+
+[PathAgentMatchAgent]
+
+[PathAgentFaceCamera]
+
+[PathAgentIsPathing]
+
+[PathAgentStop]
+
+[PathAgentGetSpeedScale]
+
+[PathAgentSetSpeedScale]
+
+[PathAgentGetUsePosition]
+
+[PathAgentSetMaxPathLength]
+
+[PathAgentGetWalkBoxes]
+
+[PathAgentDoesPathReachDestination]
+
+[PathAgentIsBlocked]
+
+[PathAgentGetPathDistanceRemaining]
+
+[PathAgentSamplePath]
+
+[PhysicsSetDoneMovingCallback]
+
+[PhysicsMoveAgentToByTime]
+
+[PhysicsMoveAgentToBySpeed]
+
+[PhysicsMoveAgentThroughByTime]
+
+[PhysicsMoveAgentThroughBySpeed]
+
+[PhysicsMoveAgent]
+
+[PhysicsStopMovingAgent]
+
+[PhysicsStopAllMovingAgents]
+
+[PhysicsGetMovingAgentPos]
+
+[PhysicsRegisterCollision]
+
+[PhysicsEnableCollision]
+
+[PlatformGlobalData_Set]
+
+[PlatformResetStatsAndAchievements]
+
+[PlatformGlobalData_Get]
+
+[PlatformSetUserContext]
+
+[PlatformUnlockAchievement]
+
+[PlatformPlayerSessionStart]
+
+[PlatformPlayerSessionEnd]
+
+[PlatformPlayerSessionPause]
+
+[PlatformPlayerSessionResume]
+
+[PlatformReportProgress]
+
+[PlatformReportEpisodesCompleted]
+
+[PlatformReportIncrementChoiceMade]
+
+[PlatformReportIncrementTimesDied]
+
+[PlatformGetStat]
+
+[PlatformSetStat]
+
+[PlatformGetAchievements]
+
+[PlatformOpenAccountPickerUI]
+
+[PlatformOpenHelpUI]
+
+[PlatformOpenAchievementUI]
+
+[PlatformOpenAchivementUI]
+
+[PlatformOpenStore]
+
+[PlatformRequestSignIn]
+
+[PlatformIsUserSpaceAvailable]
+
+[PlatformGetTrialTimeout]
+
+[PlatformOpenURL]
+
+[PlatformIsAgeRestricted]
+
+[PlatformIsConnectedToLicenseServer]
+
+[PlatformIsUserSignedIn]
+
+[PlatformCanUserMakePurchases]
+
+[PlatformIsRegistered]
+
+[PlatformIsConnectedToInternet]
+
+[PlatformIsTitleUpdateRequired]
+
+[PlatformIsSystemUpdateRequired]
+
+[PlatformGetMachineID]
+
+[PlatformGetRegion]
+
+[PlatformGetUserID]
+
+[PlatformGetUserName]
+
+[PlatformGetOsString]
+
+[PlatformGetDeviceType]
+
+[PlatformGetDeviceModel]
+
+[PlatformGetDeviceName]
+
+[PlatformUpdateActivityIndicator]
+
+[PlatformShowActivityIndicator]
+
+[PlatformHideActivityIndicator]
+
+[PlatformEnableExternalScreenCutoff]
+
+[PlatformSetExternalScreenCutoff]
+
+[PlatformRegisterNotification]
+
+[PlatformShowKeyboard]
+
+[PlatformHideKeyboard]
+
+[PlatformCanOpenURL]
+
+[PlatformGetLaunchURL]
+
+[PlatformRatingSetStrings]
+
+[PlatformRatingSetParameters]
+
+[PlatformRatingEventNotify]
+
+[PlatformUpdateNotification]
+
+[PlatformGetStatsByRank]
+
+[PlatformGetStatsByXUID]
+
+[PlatformGetStatsByXUIDList]
+
+[PlatformUpdateStats]
+
+[PlatformFlushStats]
+
+[PlatformGetFriends]
+
+[PlatformGetTextureFormat]
+
+[PlatformMountExternalUserSpace]
+
+[PlatformRequestExternalUserResource]
+
+[PlatformGetFreeDiskSpace]
+
+[PlatformIsDiscBootGame]
+
+[PlatformGetGPUQuality]
+
+[PlatformGetGPUMemory]
+
+[PlatformGetGPUMemoryQuality]
+
+[PlatformGetGPUDescription]
+
+[PlatformGetGPUDeviceID]
+
+[PlatformGetIOSDeviceType]
+
+[PlatformXBOneEnableKinect]
+
+[PlatformSonyShowStoreIcon]
+
+[PlatformGetShowNetworkDisconnectMessage]
+
+[PlatformSetShowNetworkDisconnectMessage]
+
+[PlatformStartVideoRecording]
+
+[PlatformVideoRecordingReady]
+
+[PlatformHasGooglePlayGames]
+
+[PlatformSupportsHLSVideo]
+
+[PlatformIsDocked]
+
+[PlatformSetDockedStateCallback]
+
+[PlatformGetBuildVersion]
+
+[PlatformLaunchProcess]
+
+[PlatformChunkPrioritize]
+
+[PlatformChunkCheckProgress]
+
+[PlatformChunkCheckETA]
+
+[PlatformChunkSetSpeed]
+
+[PlatformChunkGetNumber]
+
+[ProfilerToggleDisplay]
+
+[ProfilerTogglePause]
+
+[PropertyGetKeys]
+
+[PropertyDontSaveInSaveGames]
+
+[PropertyCreate]
+
+[PropertyClearKeys]
+
+[PropertyClearGlobals]
+
+[PropertyRemove]
+
+[PropertyExists]
+
+[PropertyGet]
+
+[PropertyGetKeyType]
+
+[PropertyGetKeyPropertySet]
+
+[PropertySetIsRuntime]
+
+[PropertyGetValuePropertySet]
+
+[PropertySet]
+
+[PropertyNumKeys]
+
+[PropertyKeys]
+
+[PropertyAddGlobal]
+
+[PropertyMoveGlobalToFront]
+
+[PropertyHasGlobal]
+
+[PropertyGetGlobals]
+
+[PropertyRemoveGlobal]
+
+[PropertyIsLocal]
+
+[PropertyMakeLocal]
+
+[PropertyImportKeyValues]
+
+[PropertyImportLocalKeyValues]
+
+[PropertyAddKeyCallback]
+
+[PropertyHasKeyCallback]
+
+[PropertyRemoveKeyCallback]
+
+[PropertyClearKeyCallbacks]
+
+[PropertyAddMultiKeyCallback]
+
+[PropertyRemoveMultiKeyCallback]
+
+[PropertySetModified]
+
+[PropertyIsContainer]
+
+[PreLoad]
+
+[PreloadAsync]
+
+[PlayAnimationAndWait]
+
+[PlayAnimation]
+
+[PlayAnimationLooping]
+
+[PlayAnimationMirrored]
+
+[ProcessLogsForUpload]
+
+[Photo_IsSlotUsed]
+
+[Photo_CapturePhoto]
+
+[Photo_IsPhotoReady]
+
+[Photo_SavePhotos]
+
+[Photo_LoadPhotos]
+
+[Photo_GetPhotoTexture]
+
+[ParticleEmitterGetCount]
+
+[ParticleEmitterGetAndResetSpawnCounter]
+
+[Quaternion]
+
+[QuaternionGetEuler]
+
+[QuaternionGetForward]
+
+[QuaternionSlerp]
+
+[QuaternionComposite]
+
+[QueryEventLog]
+
+[ResetSourceSafe]
+
+[RandomSeed]
+
+[RandomInt]
+
+[RandomFloat]
+
+[RegistryKeyExists]
+
+[RegistryGetValue]
+
+[RegistrySetValue]
+
+[ResetThresholdFrameTimeFail]
+
+[ResetEngine]
+
+[ResetSystemHardware]
+
+[RegionGetGeo]
+
+[RegionGetLocale]
+
+[RegisterShutdownCallback]
+
+[RegisterSuspendCallback]
+
+[ReclaimOld]
+
+[Render]
+
+[RenderReset]
+
+[RenderSetMultithreadEnable]
+
+[RenderSetRebootTexture]
+
+[RenderFullscreenTexture]
+
+[RenderEnable]
+
+[RenderDelay]
+
+[RenderIsRendering]
+
+[RenderLightmaps]
+
+[RenderEnlightenTexture]
+
+[RenderEnlighten]
+
+[RenderPassDisable]
+
+[RenderGetHDREnabled]
+
+[RenderGetAntiAliasingEnabled]
+
+[RenderGetAntiAliasingType]
+
+[RenderGetQualityLevel]
+
+[RenderSetQualityLevel]
+
+[RenderSetScreenSize]
+
+[RenderGetDisplayResolutions]
+
+[RenderGetQualityLevels]
+
+[RenderGetCurQualityLevel]
+
+[RenderUseLightsRadiusForDistances]
+
+[RenderSetCurQualityLevel]
+
+[RenderGetQualityForPlatform]
+
+[RenderSetQualityForPlatform]
+
+[RenderGetDebugRenderEnabled]
+
+[RenderGetDebugRenderModes]
+
+[RenderGetDebugRenderMode]
+
+[RenderSetDebugMode]
+
+[RenderGetFeatures]
+
+[RenderToggleFeature]
+
+[RenderSetFeatureEnabled]
+
+[RenderGetFeatureEnabled]
+
+[RenderGetFeatureSupported]
+
+[RenderSetShadowQuality]
+
+[RenderSetScale]
+
+[RenderSetScaleForResolution]
+
+[RenderGetScale]
+
+[RenderGetScaledVerticalResolution]
+
+[RenderSetVisibilityThreshold]
+
+[RenderSetShadowVisibilityThreshold]
+
+[RenderSetLightVisibilityThreshold]
+
+[RenderSetDecalVisibleDistance]
+
+[RenderGetVisibilityThreshold]
+
+[RenderGetShadowVisibilityThreshold]
+
+[RenderGetLightVisibilityThreshold]
+
+[RenderGetDecalVisibleDistance]
+
+[RenderSetHDRColorBufferScale]
+
+[RenderSetHDRSurfaceFormat]
+
+[RenderSetIphoneEmulation]
+
+[ResetShaderEmulation]
+
+[RenderSetAgentSelectableAE]
+
+[RenderSetSelectDimAmountAE]
+
+[RenderForce_16_by_9_AspectRatio]
+
+[RenderGetScreenResolution]
+
+[RenderGetDeviceResolution]
+
+[RenderGetAspectRatio]
+
+[RenderSetAspectRatio]
+
+[RenderSetFXToonRenderingQuality]
+
+[RenderSetFXShadowsRenderingQuality]
+
+[RenderAfterEffectsOnOff]
+
+[RenderSetGamma]
+
+[RenderGetGamma]
+
+[RenderGetMidLevelIntensity]
+
+[RenderSetIntensity]
+
+[RenderGetIntensity]
+
+[RenderPreloadShader]
+
+[RenderTargetDebugDump]
+
+[RenderSetTextureQuality]
+
+[RenderSetEffectPreloadRecordingEnabled]
+
+[RenderSetEffectPreloadAutoRecordingEnabled]
+
+[RenderBeginEffectPreloadRecording]
+
+[RenderEffectPreloadRecordScene]
+
+[RenderEndEffectPreloadRecording]
+
+[RenderEffectPreloadPackage]
+
+[ResourceExists]
+
+[ResourceIsLoaded]
+
+[ResourceSetNonPurgable]
+
+[Revert]
+
+[ResourceCopy]
+
+[ResourceDelete]
+
+[ResourceReportReferencedAssets]
+
+[ResourceSetLoadingCall]
+
+[ResourceGetLoadingCall]
+
+[ResourceResolveAddressToConcreteLocationID]
+
+[ResourceAddressGetResourceName]
+
+[ResourceResolveURLToConcrete]
+
+[ResourceGetURLAsLocal]
+
+[ResourceGetURL]
+
+[ResourcePrintLocations]
+
+[ResourceGetName]
+
+[ResourceSaveManifest]
+
+[ResourceLoadManifest]
+
+[ResourceGetNames]
+
+[ResourceGetSymbols]
+
+[ResourceLocationGetNames]
+
+[ResourceLocationGetSymbols]
+
+[ResourceEnableLowQualityPreload]
+
+[ResourceGetLowQualityPreloadEnabled]
+
+[ResourceOpenUser]
+
+[ResourceAdvancePreloadBatch]
+
+[ResourceRetryFailedResDescs]
+
+[ResourceCreateConcreteDirectoryLocation]
+
+[ResourceCreateConcreteArchiveLocation]
+
+[ResourceAchiveFind]
+
+[ResourceArchiveIsActive]
+
+[ResourceArchiveWaitForCaching]
+
+[ResourceArchiveSetCacheMode]
+
+[ResourceCreateLogicalLocation]
+
+[ResourceExistsLogicalLocation]
+
+[ResourceLocationInjectIntoResourceSystem]
+
+[RegisterResourceDescriptionWithEngine]
+
+[ResourceInitializeLegacySubproject]
+
+[ResourceInitializeSubprojects]
+
+[ResourceInitializeWritebackCache]
+
+[ResourceSetCreate]
+
+[ResourceSetChangePriority]
+
+[ResourceSetMapLocation]
+
+[ResourceSetExists]
+
+[ResourceSetEnabled]
+
+[ResourceSetIsBootable]
+
+[ResourceSetIsDynamic]
+
+[ResourceSetIsSticky]
+
+[ResourceSetEnable]
+
+[ResourceSetDisable]
+
+[ResourceSetDestroy]
+
+[ResourceSetReconfigure]
+
+[ResourceSetResourceExists]
+
+[ResourceSetResourceGetURL]
+
+[ResourceSetResourceGetLocationID]
+
+[ResourceSetGetAll]
+
+[ResourceSetDefaultLocation]
+
+[RolloverResetStatus]
+
+[RolloverSetRolledOnCallback]
+
+[RolloverSetRolledOffCallback]
+
+[RolloverGetText]
+
+[RolloverEnableTextColor]
+
+[RolloverEnableTextBackgroundColor]
+
+[RolloverEnableRolloverMesh]
+
+[RulesSetActive]
+
+[RulesExecute]
+
+[RuleExecute]
+
+[RuleTestCondition]
+
+[RulePerformActions]
+
+[RulesEdit]
+
+[RulesAddAgentSelectionFilter]
+
+[RuleGetConditions]
+
+[RuleGetActions]
+
+[RuleGetElse]
+
+[ResetGame]
+
+[RegisterEventLogForUpload]
+
+[ReloadMasterAudioBus]
+
+[SerializeDownloadedObject]
+
+[SaveDownloadedDocumentAsPropertySet]
+
+[SetPurchaseCompletedCallback]
+
+[SetDownloadCompletedCallback]
+
+[StreamingInstall_UpdateResourceSets]
+
+[SetSourceSafeNoToAll]
+
+[SetTimeScale]
+
+[ScriptManagerGetCurrentScriptName]
+
+[ScriptManagerSetCurrentScriptName]
+
+[ScriptEnumSetValues]
+
+[SystemHUDSetBGTexture]
+
+[SuspendSystemExits]
+
+[SetResetUserBit]
+
+[SetSubProject]
+
+[ScreenBurnInProtectionEnable]
+
+[SystemInterruptionEnable]
+
+[SetSystemInterruptionDelayTime]
+
+[SetSystemInterruptionDelayTimeToDefault]
+
+[SymbolToString]
+
+[StringToSymbol]
+
+[SymbolToCRC]
+
+[SetDoPostUpdateScriptCall]
+
+[SendQueuedTaskNotifications]
+
+[ScreenToViewport]
+
+[SetBlockedAssetLogging]
+
+[SetOverlayVerbosity]
+
+[StartExternalPlatforms]
+
+[ShowPasswordBox]
+
+[ShowGenericTextBox]
+
+[ShowGamerCardUI]
+
+[ScreenShot]
+
+[Save]
+
+[SaveAsJSON]
+
+[SavePrefs]
+
+[SQLConnect]
+
+[SQLDisconnect]
+
+[SQLSetProjectName]
+
+[SQLSetLanguage]
+
+[SaveGame]
+
+[SetupSaveIndicatorFlipBook]
+
+[SetupSaveIndicatorSpinner]
+
+[SetSaveIndicatorColors]
+
+[SetupSaveIndicatorDisplay]
+
+[SaveGameToBundle]
+
+[SaveGameIncremental]
+
+[SaveLoadClearRuntimeProperties]
+
+[SaveLoadGetRuntimeProperties]
+
+[SaveLoadPreSave]
+
+[SaveLoadPostSave]
+
+[SetSaveFinishedCallback]
+
+[SaveLoadSetSaveDisplayName]
+
+[SaveLoadGetSystemWriteOpUnderwayMessage]
+
+[SaveLoadRemoveUserFiles]
+
+[SaveLoadHasAvailableSpace]
+
+[SaveLoadCreateBanner]
+
+[SceneOpen]
+
+[SceneAdd]
+
+[SceneAddWithOptions]
+
+[SceneCallOnAgentSetupCallbacks]
+
+[SceneSetAgentPriorities]
+
+[SceneGetAgentPriority]
+
+[SceneRemove]
+
+[SceneRemoveAsync]
+
+[SceneRemoveAll]
+
+[ScenePrepareToRender]
+
+[SceneCaptureAgentInfo]
+
+[SceneAddReference]
+
+[SceneAddAgent]
+
+[SceneSetAgentStartPosition]
+
+[SceneSetAgentStartQuaternion]
+
+[SceneDeleteAgent]
+
+[SceneSetWalkBoxes]
+
+[SceneHide]
+
+[SceneIsHidden]
+
+[SceneGetCamera]
+
+[SceneGetSceneCamera]
+
+[SceneGetReferencedScene]
+
+[SceneGetSceneAgent]
+
+[SceneFind]
+
+[SceneIsActive]
+
+[SceneIsActiveByName]
+
+[SceneGetAgentSceneProps]
+
+[SceneGetAgentScenePropNames]
+
+[SceneGetBottomScene]
+
+[SceneGetActiveSceneNames]
+
+[SceneSetRenderPriority]
+
+[SceneRestoreAllAgents]
+
+[SceneGetAgentNames]
+
+[SceneGetAgents]
+
+[SceneGetSelectableAgents]
+
+[SceneGetSelectableAgentsInCamera]
+
+[SceneAddOnCameraChangeCallback]
+
+[SceneRemoveOnCameraChangeCallback]
+
+[SceneSetSkipRenderResroucesDuringPreload]
+
+[SceneGetPreloadVram]
+
+[SceneGetPreloadVramCombo]
+
+[ScenePreload]
+
+[SceneGetAgentAttachAgent]
+
+[SceneSetAsyncAddSpeed]
+
+[SceneSetAsyncRemoveSpeed]
+
+[SceneIsAsyncLoading]
+
+[ShaderSetLightGroup]
+
+[ShaderSetMoveU]
+
+[ShaderSetMoveV]
+
+[ShaderSetScaleU]
+
+[ShaderSetScaleV]
+
+[ShaderSetRotate]
+
+[ShaderHideTexture]
+
+[ShaderSwapTexture]
+
+[ShaderOverrideTexture]
+
+[ShaderOverrideLightMapTextures]
+
+[ShaderOverrideLightMapTexturesInScene]
+
+[ShaderOverrideLightMapTexture]
+
+[ShaderSetAlphaBuffer]
+
+[ShaderGetAverageAlphaBuffer]
+
+[ShaderAdjustAlphaBuffer]
+
+[ShaderSetRenderScale]
+
+[ShaderSetToonOutlineColor]
+
+[ShaderOverrideAllToonOutlineColors]
+
+[ShaderRestoreAllToonOutlineColorsFromTable]
+
+[ShaderOverrideAllTextures]
+
+[ShaderRestoreAllTextures]
+
+[ShaderRestoreAllTexturesFromTable]
+
+[SetFreewalkEnabled]
+
+[StyleIdleUsePersistentBehavior]
+
+[StyleIdleSetPersistentBehavior]
+
+[StyleIdleSetManualControl]
+
+[StyleGuideSetMoodGroupIdle]
+
+[SceneGetCameraLayerStack]
+
+[ScreenPosToWorldDir]
+
+[SessionLogUploadSetEnabled]
+
+[SessionLogProcess]
+
+[SetEventLogUploadEnable]
+
+[StringPath]
+
+[StringFilename]
+
+[SymbolStringCompare]
+
+[SymbolCompare]
+
+[SubtitleSetBeginSequenceCallback]
+
+[SubtitleSetEndSequenceCallback]
+
+[SubtitleSetCreateCallback]
+
+[SubtitleSetDestroyCallback]
+
+[SubtitleGetPrefix]
+
+[SubtitleGetTextComments]
+
+[SubtitleGetLangResID]
+
+[SubtitleGetText]
+
+[SubtitleBindDisplayAgent]
+
+[SubtitleUnbindDisplayAgent]
+
+[SubtitleGetDlgInstanceID]
+
+[SubtitleAdvanceToEnd]
+
+[SubtitleGetContribution]
+
+[SubtitleGetController]
+
+[SubtitleGetLength]
+
+[SubtitleGetAgentName]
+
+[SyncFsLoad]
+
+[SyncFsCancel]
+
+[SyncFsSize]
+
+[SyncFsAsync]
+
+[SyncFsRefreshAsync]
+
+[SyncFsErase]
+
+[Sleep]
+
+[StartPlayingGame]
+
+[StopPlayingGame]
+
+[SetMessagesWhileLoading]
+
+[SetContentName]
+
+[SetContentSize]
+
+[StorageDeviceErrorOnRemoval]
+
+[ShowStorageDeviceSelectionUI]
+
+[ShowAchievementsUI]
+
+[ShowMarketplaceUI]
+
+[ShowSignInUI]
+
+[SetRichPresenceGameState]
+
+[SetNotifyPositionUI]
+
+[ShowSystemMessageUI]
+
+[SoundPlay]
+
+[SoundPlayNoReturn]
+
+[SoundPlayAndWait]
+
+[SoundSetPitch]
+
+[SoundStopWithCoda]
+
+[SoundUnload]
+
+[SoundGetRawTime]
+
+[SoundRawSetTime]
+
+[SoundRawAdjustTime]
+
+[SoundDebugDumpMessageQueueStatistics]
+
+[SoundLoadEventBank]
+
+[SoundUnloadEventBank]
+
+[SoundPlayEventByGuid]
+
+[SoundPlayEventByGuidAndWait]
+
+[SoundPlayEventByName]
+
+[SoundPlayEventByNameAndWait]
+
+[SoundStartMusicDriftForSceneChange]
+
+[SoundGetGuidFromProperty]
+
+[SoundSystemSetAudioThreadPauseThreshold]
+
+[SoundSystemCreateBuses]
+
+[SoundSystemActivateAdvancedFeatures]
+
+[SoundSystemPlayFireAndForgetEvent]
+
+[SoundSystemPlayFireAndForgetEventWithVolume]
+
+[ToolModeSet]
+
+[ToolModeGet]
+
+[TypeName]
+
+[ToolComm_Connect]
+
+[TestResolution]
+
+[Trace]
+
+[TrackT3Object]
+
+[TimedTextUseCreateChores]
+
+[TellNetConnect]
+
+[TellNetIsConnected]
+
+[TellNetDisconnect]
+
+[TellNetIsVoting]
+
+[TellNetGetWebClientList]
+
+[TellNetGetWebClientVotingResults]
+
+[TellNetPostBallot]
+
+[TellNetEndVotingSession]
+
+[TellNetSetPauseState]
+
+[TellNetPostEpisode]
+
+[TellNetInEpisode]
+
+[TextRenderEmptyChars]
+
+[TextGet]
+
+[TextSet]
+
+[TextEnableBackground]
+
+[TextGetBackgroundColor]
+
+[TextSetBackgroundColor]
+
+[TextSetColor]
+
+[TextSetFont]
+
+[TextSetKerning]
+
+[TextGetMinWidth]
+
+[TextSetMinWidth]
+
+[TextSetScale]
+
+[TextSetWidth]
+
+[TextSetHorizAlign]
+
+[TextSetVertAlign]
+
+[TextGetNumPages]
+
+[TextGetCurPage]
+
+[TextGetPageStart]
+
+[TextGetPageEnd]
+
+[TextSetCurPage]
+
+[TextAdvancePage]
+
+[TextGetHeight]
+
+[TextGetWidth]
+
+[TextSetPlaybackController]
+
+[TextCreatePlaybackController]
+
+[TextGetLines]
+
+[TextGetNumLines]
+
+[TextGetLineHeight]
+
+[TextRefreshRenderedText]
+
+[TextGetExtents]
+
+[TextureGetMipMapping]
+
+[TextureSetFiltering]
+
+[TextureGetPixel]
+
+[TextureGetVisibleRectangle]
+
+[TextureTestCollision]
+
+[TextureTestCollision2]
+
+[ThreadStart]
+
+[ThreadSleep]
+
+[ThreadWake]
+
+[ThreadSleepAll]
+
+[ThreadWakeAll]
+
+[ThreadKill]
+
+[ThreadIsRunning]
+
+[ThreadIsSleeping]
+
+[ThreadAllowSleep]
+
+[UploadCachedObjectToServer]
+
+[UploadPendingObjectsToServer]
+
+[UpdateUsagePrefs]
+
+[UnloadAll]
+
+[Unload]
+
+[UploadEventLogResource]
+
+[UploadEventLog]
+
+[UTF8Length]
+
+[UTF8Truncate]
+
+[UpdateStatsAndWait]
+
+[UpdateStatInt64]
+
+[UpdateAchievementsAndWait]
+
+[UpdateProfileAndWait]
+
+[UpdateFriendsAndWait]
+
+[Vector]
+
+[VectorSet]
+
+[VectorIsFinite]
+
+[VectorGetPitchDelta]
+
+[VectorGetYawDelta]
+
+[VectorGetRollDelta]
+
+[VectorCompare]
+
+[VectorProject]
+
+[VectorSubtract]
+
+[VectorSubtractInPlace]
+
+[VectorCross]
+
+[VectorCrossInPlace]
+
+[VectorDot]
+
+[VectorDistance]
+
+[VectorDistanceSq]
+
+[VectorLength]
+
+[VectorLengthSq]
+
+[VectorAdd]
+
+[VectorAddInPlace]
+
+[VectorClamp]
+
+[VectorClampInPlace]
+
+[VectorScale]
+
+[VectorScaleInPlace]
+
+[VectorNegate]
+
+[VectorNegateInPlace]
+
+[VectorNormalize]
+
+[VectorNormalizeInPlace]
+
+[VectorSetLength]
+
+[VectorSetLengthInPlace]
+
+[ValidateT3Object]
+
+[ViewportToDevice]
+
+[ViewportToScreen]
+
+[ValidateMemory]
+
+[VoicePlay]
+
+[VoicePlayAndWait]
+
+[WalkAnimatorUseCurrentPriorities]
+
+[WalkAnimatorUsePrioritiesVer2]
+
+[WaitForResource]
+
+[WaitForCallbacks]
+
+[WaitForNextFrame]
+
+[WalkBoxesGetClickPos]
+
+[WalkBoxesPosOnWalkBoxes]
+
+[WalkBoxesEnableAll]
+
+[WalkBoxesDisableTri]
+
+[WalkBoxesDisableAreaAroundAgent]
+
+[WalkBoxesEnableAreaAroundAgent]
+
+[WalkBoxesValidatePosition]
+
+[WalkBoxesSetVertexPos]
+
+[WriteAchievement]
+
+[WriteGamerPicture]
+
+[Yield]
