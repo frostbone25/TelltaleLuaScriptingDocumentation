@@ -1,5 +1,7 @@
 # Telltale Lua Scripting Documentation
 
+*NOTE: This document is still a work in progress, so there may be some functions that are listed, but no information regarding return types, parameter types, or other information. This is still being worked on.*
+
 ### *ReturnDataType* FunctionName(ParameterDataType)
 
 # A
