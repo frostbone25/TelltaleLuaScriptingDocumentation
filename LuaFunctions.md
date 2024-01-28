@@ -1752,6 +1752,134 @@
 
 # G
 
+### *void* GameLogicSet(*PropertySet*)
 
+### *void* GameLogicSetAgent(*AgentObject*)
+
+### *PropertySet* GameLogicGet()
+
+### *void* GameLogicClear()
+
+### *void* GameLogicSetChangedCallback(*string*)
+
+### *string* GetTelltaleApplicationID()
+
+### *boolean* GetEpisodePrice()
+
+### *boolean* GetEpisodePriceString()
+
+### *string* GetProjectName()
+
+### *PropertySet* GetPreferences()
+
+### *number* GetHeapSizeMB()
+
+### *number* GetHeapAllocated()
+
+### *number* GetVramAllocated()
+
+### *number* GetVramSize()
+
+### *number* GetTimeScale()
+
+<!-- ### GarbageCollect() -->
+
+### *string* GetInstallPath(*string*)
+
+### *string* GameGetName()
+
+### *void* GameSetName(*string*)
+
+### *boolean* GameSetPermitsManualSaves()
+
+### *string* GetTextFileContents(*string*, *boolean*)
+
+### *number* GetFrameNumber()
+
+### *number* GetFrameTime()
+
+### *number* GetAverageFrameTime()
+
+### *number* GetThresholdFrameTimeFailCount()
+
+### *number* GetTotalTime()
+
+### *void* GameMode()
+
+### *string* GetUserSystemLanguage()
+
+### *boolean* GetNeedResetEngine()
+
+### *number* GetResetCode()
+
+### *boolean* GetResetUserBit(*number*)
+
+### *boolean* GetSubProjectExists(*string*)
+
+### *string* GetDateTimeWii()
+
+### *Vector3* GetViewportDimensions()
+
+### *Vector3* GetDeviceDimensions()
+
+### *Vector3* GetDevicePhysicalSize()
+
+### *string* GetExecutable()
+
+### *string* GearboxHashString(*string*)
+
+### *string* GetSynchFSLocation()
+
+### *boolean* GameComm_Send()
+
+### *void* GameEngine_AddBuildVersionInfo(*string*)
+
+### *string[]* GameEngine_GetBuildVersionInfo()
+
+<!-- ### GameAnalytics_SendEventImmediately() -->
+
+<!-- ### GetPasswordBoxResults() -->
+
+### *string* GetGenericTextBoxResults()
+
+### *nil* GetSaveGameImage()
+
+### *boolean* GetFreewalkEnabled()
+
+### *AgentObject[]* GetAgents()
+
+<!-- ### GetLastEventLogEvent() -->
+
+### *string* GetSessionEventLogName(*string*)
+
+### *number* GetNumExecutingThreads()
+
+### *ScriptThread* GetCurrentThread()
+
+### *string* GetConnectionStatus()
+
+### *string* GetCurrentUserXUID()
+
+### *boolean* GetPrefsLoaded()
+
+### *boolean* GameRelaunched()
+
+### *nil* GetStats()
+
+### *nil* GetStatsMeta()
+
+<!-- ### GetAchievements() -->
+
+### *nil* GetProfile()
+
+### *nil* GetFriends()
+
+### *string* GetDemoMode()
+
+### *number* GetDemoTimeout()
+
+### *number* GetVoiceLength()
+
+### *string* GetFMODVersion()
 
 More to be added...
