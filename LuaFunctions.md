@@ -1882,4 +1882,36 @@
 
 ### *string* GetFMODVersion()
 
+# H
+
+### *string* HttpGetLastError()
+
+<!-- ### HttpGetAsync() -->
+
+<!-- ### HttpPostAsync() -->
+
+<!-- ### HttpDeleteAsync() -->
+
+<!-- ### HttpGetAndWait() -->
+
+<!-- ### HttpPostAndWait() -->
+
+<!-- ### HttpDeleteAndWait() -->
+
+<!-- ### HttpParseJson() -->
+
+<!-- ### HttpToJson() -->
+
+<!-- ### HttpSignedGetAsync() -->
+
+<!-- ### HttpSignedPostAsync() -->
+
+<!-- ### HttpSignedGetAndWait() -->
+
+<!-- ### HttpSignedPostAndWait() -->
+
+### *string* Hex64ToDec(*string*)
+
+# I
+
 More to be added...
