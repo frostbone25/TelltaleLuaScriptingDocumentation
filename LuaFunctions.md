@@ -582,7 +582,7 @@
 ### *boolean* AnimationClear(*Animation*)
 - Returns a boolean
 
-<!-- ### AnimationAddLuaEntry() -->
+### AnimationAddLuaEntry()
 
 ### *void* AdvanceActiveSubtitles()
 - No returned value
@@ -1138,13 +1138,13 @@
 - *Chore*: 1st Parameter
 - Returns a boolean
 
-<!-- ### ChoreGetBaseChore() -->
+### ChoreGetBaseChore()
 
-<!-- ### ChoreGetMasterCut() -->
+### ChoreGetMasterCut()
 
-<!-- ### ChoreGetCut() -->
+### ChoreGetCut()
 
-<!-- ### ChoreGoToPauseAndKill() -->
+### ChoreGoToPauseAndKill()
 
 ### *void* ChoreRegenerateStyleIdleTransition(*string*)
 - *string*: 1st Parameter
@@ -1169,11 +1169,11 @@
 ### *void* ContainerClear(*ContainerInterface*)
 - No returned value
 
-<!-- ### ContainerInsertElement() -->
+### ContainerInsertElement()
 
-<!-- ### ContainerRemoveElement() -->
+### ContainerRemoveElement()
 
-<!-- ### ContainerSetElement() -->
+### ContainerSetElement()
 
 ### *void* CursorEnableMultiple(*boolean*, *number*)
 - *boolean*: 1st Parameter
@@ -1189,7 +1189,7 @@
 - *number*: 1st Parameter ***(optional)***
 - No returned value
 
-<!-- ### CursorConfine() -->
+### CursorConfine()
 
 ### *Vector3* CursorGetPos(*number*)
 - *number*: 1st Parameter ***(optional)***
@@ -1279,7 +1279,7 @@
 - *boolean*: 3rd Parameter ***(optional)***
 - No returned value
 
-<!-- ### CreateSessionEventLog() -->
+### CreateSessionEventLog()
 
 # C
 
@@ -1287,7 +1287,7 @@
 - *string*: 1st Parameter
 - Returns a string
 
-<!-- ### DownloadDocumentsFromServer() -->
+### DownloadDocumentsFromServer()
 
 ### *void* DisableEpisode()
 - No returned value
@@ -1424,7 +1424,7 @@
 
 ### *void* DialogSanityCheck()
 
-<!-- ### DialogSetChoreAgentRemap() -->
+### DialogSetChoreAgentRemap()
 
 ### *void* DialogSetBCItemExecuteBehavior()
 
@@ -1444,7 +1444,7 @@
 
 ### *SceneObject* DialogExchangeGetChore(*DialogResource*, *number*)
 
-<!-- ### DialogGetMissingChores() -->
+### DialogGetMissingChores()
 
 ### *void* DialogSetBranchBackgroundChore(*DialogResource*, *string*, *string*)
 
@@ -1498,7 +1498,7 @@
 
 ### *void* DlgGetUserTable(*number*)
 
-<!-- ### DlgGetChoices() -->
+### DlgGetChoices()
 
 ### *void* DlgSelectChoice(*number*, *number*)
 
@@ -1524,13 +1524,13 @@
 
 ### *boolean* DlgObjectLeadsToUnplayedNode(*string*, *Dlg*, *DlgObjID*, *number*)
 
-<!-- ### DlgEvaluateToNode() -->
+### DlgEvaluateToNode()
 
-<!-- ### DlgEvaluateToNodeMultiType() -->
+### DlgEvaluateToNodeMultiType()
 
-<!-- ### DlgEvaluateGetNextChore() -->
+### DlgEvaluateGetNextChore()
 
-<!-- ### DlgCollectNodesOfType() -->
+### DlgCollectNodesOfType()
 
 ### *nil* DlgCollectAllNodesInChain()
 
@@ -1542,13 +1542,13 @@
 
 ### *boolean* DlgIsObjVisible(*Dlg*, *DlgObjID*)
 
-<!-- ### DlgGetObjUserPropsValue() -->
+### DlgGetObjUserPropsValue() 
 
 ### *boolean* DlgSetObjUserPropsValue()
 
 ### *boolean* DlgUserPropIsLocal(*Dlg*, *DlgObjID*, *Symbol*)
 
-<!-- ### DlgObjectPropsGetUserProps() -->
+### DlgObjectPropsGetUserProps() 
 
 ### *nil* DlgObjectPropsGetToolProps(*number*, *number*, *boolean*)
 
@@ -1560,19 +1560,19 @@
 
 ### *string* DlgExchangeGetChore(*Dlg*, *DlgObjID*)
 
-<!-- ### DlgGetExchangeNodeText() -->
+### DlgGetExchangeNodeText() 
 
-<!-- ### DlgGetExchangeNodeTextIDs() -->
+### DlgGetExchangeNodeTextIDs() 
 
-<!-- ### DlgGetExchangeNodeSpeakers() -->
+### DlgGetExchangeNodeSpeakers() 
 
-<!-- ### DlgGetExchangeNodeSpeakerNames() -->
+### DlgGetExchangeNodeSpeakerNames() 
 
-<!-- ### DlgSetExchangeChoreAgentRemap() -->
+### DlgSetExchangeChoreAgentRemap() 
 
 ### *void* DlgClearExchangeChoreAgentRemap()
 
-<!-- ### DlgChoicesGetDisplayProps() -->
+### DlgChoicesGetDisplayProps() 
 
 ### *string* DlgGetJumpBehavior(*Dlg*, *DlgObjID*)
 
@@ -1586,7 +1586,7 @@
 
 ### *boolean* DlgSetChore(*Dlg*, *DlgObjID*, *string*)
 
-<!-- ### DlgGetVisibilityConditions() -->
+### DlgGetVisibilityConditions() 
 
 ### *boolean* DlgSetBoolRuleCondition(*Dlg*, *DlgObjID*, *string*, *string*, *boolean*)
 
@@ -1606,7 +1606,7 @@
 
 ### *boolean* DlgSetTimeCondition(*Dlg*, *DlgObjID*, *number*)
 
-<!-- ### DlgGetSequenceNodeData() -->
+### DlgGetSequenceNodeData() 
 
 ### *boolean* DlgSetSequenceNodeData(*Dlg*, *DlgObjID*, *string*, *string*)
 
@@ -1626,7 +1626,7 @@
 
 ### *nil* DlgTextNodeSetText(*Dlg*, *DlgObjID*, *string*)
 
-<!-- ### DlgFindAliases() -->
+### DlgFindAliases() 
 
 ### *nil* DlgGetActorAgentNames()
 
@@ -1650,7 +1650,7 @@
 
 ### *void* EnableWalkAnimator1(*boolean*)
 
-<!-- ### AnimationAddLuaEntry() -->
+### AnimationAddLuaEntry() 
 
 ### *number* EffectGetPendingCount()
 
@@ -1682,15 +1682,15 @@
 
 ### *void* EventLogRemove(*string*)
 
-<!-- ### EventLogAddTags() -->
+### EventLogAddTags() 
 
-<!-- ### EventLogCreate() -->
+### EventLogCreate() 
 
 ### *void* EventLogBeginEvent()
 
 ### *void* EventLogEndEvent()
 
-<!-- ### EventLogAddData() -->
+### EventLogAddData() 
 
 ### *boolean* EventLogIsPaused(*string*)
 
@@ -1746,9 +1746,9 @@
 
 ### *void* FacebookSetPermissions(*string*)
 
-<!-- ### FacebookRequestAccessToken() -->
+### FacebookRequestAccessToken() 
 
-<!-- ### FacebookGetAccessToken() -->
+### FacebookGetAccessToken() 
 
 # G
 
@@ -1782,7 +1782,7 @@
 
 ### *number* GetTimeScale()
 
-<!-- ### GarbageCollect() -->
+### GarbageCollect() 
 
 ### *string* GetInstallPath(*string*)
 
@@ -1836,9 +1836,9 @@
 
 ### *string[]* GameEngine_GetBuildVersionInfo()
 
-<!-- ### GameAnalytics_SendEventImmediately() -->
+### GameAnalytics_SendEventImmediately() 
 
-<!-- ### GetPasswordBoxResults() -->
+### GetPasswordBoxResults() 
 
 ### *string* GetGenericTextBoxResults()
 
@@ -1848,7 +1848,7 @@
 
 ### *AgentObject[]* GetAgents()
 
-<!-- ### GetLastEventLogEvent() -->
+### GetLastEventLogEvent() 
 
 ### *string* GetSessionEventLogName(*string*)
 
@@ -1868,7 +1868,7 @@
 
 ### *nil* GetStatsMeta()
 
-<!-- ### GetAchievements() -->
+### GetAchievements() 
 
 ### *nil* GetProfile()
 
@@ -1886,32 +1886,1926 @@
 
 ### *string* HttpGetLastError()
 
-<!-- ### HttpGetAsync() -->
+### HttpGetAsync() 
 
-<!-- ### HttpPostAsync() -->
+### HttpPostAsync() 
 
-<!-- ### HttpDeleteAsync() -->
+### HttpDeleteAsync() 
 
-<!-- ### HttpGetAndWait() -->
+### HttpGetAndWait() 
 
-<!-- ### HttpPostAndWait() -->
+### HttpPostAndWait() 
 
-<!-- ### HttpDeleteAndWait() -->
+### HttpDeleteAndWait() 
 
-<!-- ### HttpParseJson() -->
+### HttpParseJson() 
 
-<!-- ### HttpToJson() -->
+### HttpToJson() 
 
-<!-- ### HttpSignedGetAsync() -->
+### HttpSignedGetAsync() 
 
-<!-- ### HttpSignedPostAsync() -->
+### HttpSignedPostAsync() 
 
-<!-- ### HttpSignedGetAndWait() -->
+### HttpSignedGetAndWait() 
 
-<!-- ### HttpSignedPostAndWait() -->
+### HttpSignedPostAndWait() 
 
 ### *string* Hex64ToDec(*string*)
 
 # I
 
-More to be added...
+### IdleGetSlotDefaults() 
+
+### IdleSetSlotDefaultsBasePriority() 
+
+### IdleSetSlotDefaultsFriendlyName() 
+
+### IdleSetSlotDefaultsTransitionStyle() 
+
+### IdleSetSlotDefaultsTransitionTime() 
+
+### *boolean* IsStoreEmpty()
+
+### *boolean* IsEpisodeAvailable()
+
+### *boolean* IsEpisodePurchased()
+
+### *boolean* IsEpisodeDownloaded()
+
+### *boolean* IsEpisodeUnlicensed()
+
+### *boolean* IsEpisodeStub()
+
+### *boolean* InstallEpisode()
+
+### *boolean* IsEpisodesUpdateAvailable()
+
+### *string* InputGetInputCodeName(*number*)
+
+### *boolean* IsJoystickXbox()
+
+### *boolean* InputMapperIsActive(*InputMapper*)
+
+### *string[]* InputMapperGetActiveMapperNames()
+
+### *void* InputMapperActivate(*InputMapper*, *boolean*)
+
+### *boolean* InputMapperKeyPressed(*number*)
+
+### InputMapperKeyValue() 
+
+### *void* InputMapperDeactivate(*InputMapper*)
+
+### *void* InputMapperDeactivateAll()
+
+### InputMapperAddHandler() 
+
+### InputMapperRemoveHandler() 
+
+### *void* InputMapperClear(*InputMapper*)
+
+### InputMapperAddEvent() 
+
+### InputMapperDeleteEvent() 
+
+### InputMapperSetInput() 
+
+### InputMapperSetInput()
+
+### InputMapperSetEvent()
+
+### InputMapperSetEventType()
+
+### InputPlatformSupportsEvent()
+
+### InputMapperSetCallback()
+
+### InputMapperSetControllerOverride()
+
+### InputMapperGetNumEvents()
+
+### InputMapperGetEventMapping()
+
+### InputMapperGetAllEvents()
+
+### InputMapperGetCallback()
+
+### InputMapperGetControllerOverride()
+
+### InputMapperGetEventType()
+
+### InputMapperGetInput()
+
+### InputMapperQueueEvent()
+
+### InputPCIsVKeyPressed()
+
+### InputPCMouseButtonsAreSwapped()
+
+### InputEnableNunchuk()
+
+### InputSetVibration()
+
+### InputGetVibrationNumAxes()
+
+### InputSetVibrationEx()
+
+### InputHasJoystick()
+
+### InputSupportsJoystick()
+
+### InputHasKeyboard()
+
+### InputSupportsKeyboard()
+
+### InputHasTouch()
+
+### InputSetTouchEnabled()
+
+### InputSupportsTouch()
+
+### InputHasMouse()
+
+### InputSupportsMouse()
+
+### InputSwapsConfirmCancelButtons()
+
+### InputGetKeyboardLayout()
+
+### InstallGetPath()
+
+### InstallGetLanguage()
+
+### InstallGetManual()
+
+### InstallGetReadme()
+
+### InstallGetRegistration()
+
+### InstallGetUninstaller()
+
+### IsSafeMode()
+
+### IsToolBuild()
+
+### IsToolBuildRaw()
+
+### IsRunningFromCommandLine()
+
+### IsEnginePC()
+
+### IsEngineWin10()
+
+### IsEngineWii()
+
+### IsEngineXbox360()
+
+### IsEngineXBOne()
+
+### IsEnginePS3()
+
+### IsEngineMac()
+
+### IsEngineLinux()
+
+### IsEngineIPhone()
+
+### IsEngineAndroid()
+
+### IsEngineAndroidTV()
+
+### IsEngineVita()
+
+### IsEnginePS4()
+
+### IsEngineWiiU()
+
+### IsEngineNX()
+
+### IsShipping()
+
+### IsRunningFromMaya()
+
+### IsRunningSteam()
+
+### IsRunningGog()
+
+### IsRunningRail()
+
+### IsFullScreen()
+
+### IsRegistered()
+
+### IsEditorMode()
+
+### IsScriptObject()
+
+### IsChromeOS()
+
+### IsPasswordBoxSupported()
+
+### IsPasswordBoxFinished()
+
+### IsGenericTextBoxFinished()
+
+### IsRunningFromPack()
+
+### IOSGetCountryCode()
+
+### IOSGetLocalizedPrice()
+
+### IOSStoreRequestProductData()
+
+### IOSStoreGetPendingUserIAPRequest()
+
+### IOSStoreCanMakePayments()
+
+### IOSStoreSetPaymentQueueCallback()
+
+### IOSStorePurchase()
+
+### IOSStoreVerifyReceipt()
+
+### IOSStoreRestoreTransactions()
+
+### IOSStoreGetPurchasedProductQuantity()
+
+### IOSConsumePurchasedProduct()
+
+### IsSaving()
+
+### IsAgentAtLogicalScreenPos()
+
+### IsStorageSelected()
+
+### IsUserSignedIn()
+
+### IsUserOnline()
+
+### IsSaveGameCorrupt()
+
+### IsSystemUIShowing()
+
+### InputEnableJoystick()
+
+### InputIsJoystickEnabled()
+
+### InputSetJoystickDeadzone()
+
+### InputSetCursorLimits()
+
+# J
+
+# K
+
+### KevFunc()
+
+### KevFunc2()
+
+### KevFunc3()
+
+# L
+
+### LocalContentEnumerationReady()
+
+### LanguageSetDatabase()
+
+### LanguageGetDatabase()
+
+### LanguageGetCurLanguage()
+
+### LanguageDatabaseAdd()
+
+### LanguageGetResource()
+
+### LanguageGetRecordLipSyncIgnoreText()
+
+### LanguageGetTextFromID()
+
+### LanguageGetTextFromFile()
+
+### LanguageGetPrefixFromFile()
+
+### LanguageGetIDFromFile()
+
+### LanguageSetAnimationFile()
+
+### LangAdvanceCurrentLine()
+
+### LangGetCurLanguage()
+
+### LangSetCurLanguage()
+
+### LangGetPrefixFromID()
+
+### LangGetTextFromID()
+
+### LocalizationGetAllInstalledLanguages()
+
+### LocalizationGetDisplayText()
+
+### LocalizationGetLanguageStringName()
+
+### LocalizationGetSyncFSLocation()
+
+### LocalizationGetAudioSyncFSLocation()
+
+### LocalizationGetAudioSyncFSLocations()
+
+### LocalizationGetAudioResourceSetName()
+
+### LocalizationIsBidirectional()
+
+### LocalizationSetInstalled()
+
+### LocalizationGetFlags()
+
+### LocalizationGetTextVersionNumber()
+
+### LocalizationGetAudioVersionNumber()
+
+### LocalizationGetScriptedProperties()
+
+### LocalizationGetSubgroupResourceSetName()
+
+### LocalizationUpdateLanguages()
+
+### LocalizationGetDownloadableLanguages()
+
+### LocalizationGetAll()
+
+### LocalizationGetEnabled()
+
+### LocalizationSetEnabled()
+
+### LocalizationClearAll()
+
+### LuaSetTrace()
+
+### LuaNotTrace()
+
+### LoadScript()
+
+### LuaSTFU()
+
+### Load()
+
+### LoadAsync()
+
+### LoadAsyncAndWait()
+
+### LoadWithEncryptionKey()
+
+### LoadFromJSONAndSaveAsResource()
+
+### LoadGame()
+
+### LightAddGroup()
+
+### LightRemoveGroup()
+
+# M
+
+### MountEpisode()
+
+### MountAllEpisodes()
+
+### MailInit()
+
+### MailBeginSession()
+
+### MailEndSession()
+
+### MailGetAllContactIDs()
+
+### MailGetContactName()
+
+### MailGetContactProps()
+
+### MailGetContactAddressType()
+
+### MailCreateEmail()
+
+### MailSetEmailSubject()
+
+### MailSetEmailText()
+
+### MailAddEmailRecipient()
+
+### MailAddEmailFileAttachment()
+
+### MailCanBeSent()
+
+### MailSendAllEmails()
+
+### MailCheckMailboxEmail()
+
+### MailGetNumMailboxEmails()
+
+### MailGetMailboxEmailIDs()
+
+### MailGetMailboxEmailSubject()
+
+### MailGetMailboxEmailText()
+
+### MailGetMailboxEmailNumAttachments()
+
+### MailSaveMailboxEmailAttachmentAs()
+
+### MailDeleteMailboxEmail()
+
+### MaterialGetCrcs()
+
+### MathRayAgentIntersect()
+
+### MathRaySceneIntersect()
+
+### MathPointLineDistance()
+
+### MathRayPlaneIntersect()
+
+### MathDoRayAndPlaneIntersect()
+
+### MathRotateAroundAxis()
+
+### MathGetEulars()
+
+### MeshGetVertCount()
+
+### MeshGetAlphaMode()
+
+### MeshSetAlphaMode()
+
+### MeshSetDiffuseTexture()
+
+### MeshGetDiffuseTexture()
+
+### MeshSetGlobalLODScale()
+
+### MeshGetGlobalLODScale()
+
+### MeshGetMaterials()
+
+### MetaDescribedObjectGetMember()
+
+### MetaDescribedObjectSetMember()
+
+### MouseClick()
+
+### MemoryReclaimHeap()
+
+### MemoryReclaimVram()
+
+### MemorySetIncrementalParams()
+
+### MemorySetReclaimParams()
+
+### ModelToAgents()
+
+### MovieGetStatus()
+
+### MovieGetTime()
+
+### MovieSetTime()
+
+### MovieGetDuration()
+
+# N
+
+### NoteAddCategory()
+
+### NetworkAPILoadCredentials()
+
+### NetworkAPIAddCredential()
+
+### NetworkAPIUpdateCredential()
+
+### NetworkAPIUploadCredentials()
+
+### NetworkAPIWriteCredentials()
+
+### NetworkAPIGetCredentialList()
+
+### NetworkAPIGetCredential()
+
+### NetworkAPIClearCredential()
+
+### NetworkAPISetCustomerCohort()
+
+### NetworkAPIGetTTGAccountURLToken()
+
+### NetworkAPIPerformServicesGetRequest()
+
+### NetworkAPICloudSyncUserData()
+
+### NetworkAPICloudSyncProcessLocation()
+
+### NetworkAPICloudSyncResolveLocationConflict()
+
+### NetworkAPICloudGetPatchPath()
+
+### NetworkAPICloudCancelAll()
+
+### NetworkAPICloudCheckLocalSize()
+
+### NetworkCloudErase()
+
+### NetworkAPICloudSyncContent()
+
+### NetworkAPICloudMountContent()
+
+### NetworkAPICloudMountAllContent()
+
+### NetworkResourceUploadJSON()
+
+### NewGame()
+
+# O
+
+### OffersEnumerationReady()
+
+### OverlayBump()
+
+### OverlayBumpOnHitch()
+
+### OverlayShow()
+
+### OverlayShowLoadingScreen()
+
+### OverlayIsLoadingScreenShowing()
+
+### OverlayIsShowing()
+
+### OverlaySetText()
+
+### OutlinerAddAgentScriptCommand()
+
+### OutlinerAddSceneScriptCommand()
+
+# P
+
+### PlatformGetPurchaseProvider()
+
+### PhonemeTableAddAnimation()
+
+### Print()
+
+### PerfReset()
+
+### PerfElapsed()
+
+### PerfElapsedAndReset()
+
+### PointerEnable()
+
+### ProjectSetID()
+
+### PathAgentTo()
+
+### PathAgentToAndWait()
+
+### PathAgentWait()
+
+### PathAgentFacePos()
+
+### PathAgentFaceAgent()
+
+### PathAgentMatchAgent()
+
+### PathAgentFaceCamera()
+
+### PathAgentIsPathing()
+
+### PathAgentStop()
+
+### PathAgentGetSpeedScale()
+
+### PathAgentSetSpeedScale()
+
+### PathAgentGetUsePosition()
+
+### PathAgentSetMaxPathLength()
+
+### PathAgentGetWalkBoxes()
+
+### PathAgentDoesPathReachDestination()
+
+### PathAgentIsBlocked()
+
+### PathAgentGetPathDistanceRemaining()
+
+### PathAgentSamplePath()
+
+### PhysicsSetDoneMovingCallback()
+
+### PhysicsMoveAgentToByTime()
+
+### PhysicsMoveAgentToBySpeed()
+
+### PhysicsMoveAgentThroughByTime()
+
+### PhysicsMoveAgentThroughBySpeed()
+
+### PhysicsMoveAgent()
+
+### PhysicsStopMovingAgent()
+
+### PhysicsStopAllMovingAgents()
+
+### PhysicsGetMovingAgentPos()
+
+### PhysicsRegisterCollision()
+
+### PhysicsEnableCollision()
+
+### PlatformGlobalData_Set()
+
+### PlatformResetStatsAndAchievements()
+
+### PlatformGlobalData_Get()
+
+### PlatformSetUserContext()
+
+### PlatformUnlockAchievement()
+
+### PlatformPlayerSessionStart()
+
+### PlatformPlayerSessionEnd()
+
+### PlatformPlayerSessionPause()
+
+### PlatformPlayerSessionResume()
+
+### PlatformReportProgress()
+
+### PlatformReportEpisodesCompleted()
+
+### PlatformReportIncrementChoiceMade()
+
+### PlatformReportIncrementTimesDied()
+
+### PlatformGetStat()
+
+### PlatformSetStat()
+
+### PlatformGetAchievements()
+
+### PlatformOpenAccountPickerUI()
+
+### PlatformOpenHelpUI()
+
+### PlatformOpenAchievementUI()
+
+### PlatformOpenAchivementUI()
+
+### PlatformOpenStore()
+
+### PlatformRequestSignIn()
+
+### PlatformIsUserSpaceAvailable()
+
+### PlatformGetTrialTimeout()
+
+### PlatformOpenURL()
+
+### PlatformIsAgeRestricted()
+
+### PlatformIsConnectedToLicenseServer()
+
+### PlatformIsUserSignedIn()
+
+### PlatformCanUserMakePurchases()
+
+### PlatformIsRegistered()
+
+### PlatformIsConnectedToInternet()
+
+### PlatformIsTitleUpdateRequired()
+
+### PlatformIsSystemUpdateRequired()
+
+### PlatformGetMachineID()
+
+### PlatformGetRegion()
+
+### PlatformGetUserID()
+
+### PlatformGetUserName()
+
+### PlatformGetOsString()
+
+### PlatformGetDeviceType()
+
+### PlatformGetDeviceModel()
+
+### PlatformGetDeviceName()
+
+### PlatformUpdateActivityIndicator()
+
+### PlatformShowActivityIndicator()
+
+### PlatformHideActivityIndicator()
+
+### PlatformEnableExternalScreenCutoff()
+
+### PlatformSetExternalScreenCutoff()
+
+### PlatformRegisterNotification()
+
+### PlatformShowKeyboard()
+
+### PlatformHideKeyboard()
+
+### PlatformCanOpenURL()
+
+### PlatformGetLaunchURL()
+
+### PlatformRatingSetStrings()
+
+### PlatformRatingSetParameters()
+
+### PlatformRatingEventNotify()
+
+### PlatformUpdateNotification()
+
+### PlatformGetStatsByRank()
+
+### PlatformGetStatsByXUID()
+
+### PlatformGetStatsByXUIDList()
+
+### PlatformUpdateStats()
+
+### PlatformFlushStats()
+
+### PlatformGetFriends()
+
+### PlatformGetTextureFormat()
+
+### PlatformMountExternalUserSpace()
+
+### PlatformRequestExternalUserResource()
+
+### PlatformGetFreeDiskSpace()
+
+### PlatformIsDiscBootGame()
+
+### PlatformGetGPUQuality()
+
+### PlatformGetGPUMemory()
+
+### PlatformGetGPUMemoryQuality()
+
+### PlatformGetGPUDescription()
+
+### PlatformGetGPUDeviceID()
+
+### PlatformGetIOSDeviceType()
+
+### PlatformXBOneEnableKinect()
+
+### PlatformSonyShowStoreIcon()
+
+### PlatformGetShowNetworkDisconnectMessage()
+
+### PlatformSetShowNetworkDisconnectMessage()
+
+### PlatformStartVideoRecording()
+
+### PlatformVideoRecordingReady()
+
+### PlatformHasGooglePlayGames()
+
+### PlatformSupportsHLSVideo()
+
+### PlatformIsDocked()
+
+### PlatformSetDockedStateCallback()
+
+### PlatformGetBuildVersion()
+
+### PlatformLaunchProcess()
+
+### PlatformChunkPrioritize()
+
+### PlatformChunkCheckProgress()
+
+### PlatformChunkCheckETA()
+
+### PlatformChunkSetSpeed()
+
+### PlatformChunkGetNumber()
+
+### ProfilerToggleDisplay()
+
+### ProfilerTogglePause()
+
+### PropertyGetKeys()
+
+### PropertyDontSaveInSaveGames()
+
+### PropertyCreate()
+
+### PropertyClearKeys()
+
+### PropertyClearGlobals()
+
+### PropertyRemove()
+
+### PropertyExists()
+
+### PropertyGet()
+
+### PropertyGetKeyType()
+
+### PropertyGetKeyPropertySet()
+
+### PropertySetIsRuntime()
+
+### PropertyGetValuePropertySet()
+
+### PropertySet()
+
+### PropertyNumKeys()
+
+### PropertyKeys()
+
+### PropertyAddGlobal()
+
+### PropertyMoveGlobalToFront()
+
+### PropertyHasGlobal()
+
+### PropertyGetGlobals()
+
+### PropertyRemoveGlobal()
+
+### PropertyIsLocal()
+
+### PropertyMakeLocal()
+
+### PropertyImportKeyValues()
+
+### PropertyImportLocalKeyValues()
+
+### PropertyAddKeyCallback()
+
+### PropertyHasKeyCallback()
+
+### PropertyRemoveKeyCallback()
+
+### PropertyClearKeyCallbacks()
+
+### PropertyAddMultiKeyCallback()
+
+### PropertyRemoveMultiKeyCallback()
+
+### PropertySetModified()
+
+### PropertyIsContainer()
+
+### PreLoad()
+
+### PreloadAsync()
+
+### PlayAnimationAndWait()
+
+### PlayAnimation()
+
+### PlayAnimationLooping()
+
+### PlayAnimationMirrored()
+
+### ProcessLogsForUpload()
+
+### Photo_IsSlotUsed()
+
+### Photo_CapturePhoto()
+
+### Photo_IsPhotoReady()
+
+### Photo_SavePhotos()
+
+### Photo_LoadPhotos()
+
+### Photo_GetPhotoTexture()
+
+### ParticleEmitterGetCount()
+
+### ParticleEmitterGetAndResetSpawnCounter()
+
+# Q
+
+### Quaternion()
+
+### QuaternionGetEuler()
+
+### QuaternionGetForward()
+
+### QuaternionSlerp()
+
+### QuaternionComposite()
+
+### QueryEventLog()
+
+# R
+
+### ResetSourceSafe()
+
+### RandomSeed()
+
+### RandomInt()
+
+### RandomFloat()
+
+### RegistryKeyExists()
+
+### RegistryGetValue()
+
+### RegistrySetValue()
+
+### ResetThresholdFrameTimeFail()
+
+### ResetEngine()
+
+### ResetSystemHardware()
+
+### RegionGetGeo()
+
+### RegionGetLocale()
+
+### RegisterShutdownCallback()
+
+### RegisterSuspendCallback()
+
+### ReclaimOld()
+
+### Render()
+
+### RenderReset()
+
+### RenderSetMultithreadEnable()
+
+### RenderSetRebootTexture()
+
+### RenderFullscreenTexture()
+
+### RenderEnable()
+
+### RenderDelay()
+
+### RenderIsRendering()
+
+### RenderLightmaps()
+
+### RenderEnlightenTexture()
+
+### RenderEnlighten()
+
+### RenderPassDisable()
+
+### RenderGetHDREnabled()
+
+### RenderGetAntiAliasingEnabled()
+
+### RenderGetAntiAliasingType()
+
+### RenderGetQualityLevel()
+
+### RenderSetQualityLevel()
+
+### RenderSetScreenSize()
+
+### RenderGetDisplayResolutions()
+
+### RenderGetQualityLevels()
+
+### RenderGetCurQualityLevel()
+
+### RenderUseLightsRadiusForDistances()
+
+### RenderSetCurQualityLevel()
+
+### RenderGetQualityForPlatform()
+
+### RenderSetQualityForPlatform()
+
+### RenderGetDebugRenderEnabled()
+
+### RenderGetDebugRenderModes()
+
+### RenderGetDebugRenderMode()
+
+### RenderSetDebugMode()
+
+### RenderGetFeatures()
+
+### RenderToggleFeature()
+
+### RenderSetFeatureEnabled()
+
+### RenderGetFeatureEnabled()
+
+### RenderGetFeatureSupported()
+
+### RenderSetShadowQuality()
+
+### RenderSetScale()
+
+### RenderSetScaleForResolution()
+
+### RenderGetScale()
+
+### RenderGetScaledVerticalResolution()
+
+### RenderSetVisibilityThreshold()
+
+### RenderSetShadowVisibilityThreshold()
+
+### RenderSetLightVisibilityThreshold()
+
+### RenderSetDecalVisibleDistance()
+
+### RenderGetVisibilityThreshold()
+
+### RenderGetShadowVisibilityThreshold()
+
+### RenderGetLightVisibilityThreshold()
+
+### RenderGetDecalVisibleDistance()
+
+### RenderSetHDRColorBufferScale()
+
+### RenderSetHDRSurfaceFormat()
+
+### RenderSetIphoneEmulation()
+
+### ResetShaderEmulation()
+
+### RenderSetAgentSelectableAE()
+
+### RenderSetSelectDimAmountAE()
+
+### RenderForce_16_by_9_AspectRatio()
+
+### RenderGetScreenResolution()
+
+### RenderGetDeviceResolution()
+
+### RenderGetAspectRatio()
+
+### RenderSetAspectRatio()
+
+### RenderSetFXToonRenderingQuality()
+
+### RenderSetFXShadowsRenderingQuality()
+
+### RenderAfterEffectsOnOff()
+
+### RenderSetGamma()
+
+### RenderGetGamma()
+
+### RenderGetMidLevelIntensity()
+
+### RenderSetIntensity()
+
+### RenderGetIntensity()
+
+### RenderPreloadShader()
+
+### RenderTargetDebugDump()
+
+### RenderSetTextureQuality()
+
+### RenderSetEffectPreloadRecordingEnabled()
+
+### RenderSetEffectPreloadAutoRecordingEnabled()
+
+### RenderBeginEffectPreloadRecording()
+
+### RenderEffectPreloadRecordScene()
+
+### RenderEndEffectPreloadRecording()
+
+### RenderEffectPreloadPackage()
+
+### ResourceExists()
+
+### ResourceIsLoaded()
+
+### ResourceSetNonPurgable()
+
+### Revert()
+
+### ResourceCopy()
+
+### ResourceDelete()
+
+### ResourceReportReferencedAssets()
+
+### ResourceSetLoadingCall()
+
+### ResourceGetLoadingCall()
+
+### ResourceResolveAddressToConcreteLocationID()
+
+### ResourceAddressGetResourceName()
+
+### ResourceResolveURLToConcrete()
+
+### ResourceGetURLAsLocal()
+
+### ResourceGetURL()
+
+### ResourcePrintLocations()
+
+### ResourceGetName()
+
+### ResourceSaveManifest()
+
+### ResourceLoadManifest()
+
+### ResourceGetNames()
+
+### ResourceGetSymbols()
+
+### ResourceLocationGetNames()
+
+### ResourceLocationGetSymbols()
+
+### ResourceEnableLowQualityPreload()
+
+### ResourceGetLowQualityPreloadEnabled()
+
+### ResourceOpenUser()
+
+### ResourceAdvancePreloadBatch()
+
+### ResourceRetryFailedResDescs()
+
+### ResourceCreateConcreteDirectoryLocation()
+
+### ResourceCreateConcreteArchiveLocation()
+
+### ResourceAchiveFind()
+
+### ResourceArchiveIsActive()
+
+### ResourceArchiveWaitForCaching()
+
+### ResourceArchiveSetCacheMode()
+
+### ResourceCreateLogicalLocation()
+
+### ResourceExistsLogicalLocation()
+
+### ResourceLocationInjectIntoResourceSystem()
+
+### RegisterResourceDescriptionWithEngine()
+
+### ResourceInitializeLegacySubproject()
+
+### ResourceInitializeSubprojects()
+
+### ResourceInitializeWritebackCache()
+
+### ResourceSetCreate()
+
+### ResourceSetChangePriority()
+
+### ResourceSetMapLocation()
+
+### ResourceSetExists()
+
+### ResourceSetEnabled()
+
+### ResourceSetIsBootable()
+
+### ResourceSetIsDynamic()
+
+### ResourceSetIsSticky()
+
+### ResourceSetEnable()
+
+### ResourceSetDisable()
+
+### ResourceSetDestroy()
+
+### ResourceSetReconfigure()
+
+### ResourceSetResourceExists()
+
+### ResourceSetResourceGetURL()
+
+### ResourceSetResourceGetLocationID()
+
+### ResourceSetGetAll()
+
+### ResourceSetDefaultLocation()
+
+### RolloverResetStatus()
+
+### RolloverSetRolledOnCallback()
+
+### RolloverSetRolledOffCallback()
+
+### RolloverGetText()
+
+### RolloverEnableTextColor()
+
+### RolloverEnableTextBackgroundColor()
+
+### RolloverEnableRolloverMesh()
+
+### RulesSetActive()
+
+### RulesExecute()
+
+### RuleExecute()
+
+### RuleTestCondition()
+
+### RulePerformActions()
+
+### RulesEdit()
+
+### RulesAddAgentSelectionFilter()
+
+### RuleGetConditions()
+
+### RuleGetActions()
+
+### RuleGetElse()
+
+### ResetGame()
+
+### RegisterEventLogForUpload()
+
+### ReloadMasterAudioBus()
+
+# S
+
+### SerializeDownloadedObject()
+
+### SaveDownloadedDocumentAsPropertySet()
+
+### SetPurchaseCompletedCallback()
+
+### SetDownloadCompletedCallback()
+
+### StreamingInstall_UpdateResourceSets()
+
+### SetSourceSafeNoToAll()
+
+### SetTimeScale()
+
+### ScriptManagerGetCurrentScriptName()
+
+### ScriptManagerSetCurrentScriptName()
+
+### ScriptEnumSetValues()
+
+### SystemHUDSetBGTexture()
+
+### SuspendSystemExits()
+
+### SetResetUserBit()
+
+### SetSubProject()
+
+### ScreenBurnInProtectionEnable()
+
+### SystemInterruptionEnable()
+
+### SetSystemInterruptionDelayTime()
+
+### SetSystemInterruptionDelayTimeToDefault()
+
+### SymbolToString()
+
+### StringToSymbol()
+
+### SymbolToCRC()
+
+### SetDoPostUpdateScriptCall()
+
+### SendQueuedTaskNotifications()
+
+### ScreenToViewport()
+
+### SetBlockedAssetLogging()
+
+### SetOverlayVerbosity()
+
+### StartExternalPlatforms()
+
+### ShowPasswordBox()
+
+### ShowGenericTextBox()
+
+### ShowGamerCardUI()
+
+### ScreenShot()
+
+### Save()
+
+### SaveAsJSON()
+
+### SavePrefs()
+
+### SQLConnect()
+
+### SQLDisconnect()
+
+### SQLSetProjectName()
+
+### SQLSetLanguage()
+
+### SaveGame()
+
+### SetupSaveIndicatorFlipBook()
+
+### SetupSaveIndicatorSpinner()
+
+### SetSaveIndicatorColors()
+
+### SetupSaveIndicatorDisplay()
+
+### SaveGameToBundle()
+
+### SaveGameIncremental()
+
+### SaveLoadClearRuntimeProperties()
+
+### SaveLoadGetRuntimeProperties()
+
+### SaveLoadPreSave()
+
+### SaveLoadPostSave()
+
+### SetSaveFinishedCallback()
+
+### SaveLoadSetSaveDisplayName()
+
+### SaveLoadGetSystemWriteOpUnderwayMessage()
+
+### SaveLoadRemoveUserFiles()
+
+### SaveLoadHasAvailableSpace()
+
+### SaveLoadCreateBanner()
+
+### SceneOpen()
+
+### SceneAdd()
+
+### SceneAddWithOptions()
+
+### SceneCallOnAgentSetupCallbacks()
+
+### SceneSetAgentPriorities()
+
+### SceneGetAgentPriority()
+
+### SceneRemove()
+
+### SceneRemoveAsync()
+
+### SceneRemoveAll()
+
+### ScenePrepareToRender()
+
+### SceneCaptureAgentInfo()
+
+### SceneAddReference()
+
+### SceneAddAgent()
+
+### SceneSetAgentStartPosition()
+
+### SceneSetAgentStartQuaternion()
+
+### SceneDeleteAgent()
+
+### SceneSetWalkBoxes()
+
+### SceneHide()
+
+### SceneIsHidden()
+
+### SceneGetCamera()
+
+### SceneGetSceneCamera()
+
+### SceneGetReferencedScene()
+
+### SceneGetSceneAgent()
+
+### SceneFind()
+
+### SceneIsActive()
+
+### SceneIsActiveByName()
+
+### SceneGetAgentSceneProps()
+
+### SceneGetAgentScenePropNames()
+
+### SceneGetBottomScene()
+
+### SceneGetActiveSceneNames()
+
+### SceneSetRenderPriority()
+
+### SceneRestoreAllAgents()
+
+### SceneGetAgentNames()
+
+### SceneGetAgents()
+
+### SceneGetSelectableAgents()
+
+### SceneGetSelectableAgentsInCamera()
+
+### SceneAddOnCameraChangeCallback()
+
+### SceneRemoveOnCameraChangeCallback()
+
+### SceneSetSkipRenderResroucesDuringPreload()
+
+### SceneGetPreloadVram()
+
+### SceneGetPreloadVramCombo()
+
+### ScenePreload()
+
+### SceneGetAgentAttachAgent()
+
+### SceneSetAsyncAddSpeed()
+
+### SceneSetAsyncRemoveSpeed()
+
+### SceneIsAsyncLoading()
+
+### ShaderSetLightGroup()
+
+### ShaderSetMoveU()
+
+### ShaderSetMoveV()
+
+### ShaderSetScaleU()
+
+### ShaderSetScaleV()
+
+### ShaderSetRotate()
+
+### ShaderHideTexture()
+
+### ShaderSwapTexture()
+
+### ShaderOverrideTexture()
+
+### ShaderOverrideLightMapTextures()
+
+### ShaderOverrideLightMapTexturesInScene()
+
+### ShaderOverrideLightMapTexture()
+
+### ShaderSetAlphaBuffer()
+
+### ShaderGetAverageAlphaBuffer()
+
+### ShaderAdjustAlphaBuffer()
+
+### ShaderSetRenderScale()
+
+### ShaderSetToonOutlineColor()
+
+### ShaderOverrideAllToonOutlineColors()
+
+### ShaderRestoreAllToonOutlineColorsFromTable()
+
+### ShaderOverrideAllTextures()
+
+### ShaderRestoreAllTextures()
+
+### ShaderRestoreAllTexturesFromTable()
+
+### SetFreewalkEnabled()
+
+### StyleIdleUsePersistentBehavior()
+
+### StyleIdleSetPersistentBehavior()
+
+### StyleIdleSetManualControl()
+
+### StyleGuideSetMoodGroupIdle()
+
+### SceneGetCameraLayerStack()
+
+### ScreenPosToWorldDir()
+
+### SessionLogUploadSetEnabled()
+
+### SessionLogProcess()
+
+### SetEventLogUploadEnable()
+
+### StringPath()
+
+### StringFilename()
+
+### SymbolStringCompare()
+
+### SymbolCompare()
+
+### SubtitleSetBeginSequenceCallback()
+
+### SubtitleSetEndSequenceCallback()
+
+### SubtitleSetCreateCallback()
+
+### SubtitleSetDestroyCallback()
+
+### SubtitleGetPrefix()
+
+### SubtitleGetTextComments()
+
+### SubtitleGetLangResID()
+
+### SubtitleGetText()
+
+### SubtitleBindDisplayAgent()
+
+### SubtitleUnbindDisplayAgent()
+
+### SubtitleGetDlgInstanceID()
+
+### SubtitleAdvanceToEnd()
+
+### SubtitleGetContribution()
+
+### SubtitleGetController()
+
+### SubtitleGetLength()
+
+### SubtitleGetAgentName()
+
+### SyncFsLoad()
+
+### SyncFsCancel()
+
+### SyncFsSize()
+
+### SyncFsAsync()
+
+### SyncFsRefreshAsync()
+
+### SyncFsErase()
+
+### Sleep()
+
+### StartPlayingGame()
+
+### StopPlayingGame()
+
+### SetMessagesWhileLoading()
+
+### SetContentName()
+
+### SetContentSize()
+
+### StorageDeviceErrorOnRemoval()
+
+### ShowStorageDeviceSelectionUI()
+
+### ShowAchievementsUI()
+
+### ShowMarketplaceUI()
+
+### ShowSignInUI()
+
+### SetRichPresenceGameState()
+
+### SetNotifyPositionUI()
+
+### ShowSystemMessageUI()
+
+### SoundPlay()
+
+### SoundPlayNoReturn()
+
+### SoundPlayAndWait()
+
+### SoundSetPitch()
+
+### SoundStopWithCoda()
+
+### SoundUnload()
+
+### SoundGetRawTime()
+
+### SoundRawSetTime()
+
+### SoundRawAdjustTime()
+
+### SoundDebugDumpMessageQueueStatistics()
+
+### SoundLoadEventBank()
+
+### SoundUnloadEventBank()
+
+### SoundPlayEventByGuid()
+
+### SoundPlayEventByGuidAndWait()
+
+### SoundPlayEventByName()
+
+### SoundPlayEventByNameAndWait()
+
+### SoundStartMusicDriftForSceneChange()
+
+### SoundGetGuidFromProperty()
+
+### SoundSystemSetAudioThreadPauseThreshold()
+
+### SoundSystemCreateBuses()
+
+### SoundSystemActivateAdvancedFeatures()
+
+### SoundSystemPlayFireAndForgetEvent()
+
+### SoundSystemPlayFireAndForgetEventWithVolume()
+
+# T
+
+### ToolModeSet()
+
+### ToolModeGet()
+
+### TypeName()
+
+### ToolComm_Connect()
+
+### TestResolution()
+
+### Trace()
+
+### TrackT3Object()
+
+### TimedTextUseCreateChores()
+
+### TellNetConnect()
+
+### TellNetIsConnected()
+
+### TellNetDisconnect()
+
+### TellNetIsVoting()
+
+### TellNetGetWebClientList()
+
+### TellNetGetWebClientVotingResults()
+
+### TellNetPostBallot()
+
+### TellNetEndVotingSession()
+
+### TellNetSetPauseState()
+
+### TellNetPostEpisode()
+
+### TellNetInEpisode()
+
+### TextRenderEmptyChars()
+
+### TextGet()
+
+### TextSet()
+
+### TextEnableBackground()
+
+### TextGetBackgroundColor()
+
+### TextSetBackgroundColor()
+
+### TextSetColor()
+
+### TextSetFont()
+
+### TextSetKerning()
+
+### TextGetMinWidth()
+
+### TextSetMinWidth()
+
+### TextSetScale()
+
+### TextSetWidth()
+
+### TextSetHorizAlign()
+
+### TextSetVertAlign()
+
+### TextGetNumPages()
+
+### TextGetCurPage()
+
+### TextGetPageStart()
+
+### TextGetPageEnd()
+
+### TextSetCurPage()
+
+### TextAdvancePage()
+
+### TextGetHeight()
+
+### TextGetWidth()
+
+### TextSetPlaybackController()
+
+### TextCreatePlaybackController()
+
+### TextGetLines()
+
+### TextGetNumLines()
+
+### TextGetLineHeight()
+
+### TextRefreshRenderedText()
+
+### TextGetExtents()
+
+### TextureGetMipMapping()
+
+### TextureSetFiltering()
+
+### TextureGetPixel()
+
+### TextureGetVisibleRectangle()
+
+### TextureTestCollision()
+
+### TextureTestCollision2()
+
+### ThreadStart()
+
+### ThreadSleep()
+
+### ThreadWake()
+
+### ThreadSleepAll()
+
+### ThreadWakeAll()
+
+### ThreadKill()
+
+### ThreadIsRunning()
+
+### ThreadIsSleeping()
+
+### ThreadAllowSleep()
+
+# U
+
+### UploadCachedObjectToServer()
+
+### UploadPendingObjectsToServer()
+
+### UpdateUsagePrefs()
+
+### UnloadAll()
+
+### Unload()
+
+### UploadEventLogResource()
+
+### UploadEventLog()
+
+### UTF8Length()
+
+### UTF8Truncate()
+
+### UpdateStatsAndWait()
+
+### UpdateStatInt64()
+
+### UpdateAchievementsAndWait()
+
+### UpdateProfileAndWait()
+
+### UpdateFriendsAndWait()
+
+# V
+
+### Vector()
+
+### VectorSet()
+
+### VectorIsFinite()
+
+### VectorGetPitchDelta()
+
+### VectorGetYawDelta()
+
+### VectorGetRollDelta()
+
+### VectorCompare()
+
+### VectorProject()
+
+### VectorSubtract()
+
+### VectorSubtractInPlace()
+
+### VectorCross()
+
+### VectorCrossInPlace()
+
+### VectorDot()
+
+### VectorDistance()
+
+### VectorDistanceSq()
+
+### VectorLength()
+
+### VectorLengthSq()
+
+### VectorAdd()
+
+### VectorAddInPlace()
+
+### VectorClamp()
+
+### VectorClampInPlace()
+
+### VectorScale()
+
+### VectorScaleInPlace()
+
+### VectorNegate()
+
+### VectorNegateInPlace()
+
+### VectorNormalize()
+
+### VectorNormalizeInPlace()
+
+### VectorSetLength()
+
+### VectorSetLengthInPlace()
+
+### ValidateT3Object()
+
+### ViewportToDevice()
+
+### ViewportToScreen()
+
+### ValidateMemory()
+
+### VoicePlay()
+
+### VoicePlayAndWait()
+
+# W
+
+### WalkAnimatorUseCurrentPriorities()
+
+### WalkAnimatorUsePrioritiesVer2()
+
+### WaitForResource()
+
+### WaitForCallbacks()
+
+### WaitForNextFrame()
+
+### WalkBoxesGetClickPos()
+
+### WalkBoxesPosOnWalkBoxes()
+
+### WalkBoxesEnableAll()
+
+### WalkBoxesDisableTri()
+
+### WalkBoxesDisableAreaAroundAgent()
+
+### WalkBoxesEnableAreaAroundAgent()
+
+### WalkBoxesValidatePosition()
+
+### WalkBoxesSetVertexPos()
+
+### WriteAchievement()
+
+### WriteGamerPicture()
+
+# X
+
+# Y
+
+### Yield()
+
+# Z
