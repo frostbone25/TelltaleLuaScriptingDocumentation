@@ -65,7 +65,7 @@ namespace CustomTelltaleDocumentationBuilder
 
             public LuaFunctionDocument(string[] lines)
             {
-                this.functionName = lines[0].Replace("[", "").Replace("]", "");
+                this.functionName = lines[0].Replace("[", "").Replace("]", "").Replace(" ", "");
                 this.returnType = "";
 
                 List<LuaFunctionParameter> parameters = new List<LuaFunctionParameter>();
@@ -425,6 +425,7 @@ namespace CustomTelltaleDocumentationBuilder
                 for (int i = 0; i < luaFunctionDocuments.Count; i++)
                 {
                     readmeContents += string.Format("[{0}](LuaFunctions/{0}.md)", luaFunctionDocuments[i].functionName);
+                    readmeContents += "\n";
                     readmeContents += "\n";
                 }
 
