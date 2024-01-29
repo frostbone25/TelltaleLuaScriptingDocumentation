@@ -2,7 +2,7 @@
 
 # Lua Functions
 
-[AppleControllerIsConnected](LuaFunctions/AppleControllerIsConnected.md)
+[AppleControllerIsConnected](LuaFunctions/AppleControllerIsConnected.md) 
 [AppleGameControllerSetConnectedCallback](LuaFunctions/AppleGameControllerSetConnectedCallback.md)
 [AppleGameControllerSetDisconnectedCallback](LuaFunctions/AppleGameControllerSetDisconnectedCallback.md)
 [ActivateSystemHUD](LuaFunctions/ActivateSystemHUD.md)
