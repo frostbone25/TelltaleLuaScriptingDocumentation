@@ -426,7 +426,6 @@ namespace CustomTelltaleDocumentationBuilder
                 {
                     readmeContents += string.Format("[{0}](LuaFunctions/{0}.md)", luaFunctionDocuments[i].functionName);
                     readmeContents += "\n";
-                    readmeContents += "\n";
                 }
 
                 File.WriteAllText(masterFilePath, readmeContents);
