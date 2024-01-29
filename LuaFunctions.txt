@@ -1,1132 +1,1131 @@
 [AppleControllerIsConnected]
-- Returns a boolean
+- (RETURNS) boolean
 
 [AppleGameControllerSetConnectedCallback]
-- *string*: 1st Parameter
-- No returned value
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [AppleGameControllerSetDisconnectedCallback]
-- *string*: 1st Parameter
-- No returned value
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [ActivateSystemHUD]
-- No returned value
+- (RETURNS) Nothing
 
 [AgentSetWalkAnimatorPrevPos]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) Nothing
 
 [AgentBGMTransitioning]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentBGMActive]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentTransitionBGM]
-- *AgentObject*: 1st Parameter
-- *Chore*: 2nd Parameter
-- *Chore*: 3rd Parameter
-- *number*: 4th Parameter
-- *BlendGraphManager*: 5th Parameter
-- *boolean*: 6th Parameter
-- *Vector3*: 7th Parameter
-- Returns a PlaybackController
+- (PARAMETER) Agent
+- (PARAMETER) Chore
+- (PARAMETER) Chore
+- (PARAMETER) number
+- (PARAMETER) BlendGraphManager
+- (PARAMETER) boolean
+- (PARAMETER) Vector3
+- (RETURNS) PlaybackController
 
 [AgentSetBGMTransitionTarget]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) Nothing
 
 [AgentSetRunning]
-- *AgentObject*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 
 [AgentGetWalkAnimatorIdleController]
-- *AgentObject*: 1st Parameter
-- Returns a PlaybackController Array
+- (PARAMETER) Agent
+- (RETURNS) PlaybackController Array
 
 [AgentGetWalkAnimatorForwardController]
-- *AgentObject*: 1st Parameter
-- Returns a PlaybackController Array
+- (PARAMETER) Agent
+- (RETURNS) PlaybackController Array
 
 [AgentGetForwardAnimVelocity]
-- *AgentObject*: 1st Parameter
-- Returns a number
+- (PARAMETER) Agent
+- (RETURNS) number
 
 [AgentGetLookAtPosition]
-- *AgentObject*: 1st Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (RETURNS) Vector3
 
 [AgentGetWorldPosBetweenNodes]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter
-- *string*: 3rd Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (PARAMETER) string
+- (RETURNS) Vector3
 
 [Analytics_RecordEvent]
-- No returned value
+- (RETURNS) Nothing
 
 [ActorToAgent]
-- *string*: 1st Parameter
-- Returns a string
+- (PARAMETER) string
+- (RETURNS) string
 
 [AgentToActor]
-- *string*: 1st Parameter
-- Returns a string
+- (PARAMETER) string
+- (RETURNS) string
 
 [AgentToModels]
-- *string*: 1st Parameter
-- Returns a string array
+- (PARAMETER) string
+- (RETURNS) string array
 
 [AgentCreate]
-- *string*: 1st Parameter
-- *PropertySet*: 2nd Parameter
-- *Vector3*: 3rd Parameter
-- *Vector3*: 4th Parameter
-- *boolean*: 6th Parameter
-- *boolean*: 7th Parameter
-- Returns an AgentObject
+- (PARAMETER) string
+- (PARAMETER) PropertySet
+- (PARAMETER) Vector3
+- (PARAMETER) Vector3
+- (PARAMETER) boolean
+- (PARAMETER) boolean
+- (RETURNS) Agent
 
 [AgentDuplicate]
-- *string*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- *boolean*: 3rd Parameter ***(optional)***
-- *boolean*: 4th Parameter ***(optional)***
-- *boolean*: 5th Parameter ***(optional)***
-- *boolean*: 6th Parameter ***(optional)***
-- *boolean*: 7th Parameter ***(optional)***
-- Returns an AgentObject
+- (PARAMETER) string
+- (PARAMETER) Agent
+- (PARAMETER) boolean (OPTIONAL)
+- (PARAMETER) boolean (OPTIONAL)
+- (PARAMETER) boolean (OPTIONAL)
+- (PARAMETER) boolean (OPTIONAL)
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Agent
 
 [AgentDestroy]
-- *AgentObject*: 1st Parameter
-- No returned value
+- (PARAMETER) Agent
+- (RETURNS) Nothing
 
 [AgentAtCursorPos]
-- Returns an AgentObject
+- (RETURNS) Agent
 
 [AgentPreLoad]
-- *AgentObject*: 1st Parameter
-- No returned value
+- (PARAMETER) Agent
+- (RETURNS) Nothing
 
 [AgentIsUnderCursor]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentAtScreenPos]
-- *Vector2*: 1st Parameter
-- *boolean*: 2nd Parameter ***(optional)***
-- Returns an AgentObject
+- (PARAMETER) Vector2
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Agent
 
 [AgentAtLogicalScreenPos]
-- *Vector2*: 1st Parameter
-- *boolean*: 2nd Parameter ***(optional)***
-- Returns an AgentObject
+- (PARAMETER) Vector2
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Agent
 
 [AgentsAtLogicalScreenPos]
-- *Vector2*: 1st Parameter
-- *boolean*: 2nd Parameter ***(optional)***
-- Returns an AgentObject array
+- (PARAMETER) Vector2
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Agent array
 
 [AgentSelectionIsOccluded]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentAttach]
-- *AgentObject*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- *boolean*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Agent
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 
 [AgentAttachToNode]
-- *AgentObject*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- *string*: 3rd Parameter
-- *boolean*: 4th Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 
 [AgentDetach]
-- *AgentObject*: 1st Parameter
-- *boolean*: 2nd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 
 [AgentCollide]
-- *AgentObject*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentContaining]
-- *AgentObject*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentFind]
-- *string*: 1st Parameter
-- Returns an AgentObject
+- (PARAMETER) string
+- (RETURNS) Agent
 
 [AgentFindInScene]
-- *string*: 1st Parameter
-- Returns an AgentObject
+- (PARAMETER) string
+- (RETURNS) Agent
 
 [AgentExists]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentExistsInScene]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentGetPos]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter ***(optional)***
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) string (OPTIONAL)
+- (RETURNS) Vector3
 
 [AgentSetPos]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- *boolean*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 
 [AgentGetRot]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter ***(optional)***
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) string (OPTIONAL)
+- (RETURNS) Vector3
 
 [AgentGetQuat]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter ***(optional)***
-- Returns a Quaternion
+- (PARAMETER) Agent
+- (PARAMETER) string (OPTIONAL)
+- (RETURNS) Quaternion
 
 [AgentSetRot]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- *boolean*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 
 [AgentSetRotFromQuat]
-- *AgentObject*: 1st Parameter
-- *Quaternion*: 2nd Parameter
-- *boolean*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Quaternion
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 
 [AgentIncYRot]
-- *AgentObject*: 1st Parameter
-- *number*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [AgentIncRot]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- *number*: 3rd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [AgentGetForwardVec]
-- *AgentObject*: 1st Parameter
-- *boolean*: 2nd Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) boolean
+- (RETURNS) Vector3
 
 [AgentGetRightVec]
-- *AgentObject*: 1st Parameter
-- *boolean*: 2nd Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) boolean
+- (RETURNS) Vector3
 
 [AgentGetName]
-- *AgentObject*: 1st Parameter
-- Returns a string
+- (PARAMETER) Agent
+- (RETURNS) string
 
 [AgentSetName]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [AgentIsAncestor]
-- *AgentObject*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentGetParent]
-- *AgentObject*: 1st Parameter
-- Returns an AgentObject
+- (PARAMETER) Agent
+- (RETURNS) Agent
 
 [AgentGetParentNode]
-- *AgentObject*: 1st Parameter
-- Returns a string
+- (PARAMETER) Agent
+- (RETURNS) string
 
 [AgentHasChild]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentGetChild]
-- *AgentObject*: 1st Parameter
-- Returns an AgentObject
+- (PARAMETER) Agent
+- (RETURNS) Agent
 
 [AgentGetChildren]
-- *AgentObject*: 1st Parameter
-- Returns an AgentObject array
+- (PARAMETER) Agent
+- (RETURNS) Agent array
 
 [AgentGetAttachments]
-- *AgentObject*: 1st Parameter
-- Returns an AgentObject array
+- (PARAMETER) Agent
+- (RETURNS) Agent array
 
 [AgentGetScreenPos]
-- *AgentObject*: 1st Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (RETURNS) Vector3
 
 [AgentGetLogicalScreenPos]
-- *AgentObject*: 1st Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (RETURNS) Vector3
 
 [AgentSetWorldPosFromLogicalScreenPos]
-- *AgentObject*: 1st Parameter
-- *Vector2*: 2nd Parameter
-- *number*: 3rd Parameter ***(optional)***
-- *AgentObject*: 4th Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector2
+- (PARAMETER) number (OPTIONAL)
+- (PARAMETER) Agent (OPTIONAL)
+- (RETURNS) Nothing
 
 [AgentGetSelectionScreenPos]
-- *AgentObject*: 1st Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (RETURNS) Vector3
 
 [AgentGetWorldRot]
-- *AgentObject*: 1st Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (RETURNS) Vector3
 
 [AgentGetWorldRotQuat]
-- *AgentObject*: 1st Parameter
-- Returns a Quaternion
+- (PARAMETER) Agent
+- (RETURNS) Quaternion
 
 [AgentSetWorldRot]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) Nothing
 
 [AgentSetWorldRotFromQuat]
-- *AgentObject*: 1st Parameter
-- *Quaternion*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Quaternion
+- (RETURNS) Nothing
 
 [AgentGetWorldPos]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter ***(optional)***
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) string (OPTIONAL)
+- (RETURNS) Vector3
 
 [AgentHasNode]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (RETURNS) boolean
 
 [AgentSetWorldPos]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) Nothing
 
 [AgentSetWorldPosFromScreenPos]
-- *AgentObject*: 1st Parameter
-- *Vector2*: 2nd Parameter
-- *number*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector2
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [AgentGetWorldPosFromScreenPos]
-- *AgentObject*: 1st Parameter
-- *Vector2*: 2nd Parameter
-- *number*: 3rd Parameter ***(optional)***
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) Vector2
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Vector3
 
 [AgentSetWorldPosFromCursorPos]
-- *AgentObject*: 1st Parameter
-- No returned value
+- (PARAMETER) Agent
+- (RETURNS) Nothing
 
 [AgentGetWorldPosFromCursorPos]
-- *AgentObject*: 1st Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (RETURNS) Vector3
 
 [AgentHide]
-- *AgentObject*: 1st Parameter
-- *boolean*: 2nd Parameter
-- *boolean*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) boolean
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 
 [AgentInsert]
-- *AgentObject*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Agent
+- (RETURNS) Nothing
 
 [AgentIsHidden]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentFacePos]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- *boolean*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 
 [AgentGetProperties]
-- *AgentObject*: 1st Parameter
-- Returns a PropertySet
+- (PARAMETER) Agent
+- (RETURNS) PropertySet
 
 [AgentGetTransientProperties]
-- *AgentObject*: 1st Parameter
-- Returns a PropertySet
+- (PARAMETER) Agent
+- (RETURNS) PropertySet
 
 [AgentGetRuntimeProperties]
-- *AgentObject*: 1st Parameter
-- Returns a PropertySet
+- (PARAMETER) Agent
+- (RETURNS) PropertySet
 
 [AgentGetSceneProperties]
-- *AgentObject*: 1st Parameter
-- Returns a PropertySet
+- (PARAMETER) Agent
+- (RETURNS) PropertySet
 
 [AgentGetClassProperties]
-- *AgentObject*: 1st Parameter
-- Returns a PropertySet
+- (PARAMETER) Agent
+- (RETURNS) PropertySet
 
 [AgentGetProperty]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter
-- *boolean*: 3rd Parameter
-- Returns a DataType (Note this can be any data type depending on the property)
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (PARAMETER) boolean
+- (RETURNS) DataType (Note this can be any data type depending on the property)
 
 [AgentHasProperty]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (RETURNS) boolean
 
 [AgentSetProperty]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter
-- *DataType*: 3rd Parameter (Note this can be any data type depending on the property)
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (PARAMETER) DataType (Note this can be any data type depending on the property)
+- (RETURNS) Nothing
 
 [AgentSetSceneProperty]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter
-- *DataType*: 3rd Parameter (Note this can be any data type depending on the property)
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (PARAMETER) DataType (Note this can be any data type depending on the property)
+- (RETURNS) Nothing
 
 [AgentRemovePropertyKeyValues]
-- *AgentObject*: 1st Parameter
-- *PropertySet*: 2nd Parameter
-- *PropertySet*: 3rd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) PropertySet
+- (PARAMETER) PropertySet
+- (RETURNS) Nothing
 
 [AgentImportPropertyKeyValues]
-- *AgentObject*: 1st Parameter
-- *PropertySet*: 2nd Parameter
-- *PropertySet*: 3rd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) PropertySet
+- (PARAMETER) PropertySet
+- (RETURNS) Nothing
 
 [AgentImportAgentPropertyKeyValues]
-- *AgentObject*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- *PropertySet*: 3rd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Agent
+- (PARAMETER) PropertySet
+- (RETURNS) Nothing
 
 [AgentIsParentProperty]
-- *AgentObject*: 1st Parameter
-- *PropertySet*: 2nd Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (PARAMETER) PropertySet
+- (RETURNS) boolean
 
 [AgentRestore]
-- *AgentObject*: 1st Parameter
-- *number*: 2nd Parameter ***(optional)***
-- Returns a boolean
+- (PARAMETER) Agent
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) boolean
 
 [AgentSetSelectable]
-- *AgentObject*: 1st Parameter
-- *PropertySet*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) PropertySet
+- (RETURNS) Nothing
 
 [AgentGetCamera]
-- *AgentObject*: 1st Parameter
-- Returns an AgentObject
+- (PARAMETER) Agent
+- (RETURNS) Agent
 
 [AgentEnableMover]
-- *AgentObject*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 
 [AgentGetScene]
-- *AgentObject*: 1st Parameter
+- (PARAMETER) Agent
 
 [AgentGetPixelScale]
-- *AgentObject*: 1st Parameter
-- Returns a number
+- (PARAMETER) Agent
+- (RETURNS) number
 
 [AgentDistanceToAgent]
-- *AgentObject*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- Returns a number
+- (PARAMETER) Agent
+- (PARAMETER) Agent
+- (RETURNS) number
 
 [AgentDistanceToScreenPos]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- Returns a number
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) number
 
 [AgentScreenArea]
-- *AgentObject*: 1st Parameter
-- Returns a number
+- (PARAMETER) Agent
+- (RETURNS) number
 
 [AgentGetSelectionCenter]
-- *AgentObject*: 1st Parameter
-- *boolean*: 2nd Parameter ***(optional)***
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Vector3
 
 [AgentLocalToWorld]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) Vector3
 
 [AgentWorldToLocal]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) Vector3
 
 [AgentRotateToWorld]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) Vector3
 
 [AgentRotateToLocal]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) Vector3
 
 [AgentGetAnglesTo]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- *Vector3*: 3rd Parameter ***(optional)***
-- Returns a number
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (PARAMETER) Vector3 (OPTIONAL)
+- (RETURNS) number
 
 [AgentIsOnScreen]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentIsReferenced]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentIsValid]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentTurnTowards]
-- *AgentObject*: 1st Parameter
-- *number*: 2nd Parameter
-- *Vector3*: 3rd Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (PARAMETER) number
+- (PARAMETER) Vector3
+- (RETURNS) boolean
 
 [AgentAddOnDestroyCallback]
-- *AgentObject*: 1st Parameter
-- No returned value
+- (PARAMETER) Agent
+- (RETURNS) Nothing
 
 [AgentRemoveOnDestroyCallback]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentGetCorner]
-- *AgentObject*: 1st Parameter
-- *number*: 2nd Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) number
+- (RETURNS) Vector3
 
 [AgentResetSkeletonHomogenousInfo]
-- *AgentObject*: 1st Parameter
-- No returned value
+- (PARAMETER) Agent
+- (RETURNS) Nothing
 
 [AgentSetLightingForAllTextures]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [AgentHasAlphaBlendedTexture]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [AgentGetControllers]
-- *AgentObject*: 1st Parameter
-- Returns a PlaybackController Array
+- (PARAMETER) Agent
+- (RETURNS) PlaybackController Array
 
 [AgentGetPriorityOfHighestPriorityContoller]
-- *AgentObject*: 1st Parameter
-- Returns a number
+- (PARAMETER) Agent
+- (RETURNS) number
 
 [AgentSetRotIfNoActiveTransformKeys]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- *string*: 3rd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [AgentContainingPos]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) boolean
 
 [AnimationCreate]
-- Returns a boolean
+- (RETURNS) boolean
 
 [AnimationGetName]
-- Returns a string
+- (RETURNS) string
 
 [AnimationGetLength]
-- Returns a number
+- (RETURNS) number
 
 [AnimationClear]
-- Returns a boolean
+- (RETURNS) boolean
 
 [AnimationAddLuaEntry]
 
 [AdvanceActiveSubtitles]
-- No returned value
+- (RETURNS) Nothing
 
 [AudioPlay]
-- *SoundData*: 1st Parameter
-- *number*: 2nd Parameter ***(optional)***
-- *number*: 3rd Parameter ***(optional)***
-- Returns a PlaybackController
+- (PARAMETER) SoundData
+- (PARAMETER) number (OPTIONAL)
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) PlaybackController
 
 [AudioPlayAndWait]
-- *SoundData*: 1st Parameter
-- *number*: 2nd Parameter ***(optional)***
-- *number*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) SoundData
+- (PARAMETER) number (OPTIONAL)
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [BeginOffersEnumeration]
-- Returns a boolean
+- (RETURNS) boolean
 - This function does nothing
 
 [BeginPurchaseEpisode]
-- Returns a boolean
+- (RETURNS) boolean
 - This function does nothing
 
 [BeginUpdateEpisodes]
-- Returns a boolean
+- (RETURNS) boolean
 - This function does nothing
 
 [Base64ToSymbol]
-- *string*: 1st Parameter
-- Returns a Symbol, if string length is not equal to 8 it will return nil
+- (PARAMETER) string
+- (RETURNS) Symbol, if string length is not equal to 8 it will return nil
 
 [BundleCreateResource]
-- *ResourceBundle*: 1st Parameter
-- *string*: 2nd Parameter
-- Returns a ResourceBundle
+- (PARAMETER) ResourceBundle
+- (PARAMETER) string
+- (RETURNS) ResourceBundle
 
 [BundleRemoveResource]
-- *ResourceBundle*: 1st Parameter
-- *Symbol*: 2nd Parameter (Note: Symbol is a string)
-- Returns a boolean
+- (PARAMETER) ResourceBundle
+- (PARAMETER) Symbol (Note: Symbol is a string)
+- (RETURNS) boolean
 
 [BundleGetResource]
-- *ResourceBundle*: 1st Parameter
- *Symbol*: 2nd Parameter (Note: Symbol is a string)
-- Returns a ResourceBundle
+- (PARAMETER) ResourceBundle
+- (PARAMETER) Symbol (Note: Symbol is a string)
+- (RETURNS) ResourceBundle
 
 [BundleGetResources]
-- *ResourceBundle*: 1st Parameter
- *Symbol*: 2nd Parameter (Note: Symbol is a string) ***(optional)***
-- Returns a ResourceBundle Array
+- (PARAMETER) ResourceBundle
+- (PARAMETER) Symbol (Note: Symbol is a string) (OPTIONAL)
+- (RETURNS) ResourceBundle Array
 
 [BreakIntoDebugger]
-- No returned value
+- (RETURNS) Nothing
 - This function does nothing
 
 [CheckEDATKey]
-- *string*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) string
+- (RETURNS) boolean
 
 [CSISendTracking]
-- *string*: 1st Parameter
-- *string*: 2nd Parameter
-- *boolean*: 3rd Parameter
-- No returned value
+- (PARAMETER) string
+- (PARAMETER) string
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 
 [ConsoleSetVerbosity]
-- *number*: 1st Parameter, this expects a signed integer number
-- No returned value
+- (PARAMETER) number, this expects a signed integer number
+- (RETURNS) Nothing
 
 [ConsoleSetChannel]
-- *number*: 1st Parameter, this expects a signed integer number
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) number, this expects a signed integer number
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 
 [Color]
-- *number*: 1st Parameter, Float Value, Red Channel
-- *number*: 2nd Parameter, Float Value, Green Channel
-- *number*: 3rd Parameter, Float Value, Blue Channel
-- *number*: 4th Parameter, Float Value, Alpha Channel ***(optional)***
-- Returns a Color object.
+- (PARAMETER) number, Float Value, Red Channel
+- (PARAMETER) number, Float Value, Green Channel
+- (PARAMETER) number, Float Value, Blue Channel
+- (PARAMETER) number, Float Value, Alpha Channel (OPTIONAL)
+- (RETURNS) Color
 
 [CanActivateSystemHUD]
-- No returned value
+- (RETURNS) Nothing
 - This function does nothing
 
 [CRCToSymbol]
-- *string*: 1st Parameter
-- Returns a object (which is a lua string)
+- (PARAMETER) string
 
 [CriticalError]
-- *string*: 1st Parameter
-- No returned value
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [ControllerPlay]
-- *PlaybackController*: 1st Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerPause]
-- *PlaybackController*: 1st Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerStop]
-- *PlaybackController*: 1st Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerWait]
-- *PlaybackController*: 1st Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (RETURNS) Nothing
 
 [ControllerFadeIn]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter, Float Value
-- *boolean*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number, Float Value
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerFadeOut]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter, Float Value
-- *boolean*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number, Float Value
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerFadeTo]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter, Float Value
-- *number*: 3rd Parameter, Float Value
-- *boolean*: 4th Parameter ***(optional)***
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number, Float Value
+- (PARAMETER) number, Float Value
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetTimeScale]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter, Float Value
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number, Float Value
+- (RETURNS) Nothing
 
 [ControllerGetTimeScale]
-- *PlaybackController*: 1st Parameter
-- Returns a number, Float Value
+- (PARAMETER) PlaybackController
+- (RETURNS) number, Float Value
 
 [ControllerKill]
-- *PlaybackController*: 1st Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerGetLength]
-- *PlaybackController*: 1st Parameter
-- Returns a number, if PlaybackController is nil then this function returns nil.
+- (PARAMETER) PlaybackController
+- (RETURNS) number, if PlaybackController is nil then this function returns nil.
 
 [ControllerSetLength]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter, Float Value
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number, Float Value
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerIsPlaying]
-- *PlaybackController*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) PlaybackController
+- (RETURNS) boolean
 
 [ControllerIsPaused]
-- *PlaybackController*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) PlaybackController
+- (RETURNS) boolean
 
 [ControllerSetVolume]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetSoundVolume]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetLooping]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetMirrored]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetEndPause]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetBeginPause]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerGetTime]
-- *PlaybackController*: 1st Parameter
-- Returns a number, will return 0.0 if PlaybackController is nil.
+- (PARAMETER) PlaybackController
+- (RETURNS) number, will return 0.0 if PlaybackController is nil.
 
 [ControllerSetTime]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetTimePercent]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerGetContribution]
-- *PlaybackController*: 1st Parameter
-- Returns a number, will return 0.0 if PlaybackController is nil.
+- (PARAMETER) PlaybackController
+- (RETURNS) number, will return 0.0 if PlaybackController is nil.
 
 [ControllerSetContribution]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerDisableTimeSync]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetVoice]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetMusic]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetAmbient]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetLanguage]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetName]
-- *PlaybackController*: 1st Parameter
-- *string*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) string
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerFind]
-- *string*: 1st Parameter
-- Returns a PlaybackController, if one can't be found then it will return nil.
+- (PARAMETER) string
+- (RETURNS) PlaybackController, if one can't be found then it will return nil.
 
 [ControllerDrift]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerSetPriority]
-- *PlaybackController*: 1st Parameter
-- *number*: 2nd Parameter, this expects a signed integer number
-- No returned value
+- (PARAMETER) PlaybackController
+- (PARAMETER) number, this expects a signed integer number
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerGetPriority]
-- *PlaybackController*: 1st Parameter
-- Returns a number, if PlaybackController is nil it will return nil.
+- (PARAMETER) PlaybackController
+- (RETURNS) number, if PlaybackController is nil it will return nil.
 
 [ControllerSetScene]
-- *PlaybackController*: 1st Parameter
-- No returned value
+- (PARAMETER) PlaybackController
+- (RETURNS) Nothing
 - This function does nothing if the PlaybackController is nil.
 
 [ControllerGetChore]
-- *PlaybackController*: 1st Parameter
-- Returns a Chore, if there is no Chore or PlaybackController it will return nil.
+- (PARAMETER) PlaybackController
+- (RETURNS) Chore, if there is no Chore or PlaybackController it will return nil.
 
 [ControllerGetParent]
-- *PlaybackController*: 1st Parameter
-- *boolean*: 2nd Parameter ***(optional)***
-- Returns a PlaybackController, if there is no PlaybackController it will return nil, if there is no parent PlayerController found it will return nil.
+- (PARAMETER) PlaybackController
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) PlaybackController, if there is no PlaybackController it will return nil, if there is no parent PlayerController found it will return nil.
 
 [Create]
-- *string*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) string
+- (RETURNS) boolean
 
 [CacheSaveGameImage]
-- No returned value
+- (RETURNS) Nothing
 - This function does nothing
 
 [CameraActivate]
-- *AgentObject*: 1st Parameter
-- No returned value
+- (PARAMETER) Agent
+- (RETURNS) Nothing
 
 [CameraGetScreenPosFromWorldPos]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- Returns a Vector3, will return nil if there is no AgentObject
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) Vector3, will return nil if there is no Agent
 
 [CameraPush]
-- *AgentObject*: 1st Parameter
-- No returned value
-- This function does nothing if there is no Camera on AgentObject.
+- (PARAMETER) Agent
+- (RETURNS) Nothing
+- This function does nothing if there is no Camera on Agent.
 
 [CameraPop]
-- *AgentObject*: 1st Parameter
-- No returned value
-- This function does nothing if there is no Camera on AgentObject.
+- (PARAMETER) Agent
+- (RETURNS) Nothing
+- This function does nothing if there is no Camera on Agent.
 
 [CameraSettle]
-- *AgentObject*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
-- This function does nothing if AgentObject is nil, or if there is no NavCam on AgentObject.
+- (PARAMETER) Agent
+- (PARAMETER) boolean
+- (RETURNS) Nothing
+- This function does nothing if Agent is nil, or if there is no NavCam on Agent.
 
 [CameraGetFOV]
-- Returns a number
-- *AgentObject*: 1st Parameter
+- (RETURNS) number
+- (PARAMETER) Agent
 
 [CameraSetFOV]
-- *AgentObject*: 1st Parameter
-- *number*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [CameraSetNavTarget]
-- *AgentObject*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Agent
+- (RETURNS) Nothing
 
 [CameraSetNavTargetOffset]
-- *AgentObject*: 1st Parameter
-- *number*: 2nd Parameter
-- *number*: 3rd Parameter
-- *number*: 4th Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [CameraSetNavHome]
-- *AgentObject*: 1st Parameter
-- *number*: 2nd Parameter
-- *number*: 3rd Parameter
-- *number*: 4th Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [CameraSetNavMode]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [CameraSetNavResetOnActivate]
-- *AgentObject*: 1st Parameter
-- *boolean*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 
 [CameraSetNavChore]
-- *AgentObject*: 1st Parameter
-- *Chore*: 2nd Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) Chore
+- (RETURNS) Nothing
 
 [CameraGetSettled]
-- *AgentObject*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Agent
+- (RETURNS) boolean
 
 [CameraGetLogicalScreenPos]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (RETURNS) Vector3
 
 [CameraGetWorldPosFromLogicalScreenPos]
-- *AgentObject*: 1st Parameter
-- *Vector3*: 2nd Parameter
-- *number*: 3rd Parameter
-- Returns a Vector3
+- (PARAMETER) Agent
+- (PARAMETER) Vector3
+- (PARAMETER) number
+- (RETURNS) Vector3
 
 [CameraSetUserInputEnabled]
-- *boolean*: 1st Parameter
-- No returned value
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 
 [CameraBlendPush]
-- *AgentObject*: 1st Parameter
-- *number*: 2nd Parameter
-- *number*: 3rd Parameter
-- *number*: 4th Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [CameraBlendPop]
-- *AgentObject*: 1st Parameter
-- *number*: 2nd Parameter
-- *number*: 3rd Parameter
-- *number*: 4th Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [ChorePlay]
-- *Chore*: 1st Parameter
-- *number*: 2nd Parameter
-- Returns a PlaybackController
+- (PARAMETER) Chore
+- (PARAMETER) number
+- (RETURNS) PlaybackController
 
 [ChoreSetAgentRemap]
-- *string*: 1st Parameter
-- *string*: 2nd Parameter
-- No returned value
+- (PARAMETER) string
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [ChorePlayAndWait]
-- *Chore*: 1st Parameter
-- *number*: 2nd Parameter
-- *number*: 3rd Parameter
-- *number*: 4th Parameter
-- No returned value
+- (PARAMETER) Chore
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [ChoreGetAgents]
-- *Chore*: 1st Parameter
-- Returns an AgentObject array
+- (PARAMETER) Chore
+- (RETURNS) Agent array
 
 [ChoreGetAgentNames]
-- *Chore*: 1st Parameter
-- Returns a string array
+- (PARAMETER) Chore
+- (RETURNS) string array
 
 [ChoreGetLength]
-- Returns a number
-- *Chore*: 1st Parameter
+- (RETURNS) number
+- (PARAMETER) Chore
 
 [ChoreGetLength]
-- *Chore*: 1st Parameter
-- *number*: 2nd Parameter
-- Returns a boolean
+- (PARAMETER) Chore
+- (PARAMETER) number
+- (RETURNS) boolean
 
 [ChoreGetAgentAttachment]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- Returns an AgentObject
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (RETURNS) Agent
 
 [ChoreGetPropertyKeysAsStrings]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- *string*: 3rd Parameter
-- Returns a Symbol array
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (PARAMETER) string
+- (RETURNS) Symbol array
 
 [ChoreGetBlockingKeysTable]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- Returns a Symbol array
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (RETURNS) Symbol array
 
 [ChoreRemoveAgent]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- Returns a boolean
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (RETURNS) boolean
 
 [ChoreSetAttachmentAgent]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- *string*: 3rd Parameter
-- *string*: 4th Parameter
-- No returned value
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (PARAMETER) string
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [ChoreSetAttachmentPosition]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- *number*: 3rd Parameter
-- *number*: 4th Parameter
-- *number*: 5th Parameter
-- No returned value
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [ChoreSetAttachmentRotation]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- *number*: 3rd Parameter
-- *number*: 4th Parameter
-- *number*: 5th Parameter
-- No returned value
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [ChoreSetAttachmentQuaternion]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- *number*: 3rd Parameter
-- *number*: 4th Parameter
-- *number*: 5th Parameter
-- No returned value
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [ChoreSetAttachmentPreserveWorldPos]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- *boolean*: 3rd Parameter
-- No returned value
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 
 [ChoreSetAttachmentLeaveAttached]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- *boolean*: 3rd Parameter
-- No returned value
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 
 [ChoreAddAttachmentKey]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- *number*: 3rd Parameter
-- *string*: 4th Parameter
-- *string*: 5th Parameter 
-- *boolean*: 7th Parameter ***(optional)***
-- *Vector3*: 8th Parameter ***(optional)***
-- *Quaternion*: 9th Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (PARAMETER) number
+- (PARAMETER) string
+- (PARAMETER) string 
+- (PARAMETER) boolean (OPTIONAL)
+- (PARAMETER) Vector3 (OPTIONAL)
+- (PARAMETER) Quaternion (OPTIONAL)
+- (RETURNS) Nothing
 
 [ChoreResourceRemoveAnimatedValue]
-- *Chore*: 1st Parameter
-- *number*: 2nd Parameter
-- *string*: 3rd Parameter
-- No returned value
+- (PARAMETER) Chore
+- (PARAMETER) number
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [ChoreAgentEnableRandomSFX]
-- *Chore*: 1st Parameter
-- *AgentObject*: 2nd Parameter
-- No returned value
+- (PARAMETER) Chore
+- (PARAMETER) Agent
+- (RETURNS) Nothing
 
 [ChoreForceLookAtConstraint]
-- *AgentObject*: 1st Parameter
-- *string*: 2nd Parameter
-- *string*: 3rd Parameter
-- *number*: 4th Parameter
-- No returned value
+- (PARAMETER) Agent
+- (PARAMETER) string
+- (PARAMETER) string
+- (PARAMETER) number
+- (RETURNS) Nothing
 
 [ChoreGetResetNavCamsOnExit]
-- *Chore*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Chore
+- (RETURNS) boolean
 
 [ChoreGetBackgroundFade]
-- *Chore*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Chore
+- (RETURNS) boolean
 
 [ChoreGetBackgroundLoop]
-- *Chore*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Chore
+- (RETURNS) boolean
 
 [ChoreGetEndPause]
-- *Chore*: 1st Parameter
-- Returns a boolean
+- (PARAMETER) Chore
+- (RETURNS) boolean
 
 [ChoreGetBaseChore]
 
@@ -1137,27 +1136,27 @@
 [ChoreGoToPauseAndKill]
 
 [ChoreRegenerateStyleIdleTransition]
-- *string*: 1st Parameter
-- No returned value
+- (PARAMETER) string
+- (RETURNS) Nothing
 
 [ChoreGetAttachmentData]
-- *Chore*: 1st Parameter
-- *string*: 2nd Parameter
-- Returns a string array
+- (PARAMETER) Chore
+- (PARAMETER) string
+- (RETURNS) string array
 
 [ContainerGetNumElements]
-- Returns a number
+- (RETURNS) number
 
 [ContainerGetElement]
-- *string*: 2nd Parameter
-- Returns a ContainerInterface
+- (PARAMETER) string
+- (RETURNS) ContainerInterface
 
 [ContainerGetElementName]
-- *number*: 2nd Parameter
-- Returns a string
+- (PARAMETER) number
+- (RETURNS) string
 
 [ContainerClear]
-- No returned value
+- (RETURNS) Nothing
 
 [ContainerInsertElement]
 
@@ -1166,145 +1165,145 @@
 [ContainerSetElement]
 
 [CursorEnableMultiple]
-- *boolean*: 1st Parameter
-- *number*: 2nd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) boolean
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorSet]
-- *PropertySet*: 1st Parameter
-- *number*: 2nd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) PropertySet
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorReset]
-- *number*: 1st Parameter ***(optional)***
-- No returned value
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorConfine]
 
 [CursorGetPos]
-- *number*: 1st Parameter ***(optional)***
-- Returns a Vector3
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Vector3
 
 [CursorGetDevicePos]
-- *number*: 1st Parameter ***(optional)***
-- Returns a Vector3
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Vector3
 
 [CursorSetAtScreenCenter]
-- *number*: 1st Parameter ***(optional)***
-- No returned value
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorSetPos]
-- *Vector2*: 1st Parameter
-- *number*: 2nd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) Vector2
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorHide]
-- *boolean*: 1st Parameter
-- *number*: 2nd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) boolean
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorHidden]
-- *number*: 1st Parameter ***(optional)***
-- Returns a boolean
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) boolean
 
 [CursorEnable]
-- *boolean*: 1st Parameter
-- *number*: 2nd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) boolean
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorIsEnabled]
-- *number*: 1st Parameter ***(optional)***
-- Returns a boolean
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) boolean
 
 [CursorSetTexture]
-- *T3Texture*: 1st Parameter
-- *number*: 2nd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) T3Texture
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorSetOffset]
-- *number*: 1st Parameter
-- *number*: 2nd Parameter
-- *number*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorGetTexture]
-- *number*: 1st Parameter ***(optional)***
-- Returns a T3Texture
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) T3Texture
 
 [CursorSetSize]
-- *number*: 1st Parameter
-- *number*: 2nd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) number
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorSetColor]
-- *number*: 1st Parameter
-- *number*: 2nd Parameter
-- *number*: 3rd Parameter
-- *number*: 4th Parameter
-- *number*: 5th Parameter ***(optional)***
-- No returned value
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Nothing
 
 [CursorGet3DOrigin]
-- Returns a Vector3 ***(optional)***
+- (RETURNS) Vector3 (OPTIONAL)
 
 [CursorGet3DDirection]
-- Returns a Vector3 ***(optional)***
+- (RETURNS) Vector3 (OPTIONAL)
 
 [CursorGetAgent]
-- *number*: 1st Parameter ***(optional)***
-- Returns an AgentObject
+- (PARAMETER) number (OPTIONAL)
+- (RETURNS) Agent
 
 [CursorGetPointOnAgent]
-- *AgentObject*: 1st Parameter 
-- Returns a Vector3
+- (PARAMETER) Agent 
+- (RETURNS) Vector3
 
 [CursorEnableRelativeMode]
-- *boolean*: 1st Parameter
-- No returned value
+- (PARAMETER) boolean
+- (RETURNS) Nothing
 - This function does nothing
 
 [CreateEventLogEvent]
-- *string*: 1st Parameter
-- *number*: 2nd Parameter
-- *boolean*: 3rd Parameter ***(optional)***
-- No returned value
+- (PARAMETER) string
+- (PARAMETER) number
+- (PARAMETER) boolean (OPTIONAL)
+- (RETURNS) Nothing
 
 [CreateSessionEventLog]
 
 [DownloadDocumentRetrieve]
-- *string*: 1st Parameter
-- Returns a string
+- (PARAMETER) string
+- (RETURNS) string
 
 [DownloadDocumentsFromServer]
 
 [DisableEpisode]
-- No returned value
+- (RETURNS) Nothing
 - This function does nothing
 
 [DbgToggleInputTester]
-- No returned value
+- (RETURNS) Nothing
 
 [DbgSetAssertLevel]
-- No returned value
+- (RETURNS) Nothing
 - This function does nothing
 
 [DbgSetFakeSlowIOFactors]
-- No returned value
+- (RETURNS) Nothing
 - This function does nothing
 
 [DbgSetFixedTimeStep]
-- No returned value
+- (RETURNS) Nothing
 - This function does nothing
 
 [DbgSetMinFrameTime]
-- No returned value
+- (RETURNS) Nothing
 - This function does nothing
 
 [DeveloperKeyPressed]
-- Returns a boolean
+- (RETURNS) boolean
 
 [DoString]
-- Returns a boolean
+- (RETURNS) boolean
 
 [DeviceToViewport]
 
@@ -2586,7 +2585,7 @@
 
 [PlatformRatingSetStrings]
 
-[PlatformRatingSetParameters]
+[PlatformRatingSet(PARAMETER)s]
 
 [PlatformRatingEventNotify]
 
